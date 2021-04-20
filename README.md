@@ -7,9 +7,7 @@ Excel spreadsheets of structure compatable with https://skos-play.sparna.fr/play
 
 The Excel spreadsheets are converted to RDF vocabularies (as SKOS) using https://skos-play.sparna.fr/play/home
 
-Here both the Excel sheets and RDF serialisation files (e.g. ttl.) are stored for managing requests and change control
-
-The RDF serialisation files are loaded into CSIRO linked data registry (LDR). The LDR Service provides management and public access to codes, codelists, vocabularies, ontologies and other reference resources authorized or adopted by CSIRO.
+RDF resulting serialisation files are loaded into CSIRO linked data registry (LDR). The LDR Service provides management and public access to codes, codelists, vocabularies, ontologies and other reference resources authorized or adopted by CSIRO.
 
 The experimental (sandbox) into which these files are lodaded for checking is http://registry.it.csiro.au/sandbox/soil/
 The permanent location is http://anzsoil.org/def/au/
