@@ -12,6 +12,4 @@ RDF resulting serialisation files are loaded into CSIRO linked data registry (LD
 The experimental (sandbox) into which these files are lodaded for checking is http://registry.it.csiro.au/sandbox/soil/
 The permanent location is http://anzsoil.org/def/au/
  
-To make it easy to load in the sandbox and then transfer to the permanent location, the entries should have local identifiers. This regex will make the change the `s:` identifiers throughout the file – 
-Find s:([0-9][0-9a-zA-Z]*)
-Replace <$1>
+
