@@ -5,7 +5,7 @@ Well governed soil vocabularies from various national and other recognised autho
 
 Excel spreadsheets of structure compatable with https://skos-play.sparna.fr/play/home are stored here, as are the skos-play ouputs RDF serialisation files (e.g. ttl.) 
 
-The Excel spreadsheets are converted to RDF vocabularies (SKOS) using https://skos-play.sparna.fr/play/home
+The Excel spreadsheets are converted to RDF vocabularies (as SKOS) using https://skos-play.sparna.fr/play/home
 
 Here both the Excel sheets and RDF serialisation files (e.g. ttl.) are stored for managing requests and change control
 
