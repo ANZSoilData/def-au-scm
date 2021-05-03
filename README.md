@@ -1,15 +1,10 @@
-# aus-vocab
-Australian soil vocabularies.
+# SCMA
 
-Well governed soil vocabularies from various national and other recognised authorities (for example the handbooks issued by the Australian National Committee on Soil and Terrain).
-
-Excel spreadsheets of structure compatable with https://skos-play.sparna.fr/play/home are stored here, as are the skos-play ouputs RDF serialisation files (e.g. ttl.) 
-
-The Excel spreadsheets are converted to RDF vocabularies (as SKOS) using https://skos-play.sparna.fr/play/home
-
-RDF resulting serialisation files are loaded into CSIRO linked data registry (LDR). The LDR Service provides management and public access to codes, codelists, vocabularies, ontologies and other reference resources authorized or adopted by CSIRO.
+Machine-readable representation of the classifiers described in Soil Chemical Methods Australasia. (2011), by George E Rayment and David J Lyons. These comprise the laboratory and field chemical tests relevant to Australasia and beyond.
 
 The experimental (sandbox) into which these files are lodaded for checking is http://registry.it.csiro.au/sandbox/soil/
 The permanent location is http://anzsoil.org/def/au/
  
-
+Context: 
+[Megan Wong](https://orcid.org/0000-0002-2991-2308)
+mr.wong@federation.edu.au
