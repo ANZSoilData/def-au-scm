@@ -1,0 +1,37 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
+@prefix s: <http://anzsoil.org/def/au/scma/> .
+@prefix schema: <http://schema.org/> .
+@prefix sdo: <https://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix ui: <http://purl.org/linked-data/registry-ui#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<scma-1> a reg:Register , skos:ConceptScheme ;
+  dct:accrualPeriodicity <http://purl.org/cld/freq/completelyIrregular>;
+  dct:contributor <https://orcid.org/0000-0002-3884-3420>;
+  dct:created "2021-01-01"^^xsd:date;
+  dct:creator <https://orcid.org/0000-0002-2991-2308>;
+  dct:description "<p>This register contains a machine-readable representation of the classifiers described in <a href='https://www.publish.csiro.au/book/6418'>Soil Chemical Methods Australasia</a> 1. (2011), by George E Rayment and David J Lyons. These comprise the laboratory and field chemical tests relevant to Australasia and beyond. </p> <p>Supersedes Australian Laboratory Handbook of Soil and Water Chemical Methods (Rayment and Higginson 1992) while retaining method codes and other strengths of that Handbook. This register includes the method codes from Rayment and Higginson (1992) that were made redundant or superseded by new codes in George E Rayment and David J Lyons (2011).</p>"^^rdf:HTML;
+  dct:identifier "http://anzsoil.org/def/au/scma"^^xsd:anyURI;
+  dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+  dct:modified "2021-04-26"^^xsd:date;
+  dct:source "URN:ISBN:978-0-643-10218-7";
+  dct:title "Soil chemical methods - Australasia";
+  ui:hierarchyChildProperty skos:member;
+  ui:hierarchyRootProperty ui:topMemberOf;
+  sdo:codeRepository <https://github.com/ANZSoilData/aus-vocab> .
