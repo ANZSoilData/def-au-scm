@@ -16,6 +16,7 @@
 @prefix reg: <http://purl.org/linked-data/registry#> .
 @prefix s: <http://anzsoil.org/def/au/scma/> .
 @prefix schema: <http://schema.org/> .
+@prefix scma: <http://anzsoil.org/def/au/scma/> .
 @prefix sdo: <https://schema.org/> .
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -3294,7 +3295,11 @@
 .
 <http://anzsoil.org/def/au/scma/9>
   a skos:Collection ;
-  dcterms:description """<h2 class=\"h2\"><a id=\"page_147\"></a><a id=\"chapter09\"></a>9</h2>
+  dcterms:identifier "http://anzsoil.org/def/au/scma/9"^^xsd:anyURI ;
+  dcterms:source "URN:ISBN:978-0-643-10218-7" ;
+  ui:topMemberOf <http://anzsoil.org/def/au/scma> ;
+  rdfs:label "Phosphorus" ;
+  skos:definition """<h2 class=\"h2\"><a id=\"page_147\"></a><a id=\"chapter09\"></a>9</h2>
 <h2 class=\"h2a\">Phosphorus</h2>
 <p class=\"para\">Phosphorus (P) is an essential nutrient, mostly obtained by plants from soil. Unfortunately, few soils are able to continuously meet the P requirements of productive plants, without inputs of phosphatic fertilisers, manures, biosolids and the like. Great progress towards understanding the chemistry and biochemistry of soil and plant P has helped answer questions on the extent of soil P reserves and whether or not a response by plants to P applications might be expected. This chapter draws on that understanding, noting the four key P supply factors are quantity, intensity, rate and capacity.</p>
 <p class=\"indent-para\">The most abundant P mineral is apatite [Ca<sub>5</sub>(F, Cl, OH)(PO<sub>4</sub>)<sub>3</sub>], which has a structure that tolerates numerous cationic replacements for Ca and several anionic replacements for phosphate. In addition, P often occurs in silicate minerals due to isomorphous replacement of Si<sup>4&#43;</sup> by P<sup>5&#43;</sup> in silicate (SiO<sub>4</sub>) tetrahedra. The low solubilities of orthophosphates of Ca, Fe, Al and Pb greatly influence the reactivity of P in natural systems and soils. Free PO<sub>4</sub> ions in soils from natural weathering and from fertilisers are rapidly adsorbed onto the surface of most soils via several mechanisms that commonly involve chemical reactions with Fe, Al, Ca and Mg (see <a href=\"#ch9tab1\">Table 9.1</a>; <a href=\"chapter09a.html#ch09ref83\">Ure and Berrow 1982</a>). P is non-volatile at normal soil temperatures, while the likelihood of P leaching is low in soils with a capacity to remove it from soil solution by fixation or precipitation.</p>
@@ -3563,11 +3568,6 @@
 <td valign=\"top\"><p class=\"table\">Performance assessed using &#62;100 cropping soils from Queensland catchments that drain to the Great Barrier Reef World Heritage Area (<a href=\"chapter09a.html#ch09ref53\">Moody <em>et al.</em> 2006</a>).</p></td>
 </tr>
 </table>"""^^rdf:HTML ;
-  dcterms:identifier "http://anzsoil.org/def/au/scma/9"^^xsd:anyURI ;
-  dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  ui:topMemberOf <http://anzsoil.org/def/au/scma> ;
-  rdfs:label "Phosphorus" ;
-  skos:definition "Phosphorus" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:member <http://anzsoil.org/def/au/scma/9A> ;
   skos:member <http://anzsoil.org/def/au/scma/9A1> ;
