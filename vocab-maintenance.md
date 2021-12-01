@@ -2,7 +2,11 @@
 
 ## Content maintenance
 
-In the SKOS-Play! xslx file
+The goal is for each controlled vocabulary to be stored and published using a 'semantic web' representation - typically using [SKOS](https://www.w3.org/TR/skos-primer/) for basic terms, definitions and (optionally) hierarchy; else using a domain-specific ontology if available. 
+However, while it is eminently suitable for this application, it is a rather esoteric technology, unfamilar to most scientists and developers, and generally unsuitable for the development and maintenance of vocabaularies by subject-matter experts. 
+
+For most users, the most convenient tool for development and maintenance of vocabaulary content is an Excel file (.xls or .xlsx format). 
+Provided this is set up using a suitable template, the semantic web representation can be generated directly using [SKOS Play!](https://skos-play.sparna.fr/play/convert), 
 
 ## Generating RDF (SKOS) 
 
@@ -29,8 +33,7 @@ Add Access Point
 - TTL
 - Select scma.ttl
 - Add
-- Display Concept Scheme, Collections, 
-- Display Notations
+- Display Collections (**not ConceptScheme**)
 - Import, make available
 Add this version
 
