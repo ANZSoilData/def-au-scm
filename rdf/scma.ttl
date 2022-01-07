@@ -244,12 +244,10 @@ scma:
 .
 <http://anzsoil.org/def/au/scma/1>
   a skos:Collection ;
-  dcterms:description "Sampling and Sample Preparation" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/1"^^xsd:anyURI ;
   dcterms:isReplacedBy owl:Nothing ;
   dcterms:source "URN:ISBN:978-0-909605-68-1" ;
   ui:topMemberOf <http://anzsoil.org/def/au/scma> ;
-  rdfs:label "Sampling and Sample Preparation" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:member <http://anzsoil.org/def/au/scma/1A1> ;
   skos:member <http://anzsoil.org/def/au/scma/1A2> ;
@@ -260,11 +258,9 @@ scma:
 .
 <http://anzsoil.org/def/au/scma/10>
   a skos:Collection ;
-  dcterms:description "Sulfur" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/10"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   ui:topMemberOf <http://anzsoil.org/def/au/scma> ;
-  rdfs:label "Sulfur" ;
   skos:definition "Sulfur" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:member <http://anzsoil.org/def/au/scma/10A1> ;
@@ -282,10 +278,8 @@ scma:
 <http://anzsoil.org/def/au/scma/10A1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Total S - X-ray fluorescence" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/10A1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Total S - X-ray fluorescence" ;
   skos:definition "Total S - X-ray fluorescence" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "10A1" ;
@@ -295,10 +289,8 @@ scma:
 <http://anzsoil.org/def/au/scma/10A2>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Total soil S - high-temperature combustion" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/10A2"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Total soil S - high-temperature combustion" ;
   skos:definition "Total soil S - high-temperature combustion" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "10A2" ;
@@ -308,10 +300,8 @@ scma:
 <http://anzsoil.org/def/au/scma/10B>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Calcium phosphate-extractable S" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/10B"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Calcium phosphate-extractable S" ;
   skos:definition "Calcium phosphate-extractable S" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:narrower <http://anzsoil.org/def/au/scma/10B1> ;
@@ -325,10 +315,8 @@ scma:
 <http://anzsoil.org/def/au/scma/10B1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Calcium phosphate-extractable S - manual distillation" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/10B1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Calcium phosphate-extractable S - manual distillation" ;
   skos:broader <http://anzsoil.org/def/au/scma/10B> ;
   skos:definition "Calcium phosphate-extractable S - manual distillation" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -338,10 +326,8 @@ scma:
 <http://anzsoil.org/def/au/scma/10B2>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Calcium phosphate-extractable S - automated distillation" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/10B2"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Calcium phosphate-extractable S - automated distillation" ;
   skos:broader <http://anzsoil.org/def/au/scma/10B> ;
   skos:definition "Calcium phosphate-extractable S - automated distillation" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -351,10 +337,8 @@ scma:
 <http://anzsoil.org/def/au/scma/10B3>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Calcium phosphate-extractable S - ICPAES" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/10B3"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Calcium phosphate-extractable S - ICPAES" ;
   skos:broader <http://anzsoil.org/def/au/scma/10B> ;
   skos:definition "Calcium phosphate-extractable S - ICPAES" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -364,10 +348,8 @@ scma:
 <http://anzsoil.org/def/au/scma/10B4>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Calcium phosphate-extractable S - ion chromatography" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/10B4"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Calcium phosphate-extractable S - ion chromatography" ;
   skos:broader <http://anzsoil.org/def/au/scma/10B> ;
   skos:definition "Calcium phosphate-extractable S - ion chromatography" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -377,10 +359,8 @@ scma:
 <http://anzsoil.org/def/au/scma/10C1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Calcium phosphate-extractable S - ICPAES, + charcoal (CPC-S)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/10C1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Calcium phosphate-extractable S - ICPAES, + charcoal (CPC-S)" ;
   skos:definition "Calcium phosphate-extractable S - ICPAES, + charcoal (CPC-S)" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "10C1" ;
@@ -390,10 +370,8 @@ scma:
 <http://anzsoil.org/def/au/scma/10D1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Potassium Chloride - 40 Sulfur (KCl-40)-S" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/10D1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Potassium Chloride - 40 Sulfur (KCl-40)-S" ;
   skos:definition "Potassium Chloride - 40 Sulfur (KCl-40)-S" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "10D1" ;
@@ -402,11 +380,9 @@ scma:
 .
 <http://anzsoil.org/def/au/scma/11>
   a skos:Collection ;
-  dcterms:description "Gypsum" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/11"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   ui:topMemberOf <http://anzsoil.org/def/au/scma> ;
-  rdfs:label "Gypsum" ;
   skos:definition "Gypsum" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:member <http://anzsoil.org/def/au/scma/11A1> ;
@@ -417,10 +393,8 @@ scma:
 <http://anzsoil.org/def/au/scma/11A1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Total gypsum" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/11A1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Total gypsum" ;
   skos:definition "Total gypsum" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "11A1" ;
@@ -430,10 +404,8 @@ scma:
 <http://anzsoil.org/def/au/scma/11A2>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Total gypsum by MIR reflectance spectroscopy" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/11A2"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Total gypsum by MIR reflectance spectroscopy" ;
   skos:definition "Total gypsum by MIR reflectance spectroscopy" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "11A2" ;
@@ -442,11 +414,9 @@ scma:
 .
 <http://anzsoil.org/def/au/scma/12>
   a skos:Collection ;
-  dcterms:description "Micronutrients" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/12"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   ui:topMemberOf <http://anzsoil.org/def/au/scma> ;
-  rdfs:label "Micronutrients" ;
   skos:definition "Micronutrients" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:member <http://anzsoil.org/def/au/scma/12A1> ;
@@ -461,10 +431,8 @@ scma:
 <http://anzsoil.org/def/au/scma/12A1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "DTPA-extractable Cu, Zn, Mn and Fe" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/12A1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "DTPA-extractable Cu, Zn, Mn and Fe" ;
   skos:definition "DTPA-extractable Cu, Zn, Mn and Fe" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "12A1" ;
@@ -474,10 +442,8 @@ scma:
 <http://anzsoil.org/def/au/scma/12B1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Ammonium bicarbonate/EDTA-extractable Cu and Zn" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/12B1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Ammonium bicarbonate/EDTA-extractable Cu and Zn" ;
   skos:definition "Ammonium bicarbonate/EDTA-extractable Cu and Zn" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "12B1" ;
@@ -487,10 +453,8 @@ scma:
 <http://anzsoil.org/def/au/scma/12C1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Calcium chloride-extractable B - manual colour" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/12C1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Calcium chloride-extractable B - manual colour" ;
   skos:definition "Calcium chloride-extractable B - manual colour" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "12C1" ;
@@ -500,10 +464,8 @@ scma:
 <http://anzsoil.org/def/au/scma/12C2>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Calcium chloride-extractable B - ICPAES" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/12C2"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Calcium chloride-extractable B - ICPAES" ;
   skos:definition "Calcium chloride-extractable B - ICPAES" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "12C2" ;
@@ -513,10 +475,8 @@ scma:
 <http://anzsoil.org/def/au/scma/12D1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "0.1 M HCl-extractable Cu, Zn, Mn and Fe" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/12D1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "0.1 M HCl-extractable Cu, Zn, Mn and Fe" ;
   skos:definition "0.1 M HCl-extractable Cu, Zn, Mn and Fe" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "12D1" ;
@@ -526,10 +486,8 @@ scma:
 <http://anzsoil.org/def/au/scma/12E1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Calcium chloride-extractable Mo" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/12E1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Calcium chloride-extractable Mo" ;
   skos:definition "Calcium chloride-extractable Mo" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "12E1" ;
@@ -538,11 +496,9 @@ scma:
 .
 <http://anzsoil.org/def/au/scma/13>
   a skos:Collection ;
-  dcterms:description "Extractable iron, aluminium and silicon" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/13"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   ui:topMemberOf <http://anzsoil.org/def/au/scma> ;
-  rdfs:label "Extractable iron, aluminium and silicon" ;
   skos:definition "Extractable iron, aluminium and silicon" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:member <http://anzsoil.org/def/au/scma/13A1> ;
@@ -557,10 +513,8 @@ scma:
 <http://anzsoil.org/def/au/scma/13A1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Oxalate-extractable iron, aluminium and silicon" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/13A1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Oxalate-extractable iron, aluminium and silicon" ;
   skos:definition "Oxalate-extractable iron, aluminium and silicon" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "13A1" ;
@@ -570,10 +524,8 @@ scma:
 <http://anzsoil.org/def/au/scma/13B1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Pyrophosphate-extractable Fe and Al" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/13B1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Pyrophosphate-extractable Fe and Al" ;
   skos:definition "Pyrophosphate-extractable Fe and Al" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "13B1" ;
@@ -583,10 +535,8 @@ scma:
 <http://anzsoil.org/def/au/scma/13C1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Citrate/dihionite-extractable iron and aluminium" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/13C1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Citrate/dihionite-extractable iron and aluminium" ;
   skos:definition "Citrate/dihionite-extractable iron and aluminium" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "13C1" ;
@@ -596,10 +546,8 @@ scma:
 <http://anzsoil.org/def/au/scma/13D>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Acid-extractable soil silicon" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/13D"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Acid-extractable soil silicon" ;
   skos:definition "Acid-extractable soil silicon" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:narrower <http://anzsoil.org/def/au/scma/13D1> ;
@@ -611,10 +559,8 @@ scma:
 <http://anzsoil.org/def/au/scma/13D1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Acid-extractable soil silicon - automated colour" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/13D1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Acid-extractable soil silicon - automated colour" ;
   skos:broader <http://anzsoil.org/def/au/scma/13D> ;
   skos:definition "Acid-extractable soil silicon - automated colour" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -624,10 +570,8 @@ scma:
 <http://anzsoil.org/def/au/scma/13D2>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Acid-extractable soil silicon - ICPAES" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/13D2"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Acid-extractable soil silicon - ICPAES" ;
   skos:broader <http://anzsoil.org/def/au/scma/13D> ;
   skos:definition "Acid-extractable soil silicon - ICPAES" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -636,11 +580,9 @@ scma:
 .
 <http://anzsoil.org/def/au/scma/14>
   a skos:Collection ;
-  dcterms:description "Saturation extracts" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/14"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   ui:topMemberOf <http://anzsoil.org/def/au/scma> ;
-  rdfs:label "Saturation extracts" ;
   skos:definition "Saturation extracts" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:member <http://anzsoil.org/def/au/scma/14A1> ;
@@ -674,10 +616,8 @@ scma:
 <http://anzsoil.org/def/au/scma/14A1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Saturation extract - filter suction" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/14A1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Saturation extract - filter suction" ;
   skos:definition "Saturation extract - filter suction" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "14A1" ;
@@ -687,10 +627,8 @@ scma:
 <http://anzsoil.org/def/au/scma/14A2>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Saturation extract -automatic extractor" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/14A2"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Saturation extract -automatic extractor" ;
   skos:definition "Saturation extract -automatic extractor" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "14A2" ;
@@ -700,10 +638,8 @@ scma:
 <http://anzsoil.org/def/au/scma/14A3>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Saturation extract - centrifuge, closed system" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/14A3"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Saturation extract - centrifuge, closed system" ;
   skos:definition "Saturation extract - centrifuge, closed system" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "14A3" ;
@@ -713,10 +649,8 @@ scma:
 <http://anzsoil.org/def/au/scma/14A4>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Saturation extract - centrifuge, Gillman" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/14A4"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Saturation extract - centrifuge, Gillman" ;
   skos:definition "Saturation extract - centrifuge, Gillman" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "14A4" ;
@@ -726,10 +660,8 @@ scma:
 <http://anzsoil.org/def/au/scma/14B1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Electrical conductivity of SE (EC of SE)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/14B1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Electrical conductivity of SE (EC of SE)" ;
   skos:definition "Electrical conductivity of SE (EC of SE)" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "14B1" ;
@@ -739,10 +671,8 @@ scma:
 <http://anzsoil.org/def/au/scma/14C1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "pH of SE" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/14C1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "pH of SE" ;
   skos:definition "pH of SE" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "14C1" ;
@@ -752,10 +682,8 @@ scma:
 <http://anzsoil.org/def/au/scma/14D1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Bicarbonate of SE and carbonate of SE - potentiometric titration" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/14D1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Bicarbonate of SE and carbonate of SE - potentiometric titration" ;
   skos:definition "Bicarbonate of SE and carbonate of SE - potentiometric titration" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "14D1" ;
@@ -765,10 +693,8 @@ scma:
 <http://anzsoil.org/def/au/scma/14D2>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Bicarbonate of SE and carbonate of SE - indicator method" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/14D2"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Bicarbonate of SE and carbonate of SE - indicator method" ;
   skos:definition "Bicarbonate of SE and carbonate of SE - indicator method" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "14D2" ;
@@ -778,10 +704,8 @@ scma:
 <http://anzsoil.org/def/au/scma/14E1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Chloride of SE - potentiometric titration" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/14E1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Chloride of SE - potentiometric titration" ;
   skos:definition "Chloride of SE - potentiometric titration" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "14E1" ;
@@ -791,12 +715,10 @@ scma:
 <http://anzsoil.org/def/au/scma/14E2>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Chloride (saturation extract) - ion chromotography|Chloride of SE - IC" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/14E2"^^xsd:anyURI ;
   dcterms:isReplacedBy <http://anzsoil.org/def/au/scma/14E2a> ;
   dcterms:isReplacedBy <http://anzsoil.org/def/au/scma/14E2b> ;
   dcterms:source "URN:ISBN:978-0-909605-68-1" ;
-  rdfs:label "Chloride (saturation extract) - ion chromotography|Chloride of SE - IC" ;
   skos:definition "Chloride (saturation extract) - ion chromotography|Chloride of SE - IC" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:narrower <http://anzsoil.org/def/au/scma/14E2a> ;
@@ -809,10 +731,8 @@ scma:
 <http://anzsoil.org/def/au/scma/14E2a>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Chloride of SE - IC (chemical suppression of eluent conductivity)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/14E2a"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Chloride of SE - IC (chemical suppression of eluent conductivity)" ;
   skos:broader <http://anzsoil.org/def/au/scma/14E2> ;
   skos:definition "Chloride of SE - IC (chemical suppression of eluent conductivity)" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -822,10 +742,8 @@ scma:
 <http://anzsoil.org/def/au/scma/14E2b>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Chloride of SE - IC (single-column with electronic suppression of eluent conductivity)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/14E2b"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Chloride of SE - IC (single-column with electronic suppression of eluent conductivity)" ;
   skos:broader <http://anzsoil.org/def/au/scma/14E2> ;
   skos:definition "Chloride of SE - IC (single-column with electronic suppression of eluent conductivity)" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -835,10 +753,8 @@ scma:
 <http://anzsoil.org/def/au/scma/14E3>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Chloride of SE - ICPAES" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/14E3"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Chloride of SE - ICPAES" ;
   skos:definition "Chloride of SE - ICPAES" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "14E3" ;
@@ -848,10 +764,8 @@ scma:
 <http://anzsoil.org/def/au/scma/14F1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Sulfate-S of SE - ICPAES (plus P and soluble cations)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/14F1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Sulfate-S of SE - ICPAES (plus P and soluble cations)" ;
   skos:definition "Sulfate-S of SE - ICPAES (plus P and soluble cations)" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "14F1" ;
@@ -861,10 +775,8 @@ scma:
 <http://anzsoil.org/def/au/scma/14F2>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Sulfate-S of SE - turbidimetric" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/14F2"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Sulfate-S of SE - turbidimetric" ;
   skos:definition "Sulfate-S of SE - turbidimetric" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "14F2" ;
@@ -874,10 +786,8 @@ scma:
 <http://anzsoil.org/def/au/scma/14F3>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Sulfate-S of SE - gravimetric" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/14F3"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Sulfate-S of SE - gravimetric" ;
   skos:definition "Sulfate-S of SE - gravimetric" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "14F3" ;
@@ -887,10 +797,8 @@ scma:
 <http://anzsoil.org/def/au/scma/14F4>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Sulfate-S of SE - automated colour" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/14F4"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Sulfate-S of SE - automated colour" ;
   skos:definition "Sulfate-S of SE - automated colour" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "14F4" ;
@@ -900,12 +808,10 @@ scma:
 <http://anzsoil.org/def/au/scma/14F5>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Sulfate-S (saturation extract) - ion chromotography|Sulfate-S of SE - IC" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/14F5"^^xsd:anyURI ;
   dcterms:isReplacedBy <http://anzsoil.org/def/au/scma/14F5a> ;
   dcterms:isReplacedBy <http://anzsoil.org/def/au/scma/14F5b> ;
   dcterms:source "URN:ISBN:978-0-909605-68-1" ;
-  rdfs:label "Sulfate-S (saturation extract) - ion chromotography|Sulfate-S of SE - IC" ;
   skos:definition "Sulfate-S (saturation extract) - ion chromotography|Sulfate-S of SE - IC" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:narrower <http://anzsoil.org/def/au/scma/14F5a> ;
@@ -918,10 +824,8 @@ scma:
 <http://anzsoil.org/def/au/scma/14F5a>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Sulfate-S of SE - IC (chemical suppression of eluent conductivity)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/14F5a"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Sulfate-S of SE - IC (chemical suppression of eluent conductivity)" ;
   skos:broader <http://anzsoil.org/def/au/scma/14F5> ;
   skos:definition "Sulfate-S of SE - IC (chemical suppression of eluent conductivity)" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -931,10 +835,8 @@ scma:
 <http://anzsoil.org/def/au/scma/14F5b>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Sulfate-S of SE - IC (single-column with electronic suppression of eluent conductivity)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/14F5b"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Sulfate-S of SE - IC (single-column with electronic suppression of eluent conductivity)" ;
   skos:broader <http://anzsoil.org/def/au/scma/14F5> ;
   skos:definition "Sulfate-S of SE - IC (single-column with electronic suppression of eluent conductivity)" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -944,10 +846,8 @@ scma:
 <http://anzsoil.org/def/au/scma/14G1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Fluoride of SE - specific ion electrode" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/14G1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Fluoride of SE - specific ion electrode" ;
   skos:definition "Fluoride of SE - specific ion electrode" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "14G1" ;
@@ -957,12 +857,10 @@ scma:
 <http://anzsoil.org/def/au/scma/14G2>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Fluoride (saturation extract) - ion chromotography|Fluoride of SE - IC" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/14G2"^^xsd:anyURI ;
   dcterms:isReplacedBy <http://anzsoil.org/def/au/scma/14G2a> ;
   dcterms:isReplacedBy <http://anzsoil.org/def/au/scma/14G2b> ;
   dcterms:source "URN:ISBN:978-0-909605-68-1" ;
-  rdfs:label "Fluoride (saturation extract) - ion chromotography|Fluoride of SE - IC" ;
   skos:definition "Fluoride (saturation extract) - ion chromotography|Fluoride of SE - IC" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:narrower <http://anzsoil.org/def/au/scma/14G2a> ;
@@ -975,10 +873,8 @@ scma:
 <http://anzsoil.org/def/au/scma/14G2a>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Fluoride of SE - IC (chemical suppression of eluent conductivity)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/14G2a"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Fluoride of SE - IC (chemical suppression of eluent conductivity)" ;
   skos:broader <http://anzsoil.org/def/au/scma/14G2> ;
   skos:definition "Fluoride of SE - IC (chemical suppression of eluent conductivity)" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -988,10 +884,8 @@ scma:
 <http://anzsoil.org/def/au/scma/14G2b>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Fluoride of SE - IC (single-column with electronic suppression of eluent conductivity)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/14G2b"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Fluoride of SE - IC (single-column with electronic suppression of eluent conductivity)" ;
   skos:broader <http://anzsoil.org/def/au/scma/14G2> ;
   skos:definition "Fluoride of SE - IC (single-column with electronic suppression of eluent conductivity)" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -1001,10 +895,8 @@ scma:
 <http://anzsoil.org/def/au/scma/14H1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Soluble bases of SE (Ca, Mg, K, Na)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/14H1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Soluble bases of SE (Ca, Mg, K, Na)" ;
   skos:definition "Soluble bases of SE (Ca, Mg, K, Na)" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "14H1" ;
@@ -1013,11 +905,9 @@ scma:
 .
 <http://anzsoil.org/def/au/scma/15>
   a skos:Collection ;
-  dcterms:description "Ion-exchange properties" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/15"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   ui:topMemberOf <http://anzsoil.org/def/au/scma> ;
-  rdfs:label "Ion-exchange properties" ;
   skos:definition "Ion-exchange properties" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:member <http://anzsoil.org/def/au/scma/15A1> ;
@@ -1055,10 +945,8 @@ scma:
 <http://anzsoil.org/def/au/scma/15A1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Exchangeable bases (Ca2+, Mg2+, Na+, K+) - 1 M ammonium chloride at pH 7.0, no pre-treatment for soluble salts" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/15A1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Exchangeable bases (Ca2+, Mg2+, Na+, K+) - 1 M ammonium chloride at pH 7.0, no pre-treatment for soluble salts" ;
   skos:definition "Exchangeable bases (Ca2+, Mg2+, Na+, K+) - 1 M ammonium chloride at pH 7.0, no pre-treatment for soluble salts" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "15A1" ;
@@ -1068,10 +956,8 @@ scma:
 <http://anzsoil.org/def/au/scma/15A2>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Exchangeable bases by 1 M ammonium chloride at pH 7.0, pre-treatment for soluble salts" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/15A2"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Exchangeable bases by 1 M ammonium chloride at pH 7.0, pre-treatment for soluble salts" ;
   skos:definition "Exchangeable bases by 1 M ammonium chloride at pH 7.0, pre-treatment for soluble salts" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "15A2" ;
@@ -1081,10 +967,8 @@ scma:
 <http://anzsoil.org/def/au/scma/15A3>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Exchangeable bases - 1 M ammonium chloride at pH 7.0, adjusted for soluble Na+" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/15A3"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Exchangeable bases - 1 M ammonium chloride at pH 7.0, adjusted for soluble Na+" ;
   skos:definition "Exchangeable bases - 1 M ammonium chloride at pH 7.0, adjusted for soluble Na+" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "15A3" ;
@@ -1094,10 +978,8 @@ scma:
 <http://anzsoil.org/def/au/scma/15B1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Exchangeable bases and cation exchange capacity - 1 M ammonium chloride at pH 7.0, no pre-treatment for soluble salts" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/15B1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Exchangeable bases and cation exchange capacity - 1 M ammonium chloride at pH 7.0, no pre-treatment for soluble salts" ;
   skos:definition "Exchangeable bases and cation exchange capacity - 1 M ammonium chloride at pH 7.0, no pre-treatment for soluble salts" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "15B1" ;
@@ -1107,10 +989,8 @@ scma:
 <http://anzsoil.org/def/au/scma/15B2>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Exchangeable bases and CEC - 1 M ammonium chloride at pH 7.0, pre-treatment for soluble salts" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/15B2"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Exchangeable bases and CEC - 1 M ammonium chloride at pH 7.0, pre-treatment for soluble salts" ;
   skos:definition "Exchangeable bases and CEC - 1 M ammonium chloride at pH 7.0, pre-treatment for soluble salts" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "15B2" ;
@@ -1120,10 +1000,8 @@ scma:
 <http://anzsoil.org/def/au/scma/15B3>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Exchangeable bases and CEC - 1 M ammonium chloride at pH 7.0, adjusted for soluble Na+" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/15B3"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Exchangeable bases and CEC - 1 M ammonium chloride at pH 7.0, adjusted for soluble Na+" ;
   skos:definition "Exchangeable bases and CEC - 1 M ammonium chloride at pH 7.0, adjusted for soluble Na+" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "15B3" ;
@@ -1133,10 +1011,8 @@ scma:
 <http://anzsoil.org/def/au/scma/15C1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Exchangeable bases and CEC - alcoholic 1 M ammonium chloride at pH 8.5, pre-treatment for soluble salts" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/15C1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Exchangeable bases and CEC - alcoholic 1 M ammonium chloride at pH 8.5, pre-treatment for soluble salts" ;
   skos:definition "Exchangeable bases and CEC - alcoholic 1 M ammonium chloride at pH 8.5, pre-treatment for soluble salts" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "15C1" ;
@@ -1146,10 +1022,8 @@ scma:
 <http://anzsoil.org/def/au/scma/15C2>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Exchangeable divalent cations and CEC - by MIR diffuse reflectance spectroscopy" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/15C2"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Exchangeable divalent cations and CEC - by MIR diffuse reflectance spectroscopy" ;
   skos:definition "Exchangeable divalent cations and CEC - by MIR diffuse reflectance spectroscopy" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "15C2" ;
@@ -1159,10 +1033,8 @@ scma:
 <http://anzsoil.org/def/au/scma/15D1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Exchangeable bases and CEC - 1 M ammonium acetate at pH 7.0, pre-treatment for soluble salts, manual leach" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/15D1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Exchangeable bases and CEC - 1 M ammonium acetate at pH 7.0, pre-treatment for soluble salts, manual leach" ;
   skos:definition "Exchangeable bases and CEC - 1 M ammonium acetate at pH 7.0, pre-treatment for soluble salts, manual leach" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "15D1" ;
@@ -1172,10 +1044,8 @@ scma:
 <http://anzsoil.org/def/au/scma/15D2>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Exchangeable bases and CEC - 1 M ammonium acetate at pH 7.0, pre-treatment for soluble salts, automatic extractor" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/15D2"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Exchangeable bases and CEC - 1 M ammonium acetate at pH 7.0, pre-treatment for soluble salts, automatic extractor" ;
   skos:definition "Exchangeable bases and CEC - 1 M ammonium acetate at pH 7.0, pre-treatment for soluble salts, automatic extractor" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "15D2" ;
@@ -1185,10 +1055,8 @@ scma:
 <http://anzsoil.org/def/au/scma/15D3>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Exchangeable bases and CEC - 1 M ammonium acetate at pH 7.0, rapid method with no pre-treatment for soluble salts" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/15D3"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Exchangeable bases and CEC - 1 M ammonium acetate at pH 7.0, rapid method with no pre-treatment for soluble salts" ;
   skos:definition "Exchangeable bases and CEC - 1 M ammonium acetate at pH 7.0, rapid method with no pre-treatment for soluble salts" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "15D3" ;
@@ -1198,10 +1066,8 @@ scma:
 <http://anzsoil.org/def/au/scma/15E1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Exchangeable bases, CEC and anion exchange capacity by compulsive exchange, no pre-treatment for soluble salts" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/15E1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Exchangeable bases, CEC and anion exchange capacity by compulsive exchange, no pre-treatment for soluble salts" ;
   skos:definition "Exchangeable bases, CEC and anion exchange capacity by compulsive exchange, no pre-treatment for soluble salts" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "15E1" ;
@@ -1211,10 +1077,8 @@ scma:
 <http://anzsoil.org/def/au/scma/15E2>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Exchangeable bases, CEC and AEC by compulsive exchange, pre-treatment for soluble salts" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/15E2"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Exchangeable bases, CEC and AEC by compulsive exchange, pre-treatment for soluble salts" ;
   skos:definition "Exchangeable bases, CEC and AEC by compulsive exchange, pre-treatment for soluble salts" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "15E2" ;
@@ -1224,10 +1088,8 @@ scma:
 <http://anzsoil.org/def/au/scma/15E3>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Exchangeable bases, CEC and AEC by compulsive exchange, adjusted for soluble Na+" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/15E3"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Exchangeable bases, CEC and AEC by compulsive exchange, adjusted for soluble Na+" ;
   skos:definition "Exchangeable bases, CEC and AEC by compulsive exchange, adjusted for soluble Na+" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "15E3" ;
@@ -1237,10 +1099,8 @@ scma:
 <http://anzsoil.org/def/au/scma/15F1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Exchangeable bases by 0.01 M silver-thiourea (AgTU+) - no pre-treatment for soluble salts" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/15F1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Exchangeable bases by 0.01 M silver-thiourea (AgTU+) - no pre-treatment for soluble salts" ;
   skos:definition "Exchangeable bases by 0.01 M silver-thiourea (AgTU+) - no pre-treatment for soluble salts" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "15F1" ;
@@ -1250,10 +1110,8 @@ scma:
 <http://anzsoil.org/def/au/scma/15F2>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Exchangeable aluminium by 0.01 M AgTU+" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/15F2"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Exchangeable aluminium by 0.01 M AgTU+" ;
   skos:definition "Exchangeable aluminium by 0.01 M AgTU+" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "15F2" ;
@@ -1263,10 +1121,8 @@ scma:
 <http://anzsoil.org/def/au/scma/15F3>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Cation exchange capacity by 0.01 M AgTU+ [CEC AgTU]" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/15F3"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Cation exchange capacity by 0.01 M AgTU+ [CEC AgTU]" ;
   skos:definition "Cation exchange capacity by 0.01 M AgTU+ [CEC AgTU]" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "15F3" ;
@@ -1276,10 +1132,8 @@ scma:
 <http://anzsoil.org/def/au/scma/15G1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Exchange acidity (H+ + Al3+) by 1 M potassium chloride" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/15G1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Exchange acidity (H+ + Al3+) by 1 M potassium chloride" ;
   skos:definition "Exchange acidity (H+ + Al3+) by 1 M potassium chloride" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "15G1" ;
@@ -1289,10 +1143,8 @@ scma:
 <http://anzsoil.org/def/au/scma/15H1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Exchange acidity by triethanolamine (TEA)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/15H1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Exchange acidity by triethanolamine (TEA)" ;
   skos:definition "Exchange acidity by triethanolamine (TEA)" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "15H1" ;
@@ -1302,10 +1154,8 @@ scma:
 <http://anzsoil.org/def/au/scma/15I1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Cation exchange capacity measurement - distillation of NH+4" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/15I1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Cation exchange capacity measurement - distillation of NH+4" ;
   skos:definition "Cation exchange capacity measurement - distillation of NH+4" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "15I1" ;
@@ -1315,10 +1165,8 @@ scma:
 <http://anzsoil.org/def/au/scma/15I2>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Cation exchange capacity measurement - automated determination of NH+4" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/15I2"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Cation exchange capacity measurement - automated determination of NH+4" ;
   skos:definition "Cation exchange capacity measurement - automated determination of NH+4" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "15I2" ;
@@ -1328,10 +1176,8 @@ scma:
 <http://anzsoil.org/def/au/scma/15I3>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Cation exchange capacity measurement - automated determination of NH+4 and Cl+" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/15I3"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Cation exchange capacity measurement - automated determination of NH+4 and Cl+" ;
   skos:definition "Cation exchange capacity measurement - automated determination of NH+4 and Cl+" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "15I3" ;
@@ -1341,10 +1187,8 @@ scma:
 <http://anzsoil.org/def/au/scma/15I4>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Cation exchange capacity measurement - titration of NH+4 and Cl-" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/15I4"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Cation exchange capacity measurement - titration of NH+4 and Cl-" ;
   skos:definition "Cation exchange capacity measurement - titration of NH+4 and Cl-" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "15I4" ;
@@ -1354,10 +1198,8 @@ scma:
 <http://anzsoil.org/def/au/scma/15J1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Effective cation exchange capacity (ECEC)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/15J1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Effective cation exchange capacity (ECEC)" ;
   skos:definition "Effective cation exchange capacity (ECEC)" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "15J1" ;
@@ -1367,10 +1209,8 @@ scma:
 <http://anzsoil.org/def/au/scma/15K1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Cation exchange capacity - pH 8.2 (CEC pH 8.2)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/15K1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Cation exchange capacity - pH 8.2 (CEC pH 8.2)" ;
   skos:definition "Cation exchange capacity - pH 8.2 (CEC pH 8.2)" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "15K1" ;
@@ -1380,10 +1220,8 @@ scma:
 <http://anzsoil.org/def/au/scma/15L1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Base saturation percentage (ESP)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/15L1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Base saturation percentage (ESP)" ;
   skos:definition "Base saturation percentage (ESP)" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "15L1" ;
@@ -1393,10 +1231,8 @@ scma:
 <http://anzsoil.org/def/au/scma/15M1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Basic cation saturation ratios" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/15M1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Basic cation saturation ratios" ;
   skos:definition "Basic cation saturation ratios" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "15M1" ;
@@ -1406,10 +1242,8 @@ scma:
 <http://anzsoil.org/def/au/scma/15N1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Exchangeable Na+ percentage (ESP)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/15N1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Exchangeable Na+ percentage (ESP)" ;
   skos:definition "Exchangeable Na+ percentage (ESP)" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "15N1" ;
@@ -1419,10 +1253,8 @@ scma:
 <http://anzsoil.org/def/au/scma/15O1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Percent Al saturation" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/15O1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Percent Al saturation" ;
   skos:definition "Percent Al saturation" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "15O1" ;
@@ -1431,11 +1263,9 @@ scma:
 .
 <http://anzsoil.org/def/au/scma/16>
   a skos:Collection ;
-  dcterms:description "Lime requirement" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/16"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   ui:topMemberOf <http://anzsoil.org/def/au/scma> ;
-  rdfs:label "Lime requirement" ;
   skos:definition "Lime requirement" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:member <http://anzsoil.org/def/au/scma/16A1> ;
@@ -1448,10 +1278,8 @@ scma:
 <http://anzsoil.org/def/au/scma/16A1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Calculated lime rate - from exchangeable Al3+" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/16A1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Calculated lime rate - from exchangeable Al3+" ;
   skos:definition "Calculated lime rate - from exchangeable Al3+" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "16A1" ;
@@ -1461,10 +1289,8 @@ scma:
 <http://anzsoil.org/def/au/scma/16B1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Calculated lime rate - Cregan" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/16B1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Calculated lime rate - Cregan" ;
   skos:definition "Calculated lime rate - Cregan" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "16B1" ;
@@ -1474,10 +1300,8 @@ scma:
 <http://anzsoil.org/def/au/scma/16C1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Lime requirement - Mehlich single buffer" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/16C1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Lime requirement - Mehlich single buffer" ;
   skos:definition "Lime requirement - Mehlich single buffer" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "16C1" ;
@@ -1487,10 +1311,8 @@ scma:
 <http://anzsoil.org/def/au/scma/16D1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Lime requirement - Dunn titration curves" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/16D1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Lime requirement - Dunn titration curves" ;
   skos:definition "Lime requirement - Dunn titration curves" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "16D1" ;
@@ -1499,11 +1321,9 @@ scma:
 .
 <http://anzsoil.org/def/au/scma/17>
   a skos:Collection ;
-  dcterms:description "Total miscellaneous elements" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/17"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   ui:topMemberOf <http://anzsoil.org/def/au/scma> ;
-  rdfs:label "Total miscellaneous elements" ;
   skos:definition "Total miscellaneous elements" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:member <http://anzsoil.org/def/au/scma/17A1> ;
@@ -1517,10 +1337,8 @@ scma:
 <http://anzsoil.org/def/au/scma/17A1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Total elemental analysis of soils and sediments -X-ray fluorescence spectroscopy" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/17A1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Total elemental analysis of soils and sediments -X-ray fluorescence spectroscopy" ;
   skos:definition "Total elemental analysis of soils and sediments -X-ray fluorescence spectroscopy" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "17A1" ;
@@ -1530,10 +1348,8 @@ scma:
 <http://anzsoil.org/def/au/scma/17A2>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Total elemental analysis of soils and sediments - microwave assisted digestion, with determination by atomic spectroscopy" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/17A2"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Total elemental analysis of soils and sediments - microwave assisted digestion, with determination by atomic spectroscopy" ;
   skos:definition "Total elemental analysis of soils and sediments - microwave assisted digestion, with determination by atomic spectroscopy" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "17A2" ;
@@ -1543,10 +1359,8 @@ scma:
 <http://anzsoil.org/def/au/scma/17B1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Pseudo-total elemental analysis of soils and sediments - reverse aqua regia block digestion with determination by atomic spectroscopy" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/17B1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Pseudo-total elemental analysis of soils and sediments - reverse aqua regia block digestion with determination by atomic spectroscopy" ;
   skos:definition "Pseudo-total elemental analysis of soils and sediments - reverse aqua regia block digestion with determination by atomic spectroscopy" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "17B1" ;
@@ -1556,10 +1370,8 @@ scma:
 <http://anzsoil.org/def/au/scma/17B2>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Pseudo-total elements of soils and sediments - reverse aqua regia microwave assisted digestion of sludges, soils and sediments, with determination by atomic spectroscopy" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/17B2"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Pseudo-total elements of soils and sediments - reverse aqua regia microwave assisted digestion of sludges, soils and sediments, with determination by atomic spectroscopy" ;
   skos:definition "Pseudo-total elements of soils and sediments - reverse aqua regia microwave assisted digestion of sludges, soils and sediments, with determination by atomic spectroscopy" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "17B2" ;
@@ -1569,10 +1381,8 @@ scma:
 <http://anzsoil.org/def/au/scma/17C1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Pseudo-total elements of soils and sediments - conventional aqua regia block digestion and determination by atomic spectroscopy" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/17C1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Pseudo-total elements of soils and sediments - conventional aqua regia block digestion and determination by atomic spectroscopy" ;
   skos:definition "Pseudo-total elements of soils and sediments - conventional aqua regia block digestion and determination by atomic spectroscopy" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "17C1" ;
@@ -1581,11 +1391,9 @@ scma:
 .
 <http://anzsoil.org/def/au/scma/18>
   a skos:Collection ;
-  dcterms:description "Miscellaneous extractable elements" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/18"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   ui:topMemberOf <http://anzsoil.org/def/au/scma> ;
-  rdfs:label "Miscellaneous extractable elements" ;
   skos:definition "Miscellaneous extractable elements" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:member <http://anzsoil.org/def/au/scma/18A1> ;
@@ -1603,10 +1411,8 @@ scma:
 <http://anzsoil.org/def/au/scma/18A1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Bicarbonate-extractable K+" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/18A1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Bicarbonate-extractable K+" ;
   skos:definition "Bicarbonate-extractable K+" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "18A1" ;
@@ -1616,10 +1422,8 @@ scma:
 <http://anzsoil.org/def/au/scma/18B1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Hydrochloric acid-extractable K+" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/18B1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Hydrochloric acid-extractable K+" ;
   skos:definition "Hydrochloric acid-extractable K+" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "18B1" ;
@@ -1629,10 +1433,8 @@ scma:
 <http://anzsoil.org/def/au/scma/18C1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Boiling 0.1 nitric acid-extractable K+" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/18C1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Boiling 0.1 nitric acid-extractable K+" ;
   skos:definition "Boiling 0.1 nitric acid-extractable K+" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "18C1" ;
@@ -1642,10 +1444,8 @@ scma:
 <http://anzsoil.org/def/au/scma/18D1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "0.1 M calcium chloride-extractable Cd" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/18D1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "0.1 M calcium chloride-extractable Cd" ;
   skos:definition "0.1 M calcium chloride-extractable Cd" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "18D1" ;
@@ -1655,10 +1455,8 @@ scma:
 <http://anzsoil.org/def/au/scma/18E1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "0.01 M calcium chloride-extractable Cd" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/18E1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "0.01 M calcium chloride-extractable Cd" ;
   skos:definition "0.01 M calcium chloride-extractable Cd" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "18E1" ;
@@ -1668,10 +1466,8 @@ scma:
 <http://anzsoil.org/def/au/scma/18F>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Mehlich 3 multi-element tests" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/18F"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Mehlich 3 multi-element tests" ;
   skos:definition "Mehlich 3 multi-element tests" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:narrower <http://anzsoil.org/def/au/scma/18F1> ;
@@ -1683,10 +1479,8 @@ scma:
 <http://anzsoil.org/def/au/scma/18F1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Mehlich 3-extractable elements (P, Ca, Mg, Na, K, Fe, Cu, Mn, Zn, B, S, Al)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/18F1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Mehlich 3-extractable elements (P, Ca, Mg, Na, K, Fe, Cu, Mn, Zn, B, S, Al)" ;
   skos:broader <http://anzsoil.org/def/au/scma/18F> ;
   skos:definition "Mehlich 3-extractable elements (P, Ca, Mg, Na, K, Fe, Cu, Mn, Zn, B, S, Al)" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -1696,10 +1490,8 @@ scma:
 <http://anzsoil.org/def/au/scma/18F2>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Mehlich 3 Extractable P - colour finish" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/18F2"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Mehlich 3 Extractable P - colour finish" ;
   skos:broader <http://anzsoil.org/def/au/scma/18F> ;
   skos:definition "Mehlich 3 Extractable P - colour finish" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -1709,10 +1501,8 @@ scma:
 <http://anzsoil.org/def/au/scma/18G1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Reverse soil K+ by copper-modified sodium tetraphenylboron extraction (TBK 4h)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/18G1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Reverse soil K+ by copper-modified sodium tetraphenylboron extraction (TBK 4h)" ;
   skos:definition "Reverse soil K+ by copper-modified sodium tetraphenylboron extraction (TBK 4h)" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "18G1" ;
@@ -1721,11 +1511,9 @@ scma:
 .
 <http://anzsoil.org/def/au/scma/19>
   a skos:Collection ;
-  dcterms:description "Alkaline earth carbonates" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/19"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   ui:topMemberOf <http://anzsoil.org/def/au/scma> ;
-  rdfs:label "Alkaline earth carbonates" ;
   skos:definition "Alkaline earth carbonates" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:member <http://anzsoil.org/def/au/scma/19A1> ;
@@ -1740,10 +1528,8 @@ scma:
 <http://anzsoil.org/def/au/scma/19A1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Carbonates -rapid titration" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/19A1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Carbonates -rapid titration" ;
   skos:definition "Carbonates -rapid titration" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "19A1" ;
@@ -1753,10 +1539,8 @@ scma:
 <http://anzsoil.org/def/au/scma/19B>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Carbonates by pressure change" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/19B"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Carbonates by pressure change" ;
   skos:definition "Carbonates by pressure change" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:narrower <http://anzsoil.org/def/au/scma/19B1> ;
@@ -1768,10 +1552,8 @@ scma:
 <http://anzsoil.org/def/au/scma/19B1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Carbonates by pressure change - manometric" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/19B1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Carbonates by pressure change - manometric" ;
   skos:broader <http://anzsoil.org/def/au/scma/19B> ;
   skos:definition "Carbonates by pressure change - manometric" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -1781,10 +1563,8 @@ scma:
 <http://anzsoil.org/def/au/scma/19B2>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Carbonates by pressure change - transducer" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/19B2"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Carbonates by pressure change - transducer" ;
   skos:broader <http://anzsoil.org/def/au/scma/19B> ;
   skos:definition "Carbonates by pressure change - transducer" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -1794,10 +1574,8 @@ scma:
 <http://anzsoil.org/def/au/scma/19C1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Spot field test for the presence of soil carbonates with dilute HCl" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/19C1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Spot field test for the presence of soil carbonates with dilute HCl" ;
   skos:definition "Spot field test for the presence of soil carbonates with dilute HCl" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "19C1" ;
@@ -1807,10 +1585,8 @@ scma:
 <http://anzsoil.org/def/au/scma/19D1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Field test for carbonates with dilute HCl and effervescence class assessment" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/19D1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Field test for carbonates with dilute HCl and effervescence class assessment" ;
   skos:definition "Field test for carbonates with dilute HCl and effervescence class assessment" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "19D1" ;
@@ -1820,10 +1596,8 @@ scma:
 <http://anzsoil.org/def/au/scma/1A1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Field sampling - soil and land use surveys" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/1A1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Field sampling - soil and land use surveys" ;
   skos:definition "Field sampling - soil and land use surveys" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "1A1" ;
@@ -1833,10 +1607,8 @@ scma:
 <http://anzsoil.org/def/au/scma/1A2>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Field sampling - diagnostic" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/1A2"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Field sampling - diagnostic" ;
   skos:definition "Field sampling - diagnostic" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "1A2" ;
@@ -1846,10 +1618,8 @@ scma:
 <http://anzsoil.org/def/au/scma/1B1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Laboratory preparation" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/1B1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Laboratory preparation" ;
   skos:definition "Laboratory preparation" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "1B1" ;
@@ -1858,11 +1628,9 @@ scma:
 .
 <http://anzsoil.org/def/au/scma/2>
   a skos:Collection ;
-  dcterms:description "Sampling, preparation and moisture content" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/2"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-909605-68-1" ;
   ui:topMemberOf <http://anzsoil.org/def/au/scma> ;
-  rdfs:label "Sampling, preparation and moisture content" ;
   skos:definition "Sampling, preparation and moisture content" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:member <http://anzsoil.org/def/au/scma/2A1> ;
@@ -1874,11 +1642,9 @@ scma:
 .
 <http://anzsoil.org/def/au/scma/20>
   a skos:Collection ;
-  dcterms:description "Acid sulfate soils" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/20"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   ui:topMemberOf <http://anzsoil.org/def/au/scma> ;
-  rdfs:label "Acid sulfate soils" ;
   skos:definition "Acid sulfate soils" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:member <http://anzsoil.org/def/au/scma/20A1> ;
@@ -1899,10 +1665,8 @@ scma:
 <http://anzsoil.org/def/au/scma/20A1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Chromium reducible S (S CR)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/20A1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Chromium reducible S (S CR)" ;
   skos:definition "Chromium reducible S (S CR)" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "20A1" ;
@@ -1912,10 +1676,8 @@ scma:
 <http://anzsoil.org/def/au/scma/20B1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "SPOCAS acid trail - titratable actual acidity (TAA)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/20B1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "SPOCAS acid trail - titratable actual acidity (TAA)" ;
   skos:definition "SPOCAS acid trail - titratable actual acidity (TAA)" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "20B1" ;
@@ -1925,10 +1687,8 @@ scma:
 <http://anzsoil.org/def/au/scma/20C1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "SPOCAS acid trail - titratable peroxide acidity (TPA) and Net (excess) Acid Neutralising Capacity (a-ANC E)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/20C1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "SPOCAS acid trail - titratable peroxide acidity (TPA) and Net (excess) Acid Neutralising Capacity (a-ANC E)" ;
   skos:definition "SPOCAS acid trail - titratable peroxide acidity (TPA) and Net (excess) Acid Neutralising Capacity (a-ANC E)" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "20C1" ;
@@ -1938,10 +1698,8 @@ scma:
 <http://anzsoil.org/def/au/scma/20D1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "1 M KCl-extractable S, Ca and Mg" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/20D1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "1 M KCl-extractable S, Ca and Mg" ;
   skos:definition "1 M KCl-extractable S, Ca and Mg" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "20D1" ;
@@ -1951,10 +1709,8 @@ scma:
 <http://anzsoil.org/def/au/scma/20E1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "1 M KCl-extractable S, Ca and Mg after peroxide oxidation" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/20E1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "1 M KCl-extractable S, Ca and Mg after peroxide oxidation" ;
   skos:definition "1 M KCl-extractable S, Ca and Mg after peroxide oxidation" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "20E1" ;
@@ -1964,10 +1720,8 @@ scma:
 <http://anzsoil.org/def/au/scma/20F1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Sulfur - 4 M HCl extraction (S HCl), ICPAES finish" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/20F1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Sulfur - 4 M HCl extraction (S HCl), ICPAES finish" ;
   skos:definition "Sulfur - 4 M HCl extraction (S HCl), ICPAES finish" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "20F1" ;
@@ -1977,10 +1731,8 @@ scma:
 <http://anzsoil.org/def/au/scma/20F2>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Sulfur - 4 M HCl extraction (S HCl), ion chromatography finish" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/20F2"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Sulfur - 4 M HCl extraction (S HCl), ion chromatography finish" ;
   skos:definition "Sulfur - 4 M HCl extraction (S HCl), ion chromatography finish" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "20F2" ;
@@ -1990,10 +1742,8 @@ scma:
 <http://anzsoil.org/def/au/scma/20G1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Peroxide residual acid soluble sulfur (S RAS)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/20G1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Peroxide residual acid soluble sulfur (S RAS)" ;
   skos:definition "Peroxide residual acid soluble sulfur (S RAS)" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "20G1" ;
@@ -2003,10 +1753,8 @@ scma:
 <http://anzsoil.org/def/au/scma/20H1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Acid neutralising capacity - acid reacted and back titration (ANC BT)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/20H1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Acid neutralising capacity - acid reacted and back titration (ANC BT)" ;
   skos:definition "Acid neutralising capacity - acid reacted and back titration (ANC BT)" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "20H1" ;
@@ -2016,10 +1764,8 @@ scma:
 <http://anzsoil.org/def/au/scma/20I1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Acid neutralising capacity - from SPOCAS" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/20I1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Acid neutralising capacity - from SPOCAS" ;
   skos:definition "Acid neutralising capacity - from SPOCAS" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "20I1" ;
@@ -2029,10 +1775,8 @@ scma:
 <http://anzsoil.org/def/au/scma/20J1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Field approximation of ASS hazard" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/20J1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Field approximation of ASS hazard" ;
   skos:definition "Field approximation of ASS hazard" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "20J1" ;
@@ -2042,10 +1786,8 @@ scma:
 <http://anzsoil.org/def/au/scma/20K1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Quick field approximations of ASS presence and associated lime requirement for drain-spoil" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/20K1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Quick field approximations of ASS presence and associated lime requirement for drain-spoil" ;
   skos:definition "Quick field approximations of ASS presence and associated lime requirement for drain-spoil" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "20K1" ;
@@ -2055,10 +1797,8 @@ scma:
 <http://anzsoil.org/def/au/scma/2A1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Air-dry moisture content" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/2A1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Air-dry moisture content" ;
   skos:definition "Air-dry moisture content" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "2A1" ;
@@ -2068,10 +1808,8 @@ scma:
 <http://anzsoil.org/def/au/scma/2B1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "As received moisture content" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/2B1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "As received moisture content" ;
   skos:definition "As received moisture content" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "2B1" ;
@@ -2081,10 +1819,8 @@ scma:
 <http://anzsoil.org/def/au/scma/2C1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Moisture content - 10 mm tension" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/2C1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Moisture content - 10 mm tension" ;
   skos:definition "Moisture content - 10 mm tension" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "2C1" ;
@@ -2094,10 +1830,8 @@ scma:
 <http://anzsoil.org/def/au/scma/2D1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Moisture content - approximate saturation paste" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/2D1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Moisture content - approximate saturation paste" ;
   skos:definition "Moisture content - approximate saturation paste" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "2D1" ;
@@ -2106,11 +1840,9 @@ scma:
 .
 <http://anzsoil.org/def/au/scma/3>
   a skos:Collection ;
-  dcterms:description "Electrical conductivity, related attributes and redox potential" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/3"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   ui:topMemberOf <http://anzsoil.org/def/au/scma> ;
-  rdfs:label "Electrical conductivity, related attributes and redox potential" ;
   skos:definition "Electrical conductivity, related attributes and redox potential" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:member <http://anzsoil.org/def/au/scma/3A1> ;
@@ -2123,10 +1855,8 @@ scma:
 <http://anzsoil.org/def/au/scma/3A1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Electrical conductivity (EC) of 1:5 soil/water extract" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/3A1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Electrical conductivity (EC) of 1:5 soil/water extract" ;
   skos:definition "Electrical conductivity (EC) of 1:5 soil/water extract" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "3A1" ;
@@ -2136,10 +1866,8 @@ scma:
 <http://anzsoil.org/def/au/scma/3B1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Estimated soluble salt concentration" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/3B1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Estimated soluble salt concentration" ;
   skos:definition "Estimated soluble salt concentration" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "3B1" ;
@@ -2149,10 +1877,8 @@ scma:
 <http://anzsoil.org/def/au/scma/3C1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Estimated soil ionic strength" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/3C1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Estimated soil ionic strength" ;
   skos:definition "Estimated soil ionic strength" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "3C1" ;
@@ -2162,10 +1888,8 @@ scma:
 <http://anzsoil.org/def/au/scma/3D1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Redox potential (Eh; field)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/3D1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Redox potential (Eh; field)" ;
   skos:definition "Redox potential (Eh; field)" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "3D1" ;
@@ -2174,11 +1898,9 @@ scma:
 .
 <http://anzsoil.org/def/au/scma/4>
   a skos:Collection ;
-  dcterms:description "Soil pH" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/4"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-909605-68-1" ;
   ui:topMemberOf <http://anzsoil.org/def/au/scma> ;
-  rdfs:label "Soil pH" ;
   skos:definition "Soil pH" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:member <http://anzsoil.org/def/au/scma/4A1> ;
@@ -2203,10 +1925,8 @@ scma:
 <http://anzsoil.org/def/au/scma/4A1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "pH of a 1:5 soil/water suspension" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/4A1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-909605-68-1" ;
-  rdfs:label "pH of a 1:5 soil/water suspension" ;
   skos:definition "pH of a 1:5 soil/water suspension" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "4A1" ;
@@ -2216,10 +1936,8 @@ scma:
 <http://anzsoil.org/def/au/scma/4A2>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "pH of a 1:1 soil/water suspension" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/4A2"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "pH of a 1:1 soil/water suspension" ;
   skos:definition "pH of a 1:1 soil/water suspension" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "4A2" ;
@@ -2229,10 +1947,8 @@ scma:
 <http://anzsoil.org/def/au/scma/4A3>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "pH of a 1:2.5 soil/water suspension" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/4A3"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "pH of a 1:2.5 soil/water suspension" ;
   skos:definition "pH of a 1:2.5 soil/water suspension" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "4A3" ;
@@ -2242,10 +1958,8 @@ scma:
 <http://anzsoil.org/def/au/scma/4B1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "pH of 1:5 soil/0.01 M calcium chloride extract - direct (without stirring during measurement)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/4B1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "pH of 1:5 soil/0.01 M calcium chloride extract - direct (without stirring during measurement)" ;
   skos:definition "pH of 1:5 soil/0.01 M calcium chloride extract - direct (without stirring during measurement)" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "4B1" ;
@@ -2255,10 +1969,8 @@ scma:
 <http://anzsoil.org/def/au/scma/4B2>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "pH of 1:5 soil/0.01 M calcium chloride extract - following method 4A1 (without stirring during measurement)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/4B2"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "pH of 1:5 soil/0.01 M calcium chloride extract - following method 4A1 (without stirring during measurement)" ;
   skos:definition "pH of 1:5 soil/0.01 M calcium chloride extract - following method 4A1 (without stirring during measurement)" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "4B2" ;
@@ -2268,10 +1980,8 @@ scma:
 <http://anzsoil.org/def/au/scma/4B3>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "pH of 1:5 soil/0.01 M calcium chloride extract -direct (without stirring during measurement)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/4B3"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "pH of 1:5 soil/0.01 M calcium chloride extract -direct (without stirring during measurement)" ;
   skos:definition "pH of 1:5 soil/0.01 M calcium chloride extract -direct (without stirring during measurement)" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "4B3" ;
@@ -2281,10 +1991,8 @@ scma:
 <http://anzsoil.org/def/au/scma/4B4>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "pH of 1:5 soil/0.01 M calcium chloride extract - following method 4A1 (with stirring during measurement)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/4B4"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "pH of 1:5 soil/0.01 M calcium chloride extract - following method 4A1 (with stirring during measurement)" ;
   skos:definition "pH of 1:5 soil/0.01 M calcium chloride extract - following method 4A1 (with stirring during measurement)" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "4B4" ;
@@ -2294,10 +2002,8 @@ scma:
 <http://anzsoil.org/def/au/scma/4B5>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "pH of 1:5 soil/0.01 M calcium chloride extract equivalent, by MIR reflectance spectroscopy" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/4B5"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "pH of 1:5 soil/0.01 M calcium chloride extract equivalent, by MIR reflectance spectroscopy" ;
   skos:definition "pH of 1:5 soil/0.01 M calcium chloride extract equivalent, by MIR reflectance spectroscopy" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "4B5" ;
@@ -2307,10 +2013,8 @@ scma:
 <http://anzsoil.org/def/au/scma/4C1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "pH of 1:5 soil/1M potassium chloride extract - direct (without stirring during measurement)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/4C1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "pH of 1:5 soil/1M potassium chloride extract - direct (without stirring during measurement)" ;
   skos:definition "pH of 1:5 soil/1M potassium chloride extract - direct (without stirring during measurement)" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "4C1" ;
@@ -2320,10 +2024,8 @@ scma:
 <http://anzsoil.org/def/au/scma/4C2>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "pH of 1:5 soil/1M potassium chloride extract following method 4A1 (without stirring during measurement)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/4C2"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "pH of 1:5 soil/1M potassium chloride extract following method 4A1 (without stirring during measurement)" ;
   skos:definition "pH of 1:5 soil/1M potassium chloride extract following method 4A1 (without stirring during measurement)" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "4C2" ;
@@ -2333,10 +2035,8 @@ scma:
 <http://anzsoil.org/def/au/scma/4C3>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "pH of 1:5 soil/1M potassium chloride extract - direct (with stirring during measurement)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/4C3"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "pH of 1:5 soil/1M potassium chloride extract - direct (with stirring during measurement)" ;
   skos:definition "pH of 1:5 soil/1M potassium chloride extract - direct (with stirring during measurement)" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "4C3" ;
@@ -2346,10 +2046,8 @@ scma:
 <http://anzsoil.org/def/au/scma/4C4>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "pH of 1:5 soil 1M potassium chloride extract - following method 4A1 (with stirring during measurement)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/4C4"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "pH of 1:5 soil 1M potassium chloride extract - following method 4A1 (with stirring during measurement)" ;
   skos:definition "pH of 1:5 soil 1M potassium chloride extract - following method 4A1 (with stirring during measurement)" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "4C4" ;
@@ -2359,10 +2057,8 @@ scma:
 <http://anzsoil.org/def/au/scma/4D1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "pH of sodium fluoride potential suspension and \\'reactivity class\\'" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/4D1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "pH of sodium fluoride potential suspension and \\'reactivity class\\'" ;
   skos:definition "pH of sodium fluoride potential suspension and \\'reactivity class\\'" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "4D1" ;
@@ -2372,10 +2068,8 @@ scma:
 <http://anzsoil.org/def/au/scma/4E1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "pH of hydrogen peroxide extract" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/4E1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "pH of hydrogen peroxide extract" ;
   skos:definition "pH of hydrogen peroxide extract" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "4E1" ;
@@ -2385,10 +2079,8 @@ scma:
 <http://anzsoil.org/def/au/scma/4F1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "pH change" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/4F1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "pH change" ;
   skos:definition "pH change" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "4F1" ;
@@ -2398,10 +2090,8 @@ scma:
 <http://anzsoil.org/def/au/scma/4G1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Field determination of pH" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/4G1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Field determination of pH" ;
   skos:definition "Field determination of pH" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "4G1" ;
@@ -2410,11 +2100,9 @@ scma:
 .
 <http://anzsoil.org/def/au/scma/5>
   a skos:Collection ;
-  dcterms:description "Soluble chloride" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/5"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   ui:topMemberOf <http://anzsoil.org/def/au/scma> ;
-  rdfs:label "Soluble chloride" ;
   skos:definition "Soluble chloride" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:member <http://anzsoil.org/def/au/scma/5A1> ;
@@ -2430,10 +2118,8 @@ scma:
 <http://anzsoil.org/def/au/scma/5A1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Chloride - 1:5 soil/water extract, potentiometric titration" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/5A1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Chloride - 1:5 soil/water extract, potentiometric titration" ;
   skos:definition "Chloride - 1:5 soil/water extract, potentiometric titration" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "5A1" ;
@@ -2443,12 +2129,10 @@ scma:
 <http://anzsoil.org/def/au/scma/5A2>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Chloride - 1:5 soil/water extract, automated colour" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/5A2"^^xsd:anyURI ;
   dcterms:isReplacedBy <http://anzsoil.org/def/au/scma/5A2a> ;
   dcterms:isReplacedBy <http://anzsoil.org/def/au/scma/5A2b> ;
   dcterms:source "URN:ISBN:978-0-909605-68-1" ;
-  rdfs:label "Chloride - 1:5 soil/water extract, automated colour" ;
   skos:definition "Chloride - 1:5 soil/water extract, automated colour" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:narrower <http://anzsoil.org/def/au/scma/5A2a> ;
@@ -2461,10 +2145,8 @@ scma:
 <http://anzsoil.org/def/au/scma/5A2a>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Chloride - 1:5 soil/water extract, automated colour" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/5A2a"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Chloride - 1:5 soil/water extract, automated colour" ;
   skos:broader <http://anzsoil.org/def/au/scma/5A2> ;
   skos:definition "Chloride - 1:5 soil/water extract, automated colour" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -2474,10 +2156,8 @@ scma:
 <http://anzsoil.org/def/au/scma/5A2b>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Chloride - 1:5 soil/water extract, FIA" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/5A2b"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Chloride - 1:5 soil/water extract, FIA" ;
   skos:broader <http://anzsoil.org/def/au/scma/5A2> ;
   skos:definition "Chloride - 1:5 soil/water extract, FIA" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -2487,10 +2167,8 @@ scma:
 <http://anzsoil.org/def/au/scma/5A3a>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Chloride - 1:5 soil/water extract, ion chromatography (chemical suppression of eluent conductivity)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/5A3a"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Chloride - 1:5 soil/water extract, ion chromatography (chemical suppression of eluent conductivity)" ;
   skos:definition "Chloride - 1:5 soil/water extract, ion chromatography (chemical suppression of eluent conductivity)" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "5A3a" ;
@@ -2500,10 +2178,8 @@ scma:
 <http://anzsoil.org/def/au/scma/5A3b>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Chloride - 1:5 soil/water extract, ion chromatography (single-column with electronic suppression of eluent conductivity)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/5A3b"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Chloride - 1:5 soil/water extract, ion chromatography (single-column with electronic suppression of eluent conductivity)" ;
   skos:definition "Chloride - 1:5 soil/water extract, ion chromatography (single-column with electronic suppression of eluent conductivity)" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "5A3b" ;
@@ -2513,10 +2189,8 @@ scma:
 <http://anzsoil.org/def/au/scma/5A4>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Chloride - 1:5 soil/water extract ICPAES" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/5A4"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Chloride - 1:5 soil/water extract ICPAES" ;
   skos:definition "Chloride - 1:5 soil/water extract ICPAES" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "5A4" ;
@@ -2525,11 +2199,9 @@ scma:
 .
 <http://anzsoil.org/def/au/scma/6>
   a skos:Collection ;
-  dcterms:description "Carbon" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/6"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   ui:topMemberOf <http://anzsoil.org/def/au/scma> ;
-  rdfs:label "Carbon" ;
   skos:definition "Carbon" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:member <http://anzsoil.org/def/au/scma/6A1> ;
@@ -2552,10 +2224,8 @@ scma:
 <http://anzsoil.org/def/au/scma/6A1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Organic C - W&B" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/6A1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Organic C - W&B" ;
   skos:definition "Organic C - W&B" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "6A1" ;
@@ -2565,10 +2235,8 @@ scma:
 <http://anzsoil.org/def/au/scma/6B1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Total organic C - Heanes wet oxidisation" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/6B1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Total organic C - Heanes wet oxidisation" ;
   skos:definition "Total organic C - Heanes wet oxidisation" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "6B1" ;
@@ -2578,10 +2246,8 @@ scma:
 <http://anzsoil.org/def/au/scma/6B2>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Total organic C - Dumas high-temperature combustion" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/6B2"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Total organic C - Dumas high-temperature combustion" ;
   skos:definition "Total organic C - Dumas high-temperature combustion" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:narrower <http://anzsoil.org/def/au/scma/6B2a> ;
@@ -2593,10 +2259,8 @@ scma:
 <http://anzsoil.org/def/au/scma/6B2a>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Total organic C - Dumas high-temperature combustion, volumetric (no soil pretreatment)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/6B2a"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Total organic C - Dumas high-temperature combustion, volumetric (no soil pretreatment)" ;
   skos:broader <http://anzsoil.org/def/au/scma/6B2> ;
   skos:definition "Total organic C - Dumas high-temperature combustion, volumetric (no soil pretreatment)" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -2606,10 +2270,8 @@ scma:
 <http://anzsoil.org/def/au/scma/6B2b>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Total organic C - Dumas high-temperature combustion, infrared/thermal conductivity detection (no soil pretreatment)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/6B2b"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Total organic C - Dumas high-temperature combustion, infrared/thermal conductivity detection (no soil pretreatment)" ;
   skos:broader <http://anzsoil.org/def/au/scma/6B2> ;
   skos:definition "Total organic C - Dumas high-temperature combustion, infrared/thermal conductivity detection (no soil pretreatment)" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -2619,10 +2281,8 @@ scma:
 <http://anzsoil.org/def/au/scma/6B3>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Total organic C - Dumas high-temperature combustion, infrared/thermal conductivity detection (with prior physical removal of charcoal and chemical removal of carbonates)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/6B3"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Total organic C - Dumas high-temperature combustion, infrared/thermal conductivity detection (with prior physical removal of charcoal and chemical removal of carbonates)" ;
   skos:definition "Total organic C - Dumas high-temperature combustion, infrared/thermal conductivity detection (with prior physical removal of charcoal and chemical removal of carbonates)" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "6B3" ;
@@ -2632,10 +2292,8 @@ scma:
 <http://anzsoil.org/def/au/scma/6B4>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Total organic C - infrared diffuse reflectance spectroscopy" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/6B4"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Total organic C - infrared diffuse reflectance spectroscopy" ;
   skos:definition "Total organic C - infrared diffuse reflectance spectroscopy" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:narrower <http://anzsoil.org/def/au/scma/6B4a> ;
@@ -2647,10 +2305,8 @@ scma:
 <http://anzsoil.org/def/au/scma/6B4a>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Total organic C - NIR reflectance spectroscopy" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/6B4a"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Total organic C - NIR reflectance spectroscopy" ;
   skos:broader <http://anzsoil.org/def/au/scma/6B4> ;
   skos:definition "Total organic C - NIR reflectance spectroscopy" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -2660,10 +2316,8 @@ scma:
 <http://anzsoil.org/def/au/scma/6B4b>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Total organic C - MIR reflectance spectroscopy" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/6B4b"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Total organic C - MIR reflectance spectroscopy" ;
   skos:broader <http://anzsoil.org/def/au/scma/6B4> ;
   skos:definition "Total organic C - MIR reflectance spectroscopy" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -2673,10 +2327,8 @@ scma:
 <http://anzsoil.org/def/au/scma/6C1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Particulate organic C (POC)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/6C1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Particulate organic C (POC)" ;
   skos:definition "Particulate organic C (POC)" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "6C1" ;
@@ -2686,10 +2338,8 @@ scma:
 <http://anzsoil.org/def/au/scma/6D1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Pyrophosphate-extractable C" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/6D1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Pyrophosphate-extractable C" ;
   skos:definition "Pyrophosphate-extractable C" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "6D1" ;
@@ -2699,10 +2349,8 @@ scma:
 <http://anzsoil.org/def/au/scma/6E1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Potassium permanganate oxidisable C (PPOC)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/6E1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Potassium permanganate oxidisable C (PPOC)" ;
   skos:definition "Potassium permanganate oxidisable C (PPOC)" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "6E1" ;
@@ -2712,10 +2360,8 @@ scma:
 <http://anzsoil.org/def/au/scma/6F1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Charcoal-C" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/6F1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Charcoal-C" ;
   skos:definition "Charcoal-C" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "6F1" ;
@@ -2725,10 +2371,8 @@ scma:
 <http://anzsoil.org/def/au/scma/6G1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Total organic matter, organic C, and carbonate by loss-on-ignition" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/6G1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Total organic matter, organic C, and carbonate by loss-on-ignition" ;
   skos:definition "Total organic matter, organic C, and carbonate by loss-on-ignition" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "6G1" ;
@@ -2737,11 +2381,9 @@ scma:
 .
 <http://anzsoil.org/def/au/scma/7>
   a skos:Collection ;
-  dcterms:description "Nitrogen" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/7"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   ui:topMemberOf <http://anzsoil.org/def/au/scma> ;
-  rdfs:label "Nitrogen" ;
   skos:definition "Nitrogen" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:member <http://anzsoil.org/def/au/scma/7A1> ;
@@ -2783,10 +2425,8 @@ scma:
 <http://anzsoil.org/def/au/scma/7A1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Total soil-N, semi micro Kjeldahl - steam distillation" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/7A1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Total soil-N, semi micro Kjeldahl - steam distillation" ;
   skos:definition "Total soil-N, semi micro Kjeldahl - steam distillation" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "7A1" ;
@@ -2796,12 +2436,10 @@ scma:
 <http://anzsoil.org/def/au/scma/7A2>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Total soil-N, semi micro Kjeldahl - automated colour|Total nitrogen - semimicro Kjeldahl, automated colour" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/7A2"^^xsd:anyURI ;
   dcterms:isReplacedBy <http://anzsoil.org/def/au/scma/7A2a> ;
   dcterms:isReplacedBy <http://anzsoil.org/def/au/scma/7A2b> ;
   dcterms:source "URN:ISBN:978-0-909605-68-1" ;
-  rdfs:label "Total soil-N, semi micro Kjeldahl - automated colour|Total nitrogen - semimicro Kjeldahl, automated colour" ;
   skos:definition "Total soil-N, semi micro Kjeldahl - automated colour|Total nitrogen - semimicro Kjeldahl, automated colour" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:narrower <http://anzsoil.org/def/au/scma/7A2a> ;
@@ -2814,10 +2452,8 @@ scma:
 <http://anzsoil.org/def/au/scma/7A2a>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Total soil-N, semi micro Kjeldahl - automated colour, continuous segmented flow" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/7A2a"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Total soil-N, semi micro Kjeldahl - automated colour, continuous segmented flow" ;
   skos:broader <http://anzsoil.org/def/au/scma/7A2> ;
   skos:definition "Total soil-N, semi micro Kjeldahl - automated colour, continuous segmented flow" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -2827,10 +2463,8 @@ scma:
 <http://anzsoil.org/def/au/scma/7A2b>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Total soil-N, semi micro Kjeldahl - automated colour - FIA" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/7A2b"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Total soil-N, semi micro Kjeldahl - automated colour - FIA" ;
   skos:broader <http://anzsoil.org/def/au/scma/7A2> ;
   skos:definition "Total soil-N, semi micro Kjeldahl - automated colour - FIA" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -2840,10 +2474,8 @@ scma:
 <http://anzsoil.org/def/au/scma/7A3>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Total soil-N (where nitrate >20 mg N/kg) - steam distillation" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/7A3"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Total soil-N (where nitrate >20 mg N/kg) - steam distillation" ;
   skos:definition "Total soil-N (where nitrate >20 mg N/kg) - steam distillation" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "7A3" ;
@@ -2853,10 +2485,8 @@ scma:
 <http://anzsoil.org/def/au/scma/7A4>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Total-N (where nitrate >20 mg N/kg) - automated colour, continuous segmented flow/FIA" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/7A4"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Total-N (where nitrate >20 mg N/kg) - automated colour, continuous segmented flow/FIA" ;
   skos:definition "Total-N (where nitrate >20 mg N/kg) - automated colour, continuous segmented flow/FIA" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "7A4" ;
@@ -2866,10 +2496,8 @@ scma:
 <http://anzsoil.org/def/au/scma/7A5>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Total soil-N - Dumas high-temperature combustion" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/7A5"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Total soil-N - Dumas high-temperature combustion" ;
   skos:definition "Total soil-N - Dumas high-temperature combustion" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "7A5" ;
@@ -2879,10 +2507,8 @@ scma:
 <http://anzsoil.org/def/au/scma/7A6>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Total soil-N - infrared diffuse reflectance spectroscopy" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/7A6"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Total soil-N - infrared diffuse reflectance spectroscopy" ;
   skos:definition "Total soil-N - infrared diffuse reflectance spectroscopy" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:narrower <http://anzsoil.org/def/au/scma/7A6a> ;
@@ -2894,10 +2520,8 @@ scma:
 <http://anzsoil.org/def/au/scma/7A6a>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Total Soil-N - NIR diffuse reflectance spectroscopy" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/7A6a"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Total Soil-N - NIR diffuse reflectance spectroscopy" ;
   skos:broader <http://anzsoil.org/def/au/scma/7A6> ;
   skos:definition "Total Soil-N - NIR diffuse reflectance spectroscopy" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -2907,10 +2531,8 @@ scma:
 <http://anzsoil.org/def/au/scma/7A6b>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Total soil-N - MIR diffuse reflectance spectroscopy" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/7A6b"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Total soil-N - MIR diffuse reflectance spectroscopy" ;
   skos:broader <http://anzsoil.org/def/au/scma/7A6> ;
   skos:definition "Total soil-N - MIR diffuse reflectance spectroscopy" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -2920,10 +2542,8 @@ scma:
 <http://anzsoil.org/def/au/scma/7B>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Water-soluble nitrate-N" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/7B"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Water-soluble nitrate-N" ;
   skos:definition "Water-soluble nitrate-N" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:narrower <http://anzsoil.org/def/au/scma/7B1> ;
@@ -2935,12 +2555,10 @@ scma:
 <http://anzsoil.org/def/au/scma/7B1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Water-soluble nitrate-N - automated colour|Water soluble nitrate - automated colour" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/7B1"^^xsd:anyURI ;
   dcterms:isReplacedBy <http://anzsoil.org/def/au/scma/7B1a> ;
   dcterms:isReplacedBy <http://anzsoil.org/def/au/scma/7B1b> ;
   dcterms:source "URN:ISBN:978-0-909605-68-1" ;
-  rdfs:label "Water-soluble nitrate-N - automated colour|Water soluble nitrate - automated colour" ;
   skos:broader <http://anzsoil.org/def/au/scma/7B> ;
   skos:definition "Water-soluble nitrate-N - automated colour|Water soluble nitrate - automated colour" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -2953,10 +2571,8 @@ scma:
 <http://anzsoil.org/def/au/scma/7B1a>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Water-soluble nitrate-N - automated colour, continuous segmented flow" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/7B1a"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Water-soluble nitrate-N - automated colour, continuous segmented flow" ;
   skos:broader <http://anzsoil.org/def/au/scma/7B1> ;
   skos:definition "Water-soluble nitrate-N - automated colour, continuous segmented flow" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -2966,10 +2582,8 @@ scma:
 <http://anzsoil.org/def/au/scma/7B1b>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Water-soluble nitrate-N - automated colour, FIA" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/7B1b"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Water-soluble nitrate-N - automated colour, FIA" ;
   skos:broader <http://anzsoil.org/def/au/scma/7B1> ;
   skos:definition "Water-soluble nitrate-N - automated colour, FIA" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -2979,10 +2593,8 @@ scma:
 <http://anzsoil.org/def/au/scma/7B2>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Water-soluble nitrate-N - ion chromatography" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/7B2"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Water-soluble nitrate-N - ion chromatography" ;
   skos:broader <http://anzsoil.org/def/au/scma/7B> ;
   skos:definition "Water-soluble nitrate-N - ion chromatography" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -2992,10 +2604,8 @@ scma:
 <http://anzsoil.org/def/au/scma/7C1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Mineral-N 2 M KCl, steam distillation" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/7C1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Mineral-N 2 M KCl, steam distillation" ;
   skos:definition "Mineral-N 2 M KCl, steam distillation" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:narrower <http://anzsoil.org/def/au/scma/7C1a> ;
@@ -3013,10 +2623,8 @@ scma:
 <http://anzsoil.org/def/au/scma/7C1a>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Ammonium-N (in presence or absence of nitrite) - steam distillation" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/7C1a"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Ammonium-N (in presence or absence of nitrite) - steam distillation" ;
   skos:broader <http://anzsoil.org/def/au/scma/7C1> ;
   skos:definition "Ammonium-N (in presence or absence of nitrite) - steam distillation" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3026,10 +2634,8 @@ scma:
 <http://anzsoil.org/def/au/scma/7C1b>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "(Nitrate + Nitrite)-N - steam distillation" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/7C1b"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "(Nitrate + Nitrite)-N - steam distillation" ;
   skos:broader <http://anzsoil.org/def/au/scma/7C1> ;
   skos:definition "(Nitrate + Nitrite)-N - steam distillation" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3039,10 +2645,8 @@ scma:
 <http://anzsoil.org/def/au/scma/7C1c>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "(Ammonium + Nitrate + Nitrite)-N - steam distillation" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/7C1c"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "(Ammonium + Nitrate + Nitrite)-N - steam distillation" ;
   skos:broader <http://anzsoil.org/def/au/scma/7C1> ;
   skos:definition "(Ammonium + Nitrate + Nitrite)-N - steam distillation" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3052,10 +2656,8 @@ scma:
 <http://anzsoil.org/def/au/scma/7C1d>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "(Ammonium + Nitrate)-N, in presence of nitrite - steam distillation" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/7C1d"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "(Ammonium + Nitrate)-N, in presence of nitrite - steam distillation" ;
   skos:broader <http://anzsoil.org/def/au/scma/7C1> ;
   skos:definition "(Ammonium + Nitrate)-N, in presence of nitrite - steam distillation" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3065,10 +2667,8 @@ scma:
 <http://anzsoil.org/def/au/scma/7C1e>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Nitrate-N, in presence of nitrite - steam distillation" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/7C1e"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Nitrate-N, in presence of nitrite - steam distillation" ;
   skos:broader <http://anzsoil.org/def/au/scma/7C1> ;
   skos:definition "Nitrate-N, in presence of nitrite - steam distillation" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3078,10 +2678,8 @@ scma:
 <http://anzsoil.org/def/au/scma/7C1f>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Nitrate-N, in absence of nitrite - steam distillation" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/7C1f"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Nitrate-N, in absence of nitrite - steam distillation" ;
   skos:broader <http://anzsoil.org/def/au/scma/7C1> ;
   skos:definition "Nitrate-N, in absence of nitrite - steam distillation" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3091,10 +2689,8 @@ scma:
 <http://anzsoil.org/def/au/scma/7C1g>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "(Ammonium + Nitrate)-N, in absence of nitrite - steam distillation" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/7C1g"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "(Ammonium + Nitrate)-N, in absence of nitrite - steam distillation" ;
   skos:broader <http://anzsoil.org/def/au/scma/7C1> ;
   skos:definition "(Ammonium + Nitrate)-N, in absence of nitrite - steam distillation" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3104,10 +2700,8 @@ scma:
 <http://anzsoil.org/def/au/scma/7C1h>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Nitrite-N - steam distillation" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/7C1h"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Nitrite-N - steam distillation" ;
   skos:broader <http://anzsoil.org/def/au/scma/7C1> ;
   skos:definition "Nitrite-N - steam distillation" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3117,12 +2711,10 @@ scma:
 <http://anzsoil.org/def/au/scma/7C2>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Mineral-N 2 M KCl, automated colour|mineral nitrogen with 2M KCl - automated colour" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/7C2"^^xsd:anyURI ;
   dcterms:isReplacedBy <http://anzsoil.org/def/au/scma/7C2a> ;
   dcterms:isReplacedBy <http://anzsoil.org/def/au/scma/7C2b> ;
   dcterms:source "URN:ISBN:978-0-909605-68-1" ;
-  rdfs:label "Mineral-N 2 M KCl, automated colour|mineral nitrogen with 2M KCl - automated colour" ;
   skos:definition "Mineral-N 2 M KCl, automated colour|mineral nitrogen with 2M KCl - automated colour" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:narrower <http://anzsoil.org/def/au/scma/7C2a> ;
@@ -3135,10 +2727,8 @@ scma:
 <http://anzsoil.org/def/au/scma/7C2a>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Mineral-N 2 M KCl, automated colour, continuous segmented flow" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/7C2a"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Mineral-N 2 M KCl, automated colour, continuous segmented flow" ;
   skos:broader <http://anzsoil.org/def/au/scma/7C2> ;
   skos:definition "Mineral-N 2 M KCl, automated colour, continuous segmented flow" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3148,10 +2738,8 @@ scma:
 <http://anzsoil.org/def/au/scma/7C2b>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Mineral-N - 2 M KCl, automated colour, FIA" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/7C2b"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Mineral-N - 2 M KCl, automated colour, FIA" ;
   skos:broader <http://anzsoil.org/def/au/scma/7C2> ;
   skos:definition "Mineral-N - 2 M KCl, automated colour, FIA" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3161,10 +2749,8 @@ scma:
 <http://anzsoil.org/def/au/scma/7D>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Potentially mineralisable N (PMN)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/7D"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Potentially mineralisable N (PMN)" ;
   skos:definition "Potentially mineralisable N (PMN)" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:narrower <http://anzsoil.org/def/au/scma/7D1a> ;
@@ -3179,10 +2765,8 @@ scma:
 <http://anzsoil.org/def/au/scma/7D1a>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Potentially mineralisable N, hot-KCl extraction (PMN KCl) - automated colour, continuous segmented flow" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/7D1a"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Potentially mineralisable N, hot-KCl extraction (PMN KCl) - automated colour, continuous segmented flow" ;
   skos:broader <http://anzsoil.org/def/au/scma/7D> ;
   skos:definition "Potentially mineralisable N, hot-KCl extraction (PMN KCl) - automated colour, continuous segmented flow" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3192,10 +2776,8 @@ scma:
 <http://anzsoil.org/def/au/scma/7D1b>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Potentially mineralisable N, hot-KCl extraction (PMN KCl) - automated colour, FIA" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/7D1b"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Potentially mineralisable N, hot-KCl extraction (PMN KCl) - automated colour, FIA" ;
   skos:broader <http://anzsoil.org/def/au/scma/7D> ;
   skos:definition "Potentially mineralisable N, hot-KCl extraction (PMN KCl) - automated colour, FIA" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3205,10 +2787,8 @@ scma:
 <http://anzsoil.org/def/au/scma/7D1c>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Potentially mineralisable N, hot-KCl extraction (PMN KCl) - NIR diffuse reflectance spectroscopy" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/7D1c"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Potentially mineralisable N, hot-KCl extraction (PMN KCl) - NIR diffuse reflectance spectroscopy" ;
   skos:broader <http://anzsoil.org/def/au/scma/7D> ;
   skos:definition "Potentially mineralisable N, hot-KCl extraction (PMN KCl) - NIR diffuse reflectance spectroscopy" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3218,10 +2798,8 @@ scma:
 <http://anzsoil.org/def/au/scma/7D2a>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Potentially mineralisable N, anaerobic incubation - automated colour, continuous segmented flow" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/7D2a"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Potentially mineralisable N, anaerobic incubation - automated colour, continuous segmented flow" ;
   skos:broader <http://anzsoil.org/def/au/scma/7D> ;
   skos:definition "Potentially mineralisable N, anaerobic incubation - automated colour, continuous segmented flow" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3231,10 +2809,8 @@ scma:
 <http://anzsoil.org/def/au/scma/7D2b>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Potentially mineralisable N, anaerobic incubation - automated colour, FIA" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/7D2b"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Potentially mineralisable N, anaerobic incubation - automated colour, FIA" ;
   skos:broader <http://anzsoil.org/def/au/scma/7D> ;
   skos:definition "Potentially mineralisable N, anaerobic incubation - automated colour, FIA" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3243,11 +2819,9 @@ scma:
 .
 <http://anzsoil.org/def/au/scma/8>
   a skos:Collection ;
-  dcterms:description "Carbon/nitrogen ratio" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/8"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   ui:topMemberOf <http://anzsoil.org/def/au/scma> ;
-  rdfs:label "Carbon/nitrogen ratio" ;
   skos:definition "Carbon/nitrogen ratio" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:member <http://anzsoil.org/def/au/scma/8A1> ;
@@ -3258,10 +2832,8 @@ scma:
 <http://anzsoil.org/def/au/scma/8A1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Total organic carbon/total nitrogen ratio" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/8A1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Total organic carbon/total nitrogen ratio" ;
   skos:definition "Total organic carbon/total nitrogen ratio" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "8A1" ;
@@ -3271,10 +2843,8 @@ scma:
 <http://anzsoil.org/def/au/scma/8B1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Organic carbon - W&B/total nitrogen ratio" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/8B1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Organic carbon - W&B/total nitrogen ratio" ;
   skos:definition "Organic carbon - W&B/total nitrogen ratio" ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "8B1" ;
@@ -3286,7 +2856,6 @@ scma:
   dcterms:identifier "http://anzsoil.org/def/au/scma/9"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   ui:topMemberOf <http://anzsoil.org/def/au/scma> ;
-  rdfs:label "Phosphorus" ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:member <http://anzsoil.org/def/au/scma/9A> ;
@@ -3308,10 +2877,8 @@ scma:
 <http://anzsoil.org/def/au/scma/9A>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Total P" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9A"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Total P" ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9A.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:narrower <http://anzsoil.org/def/au/scma/9A1> ;
@@ -3325,10 +2892,8 @@ scma:
 <http://anzsoil.org/def/au/scma/9A1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Total P - X-ray fluorescence" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9A1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Total P - X-ray fluorescence" ;
   skos:broader <http://anzsoil.org/def/au/scma/9A> ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9A1.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3338,10 +2903,8 @@ scma:
 <http://anzsoil.org/def/au/scma/9A2>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Total P - sodium carbonate fusion" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9A2"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Total P - sodium carbonate fusion" ;
   skos:broader <http://anzsoil.org/def/au/scma/9A> ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9A2.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3351,10 +2914,8 @@ scma:
 <http://anzsoil.org/def/au/scma/9A3a>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Kjeldahl P (KP) - automated colour, FIA/continuous segmented flow" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9A3a"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Kjeldahl P (KP) - automated colour, FIA/continuous segmented flow" ;
   skos:broader <http://anzsoil.org/def/au/scma/9A> ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9A3a.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3364,10 +2925,8 @@ scma:
 <http://anzsoil.org/def/au/scma/9A3b>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Kjeldahl P (KP) - ICPAES" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9A3b"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Kjeldahl P (KP) - ICPAES" ;
   skos:broader <http://anzsoil.org/def/au/scma/9A> ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9A3b.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3377,10 +2936,8 @@ scma:
 <http://anzsoil.org/def/au/scma/9B>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Bicarbonate-extractable P (Colwell-P)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9B"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Bicarbonate-extractable P (Colwell-P)" ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9B.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:narrower <http://anzsoil.org/def/au/scma/9B1> ;
@@ -3392,10 +2949,8 @@ scma:
 <http://anzsoil.org/def/au/scma/9B1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Bicarbonate-extractable P (Colwell-P) - manual colour" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9B1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Bicarbonate-extractable P (Colwell-P) - manual colour" ;
   skos:broader <http://anzsoil.org/def/au/scma/9B> ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9B1.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3405,10 +2960,8 @@ scma:
 <http://anzsoil.org/def/au/scma/9B2>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Bicarbonate-extractable P (Colwell-P) - automated colour, continuous segmented flow/FIA" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9B2"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Bicarbonate-extractable P (Colwell-P) - automated colour, continuous segmented flow/FIA" ;
   skos:broader <http://anzsoil.org/def/au/scma/9B> ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9B2.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3418,10 +2971,8 @@ scma:
 <http://anzsoil.org/def/au/scma/9C>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Olsen-extractable P (Olsen-P)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9C"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Olsen-extractable P (Olsen-P)" ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9C.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:narrower <http://anzsoil.org/def/au/scma/9C1> ;
@@ -3433,10 +2984,8 @@ scma:
 <http://anzsoil.org/def/au/scma/9C1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Olsen-extractable P (Olsen-P) - manual colour" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9C1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Olsen-extractable P (Olsen-P) - manual colour" ;
   skos:broader <http://anzsoil.org/def/au/scma/9C> ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9C1.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3446,12 +2995,10 @@ scma:
 <http://anzsoil.org/def/au/scma/9C2>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Olsen-extractable phosphorus - automated colour|Olsen-extractable P (Olsen-P) - automated colour" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9C2"^^xsd:anyURI ;
   dcterms:isReplacedBy <http://anzsoil.org/def/au/scma/9C2a> ;
   dcterms:isReplacedBy <http://anzsoil.org/def/au/scma/9C2b> ;
   dcterms:source "URN:ISBN:978-0-909605-68-1" ;
-  rdfs:label "Olsen-extractable phosphorus - automated colour|Olsen-extractable P (Olsen-P) - automated colour" ;
   skos:broader <http://anzsoil.org/def/au/scma/9C> ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9C2.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3464,10 +3011,8 @@ scma:
 <http://anzsoil.org/def/au/scma/9C2a>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Olsen-extractable P (Olsen-P) - automated colour, continuous segmented flow" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9C2a"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Olsen-extractable P (Olsen-P) - automated colour, continuous segmented flow" ;
   skos:broader <http://anzsoil.org/def/au/scma/9C2> ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9C2a.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3477,10 +3022,8 @@ scma:
 <http://anzsoil.org/def/au/scma/9C2b>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Olsen-extractable P (Olsen-P) - automated colour/FIA" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9C2b"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Olsen-extractable P (Olsen-P) - automated colour/FIA" ;
   skos:broader <http://anzsoil.org/def/au/scma/9C2> ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9C2b.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3490,10 +3033,8 @@ scma:
 <http://anzsoil.org/def/au/scma/9D1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Lactate-extractable P (Lactate-P) - manual colour" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9D1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Lactate-extractable P (Lactate-P) - manual colour" ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9D1.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "9D1" ;
@@ -3503,10 +3044,8 @@ scma:
 <http://anzsoil.org/def/au/scma/9E>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Fluoride-extractable P (Bray-1 P)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9E"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Fluoride-extractable P (Bray-1 P)" ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9E.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:narrower <http://anzsoil.org/def/au/scma/9E1> ;
@@ -3518,10 +3057,8 @@ scma:
 <http://anzsoil.org/def/au/scma/9E1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Fluoride-extractable P (Bray-1 P) - manual colour" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9E1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Fluoride-extractable P (Bray-1 P) - manual colour" ;
   skos:broader <http://anzsoil.org/def/au/scma/9E> ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9E1.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3531,10 +3068,8 @@ scma:
 <http://anzsoil.org/def/au/scma/9E2>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Fluoride-extractable P (Bray-1 P) - continuous segmented flow/FIA automated colour" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9E2"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Fluoride-extractable P (Bray-1 P) - continuous segmented flow/FIA automated colour" ;
   skos:broader <http://anzsoil.org/def/au/scma/9E> ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9E2.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3544,10 +3079,8 @@ scma:
 <http://anzsoil.org/def/au/scma/9F1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Calcium chloride-extractable P - manual colour" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9F1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Calcium chloride-extractable P - manual colour" ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9F1.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "9F1" ;
@@ -3557,10 +3090,8 @@ scma:
 <http://anzsoil.org/def/au/scma/9F2>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Calcium chloride-extractable P - continuous segmented flow/FIA automated colour" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9F2"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Calcium chloride-extractable P - continuous segmented flow/FIA automated colour" ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9F2.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "9F2" ;
@@ -3570,10 +3101,8 @@ scma:
 <http://anzsoil.org/def/au/scma/9G1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Acid-extractable P (BSES-P) - manual colour" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9G1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Acid-extractable P (BSES-P) - manual colour" ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9G1.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "9G1" ;
@@ -3583,10 +3112,8 @@ scma:
 <http://anzsoil.org/def/au/scma/9G2>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Acid-extractable P (BSES-P) - continuous segmented flow/FIA automated colour" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9G2"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Acid-extractable P (BSES-P) - continuous segmented flow/FIA automated colour" ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9G2.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "9G2" ;
@@ -3596,10 +3123,8 @@ scma:
 <http://anzsoil.org/def/au/scma/9H1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Anion Storage Capacity (previously P Retention)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9H1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Anion Storage Capacity (previously P Retention)" ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9H1.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "9H1" ;
@@ -3609,10 +3134,8 @@ scma:
 <http://anzsoil.org/def/au/scma/9I>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Phosphate Indices" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9I"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Phosphate Indices" ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9I.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:narrower <http://anzsoil.org/def/au/scma/9I1> ;
@@ -3632,10 +3155,8 @@ scma:
 <http://anzsoil.org/def/au/scma/9I1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Phosphate Sorption Index" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9I1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Phosphate Sorption Index" ;
   skos:broader <http://anzsoil.org/def/au/scma/9I> ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9I1.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3645,10 +3166,8 @@ scma:
 <http://anzsoil.org/def/au/scma/9I2a>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "P buffer index - PBI (ColP) - Murphy and Riley|P buffer index - PBI (ColP)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9I2a"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "P buffer index - PBI (ColP) - Murphy and Riley|P buffer index - PBI (ColP)" ;
   skos:broader <http://anzsoil.org/def/au/scma/9I> ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9I2a.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3658,10 +3177,8 @@ scma:
 <http://anzsoil.org/def/au/scma/9I2b>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "P buffer index - PBI (ColP)|P buffer index - PBI (ColP) - ICPAES" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9I2b"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "P buffer index - PBI (ColP)|P buffer index - PBI (ColP) - ICPAES" ;
   skos:broader <http://anzsoil.org/def/au/scma/9I> ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9I2b.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3671,10 +3188,8 @@ scma:
 <http://anzsoil.org/def/au/scma/9I2c>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "P buffer index - PBI (ColP)|P buffer index - PBI (ColP) - Vanadate" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9I2c"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "P buffer index - PBI (ColP)|P buffer index - PBI (ColP) - Vanadate" ;
   skos:broader <http://anzsoil.org/def/au/scma/9I> ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9I2c.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3684,10 +3199,8 @@ scma:
 <http://anzsoil.org/def/au/scma/9I3a>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "P buffer index - PBI (OlsenP)|P buffer index - PBI (OlsenP) - Murphy and Riley" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9I3a"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "P buffer index - PBI (OlsenP)|P buffer index - PBI (OlsenP) - Murphy and Riley" ;
   skos:broader <http://anzsoil.org/def/au/scma/9I> ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9I3a.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3697,10 +3210,8 @@ scma:
 <http://anzsoil.org/def/au/scma/9I3b>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "P buffer index - PBI (OlsenP)|P buffer index - PBI (OlsenP) - ICPAES" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9I3b"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "P buffer index - PBI (OlsenP)|P buffer index - PBI (OlsenP) - ICPAES" ;
   skos:broader <http://anzsoil.org/def/au/scma/9I> ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9I3b.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3710,10 +3221,8 @@ scma:
 <http://anzsoil.org/def/au/scma/9I3c>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "P buffer index - PBI (OlsenP)|P buffer index - PBI (OlsenP) - Vanadate" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9I3c"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "P buffer index - PBI (OlsenP)|P buffer index - PBI (OlsenP) - Vanadate" ;
   skos:broader <http://anzsoil.org/def/au/scma/9I> ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9I3c.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3723,10 +3232,8 @@ scma:
 <http://anzsoil.org/def/au/scma/9I4a>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "P buffer index - PBI (unadj) - Murphy and Riley|P buffer index - PBI (unadj)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9I4a"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "P buffer index - PBI (unadj) - Murphy and Riley|P buffer index - PBI (unadj)" ;
   skos:broader <http://anzsoil.org/def/au/scma/9I> ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9I4a.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3736,10 +3243,8 @@ scma:
 <http://anzsoil.org/def/au/scma/9I4b>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "P buffer index - PBI (unadj) - ICPAES|P buffer index - PBI (unadj)" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9I4b"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "P buffer index - PBI (unadj) - ICPAES|P buffer index - PBI (unadj)" ;
   skos:broader <http://anzsoil.org/def/au/scma/9I> ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9I4b.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3749,10 +3254,8 @@ scma:
 <http://anzsoil.org/def/au/scma/9I4c>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "P buffer index - PBI (unadj)|P buffer index - PBI (unadj) - Vanadate" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9I4c"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "P buffer index - PBI (unadj)|P buffer index - PBI (unadj) - Vanadate" ;
   skos:broader <http://anzsoil.org/def/au/scma/9I> ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9I4c.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3762,10 +3265,8 @@ scma:
 <http://anzsoil.org/def/au/scma/9J>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Phosphate sorption curve" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9J"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Phosphate sorption curve" ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9J.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:narrower <http://anzsoil.org/def/au/scma/9J1> ;
@@ -3777,10 +3278,8 @@ scma:
 <http://anzsoil.org/def/au/scma/9J1>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Phosphate sorption curve - manual colour" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9J1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Phosphate sorption curve - manual colour" ;
   skos:broader <http://anzsoil.org/def/au/scma/9J> ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9J1.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3790,10 +3289,8 @@ scma:
 <http://anzsoil.org/def/au/scma/9J2>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Phosphate sorption curve - continuous segmented flow/FIA automated colour" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9J2"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Phosphate sorption curve - continuous segmented flow/FIA automated colour" ;
   skos:broader <http://anzsoil.org/def/au/scma/9J> ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9J2.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3803,10 +3300,8 @@ scma:
 <http://anzsoil.org/def/au/scma/9K>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Environmental soil P tests" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9K"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Environmental soil P tests" ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9K.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:narrower <http://anzsoil.org/def/au/scma/9K1a> ;
@@ -3819,10 +3314,8 @@ scma:
 <http://anzsoil.org/def/au/scma/9K1a>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Mehlich 3-P saturation ratio (M3PSR colour) [colormetric estimate of P]" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9K1a"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Mehlich 3-P saturation ratio (M3PSR colour) [colormetric estimate of P]" ;
   skos:broader <http://anzsoil.org/def/au/scma/9K> ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9K1a.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3832,10 +3325,8 @@ scma:
 <http://anzsoil.org/def/au/scma/9K1b>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Mehlich 3-P saturation ratio (M3PSR ICPAES) [ICPAES estimate of P]" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9K1b"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Mehlich 3-P saturation ratio (M3PSR ICPAES) [ICPAES estimate of P]" ;
   skos:broader <http://anzsoil.org/def/au/scma/9K> ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9K1b.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
@@ -3845,10 +3336,8 @@ scma:
 <http://anzsoil.org/def/au/scma/9K2>
   a skos:Concept ;
   a sosa:Procedure ;
-  dcterms:description "Colwell-P/PBI (ColP) ratio" ;
   dcterms:identifier "http://anzsoil.org/def/au/scma/9K2"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
-  rdfs:label "Colwell-P/PBI (ColP) ratio" ;
   skos:broader <http://anzsoil.org/def/au/scma/9K> ;
   skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9K2.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
