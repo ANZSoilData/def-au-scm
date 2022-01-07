@@ -1,37 +1,23 @@
-# baseURI: file:///C:/Users/cox075/dev/ENV/anzsoil/def-au-scma/rdf/scma.ttl
+# baseURI: http://anzsoil.org/def/au/scma/
 # imports: http://purl.org/dc/elements/1.1/
-# imports: http://www.w3.org/2004/02/skos/core
+# prefix: scma
 
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix org: <http://www.w3.org/ns/org#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix qb: <http://purl.org/linked-data/cube#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix reg: <http://purl.org/linked-data/registry#> .
-@prefix s: <http://anzsoil.org/def/au/scma/> .
-@prefix schema: <http://schema.org/> .
 @prefix scma: <http://anzsoil.org/def/au/scma/> .
 @prefix sdo: <https://schema.org/> .
-@prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
-@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
 @prefix sosa: <http://www.w3.org/ns/sosa/> .
 @prefix ui: <http://purl.org/linked-data/registry-ui#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<file:///C:/Users/cox075/dev/ENV/anzsoil/def-au-scma/rdf/scma.ttl>
+scma:
   a owl:Ontology ;
-  owl:imports dc: ;
-  owl:imports <http://www.w3.org/2004/02/skos/core> ;
-.
-<http://anzsoil.org/def/au/scma>
   a skos:ConceptScheme ;
   dcterms:accrualPeriodicity <http://purl.org/cld/freq/completelyIrregular> ;
   dcterms:contributor <https://orcid.org/0000-0002-3884-3420> ;
@@ -47,6 +33,8 @@
   dcterms:title "Soil chemical methods - Australasia" ;
   ui:hierarchyChildProperty skos:member ;
   ui:hierarchyRootProperty ui:topMemberOf ;
+  owl:imports dc: ;
+  owl:imports <http://www.w3.org/2004/02/skos/core> ;
   skos:definition """<h2 class=\"h2\"><a id=\"page_1\"></a><a id=\"chapter01\"></a>1</h2>
 <h2 class=\"h2a\">Introduction</h2>
 <p class=\"para\">A plethora of methods for the chemical analysis of soils exists for at least six main reasons: (a) there are many types of soils with widely differing physical and chemical characteristics and problems; (b) the total elemental composition of soils mostly has little consistent association with the ability of soils to provide necessary levels of nutrients for good plant growth; (c) tests that are quick and cheap to perform are often sought for operational and commercial reasons, even when superior procedures exist; (d) technological advances in instrumentation and computing open new analytical opportunities; (e) an ongoing quest by soil scientists and chemists to develop tests superior to those of times past, and (f) broadening demands to deal with emerging natural resource management, soil health and environmental issues. In practice, soil test methodology used by soil testing services varies within and across regions, across states and from one nation to another, making it difficult to exchange meaningful soil chemical information.</p>
@@ -3299,316 +3287,21 @@
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   ui:topMemberOf <http://anzsoil.org/def/au/scma> ;
   rdfs:label "Phosphorus" ;
-  skos:definition """<h2 class=\"h2\"><a id=\"page_147\"></a><a id=\"chapter09\"></a>9</h2>
-<h2 class=\"h2a\">Phosphorus</h2>
-<p class=\"para\">Phosphorus (P) is an essential nutrient, mostly obtained by plants from soil. Unfortunately, few soils are able to continuously meet the P requirements of productive plants, without inputs of phosphatic fertilisers, manures, biosolids and the like. Great progress towards understanding the chemistry and biochemistry of soil and plant P has helped answer questions on the extent of soil P reserves and whether or not a response by plants to P applications might be expected. This chapter draws on that understanding, noting the four key P supply factors are quantity, intensity, rate and capacity.</p>
-<p class=\"indent-para\">The most abundant P mineral is apatite [Ca<sub>5</sub>(F, Cl, OH)(PO<sub>4</sub>)<sub>3</sub>], which has a structure that tolerates numerous cationic replacements for Ca and several anionic replacements for phosphate. In addition, P often occurs in silicate minerals due to isomorphous replacement of Si<sup>4&#43;</sup> by P<sup>5&#43;</sup> in silicate (SiO<sub>4</sub>) tetrahedra. The low solubilities of orthophosphates of Ca, Fe, Al and Pb greatly influence the reactivity of P in natural systems and soils. Free PO<sub>4</sub> ions in soils from natural weathering and from fertilisers are rapidly adsorbed onto the surface of most soils via several mechanisms that commonly involve chemical reactions with Fe, Al, Ca and Mg (see <a href=\"#ch9tab1\">Table 9.1</a>; <a href=\"chapter09a.html#ch09ref83\">Ure and Berrow 1982</a>). P is non-volatile at normal soil temperatures, while the likelihood of P leaching is low in soils with a capacity to remove it from soil solution by fixation or precipitation.</p>
-<h3 class=\"h3a\"><em>Total Soil P</em></h3>
-<p class=\"para\">Total P (TP) concentrations in Australian soils are low by world standards (<a href=\"chapter09a.html#ch09ref51\">Moody and Bolland 1999</a>; <a href=\"chapter09a.html#ch09ref04\">Anon 2001</a>). This is supported by <a href=\"chapter09a.html#ch09ref57\">Norrish and Rosser (1983)</a>, who provided summary data on TP concentrations in a selection of Australian soils. Median concentrations of 0.035 and 0.025% P were obtained from their tabulated data for typical surface and sub-soils, respectively. The concentration range for surface soils was 0.011&#8211;0.169% P. Modelled estimates by <a href=\"chapter09a.html#ch09ref04\">Anon (2001)</a> found the majority of Australian soils associated with all types of land uses, with the exception of irrigated cropping soils, contained &#60;0.02% of TP. <a href=\"chapter09a.html#ch09ref04\">Anon (2001)</a> estimated 16% of horticultural soils contained &#62;0.05% P, with lesser percentages associated with all other land uses. The median concentration of TP for 11 surface horizons of New Zealand reference soils (<a href=\"chapter09a.html#ch09ref85\">Vortman 1980</a>) was 0.049% P, with a range of 0.012&#8211;0.233% P, almost always with lower concentrations in sub-soils.</p>
-<p class=\"caption1\"><a id=\"ch9tab1\"></a><strong>Table 9.1.</strong> Effect of pH on important phosphate complexes found in so&#213; solut&#352;ns.</p>
-<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" class=\"border\">
-<tr>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\"><strong>So&#213; solut&#352;n pH</strong></p></td>
-<td valign=\"top\" class=\"borderbottom\"><p class=\"table\"><strong>Chemical species/complexes in solut&#352;n</strong></p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">&#60;1.3</p></td>
-<td valign=\"top\" class=\"borderbottom1\"><p class=\"table\">Fe<sup>3&#43;</sup>- phosphate complexes</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">1.3&#8211;4.3</p></td>
-<td valign=\"top\" class=\"borderbottom\"><p class=\"table\">Al<sup>3&#43;</sup>- phosphate complexes</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">4.3&#8211;7.2</p></td>
-<td valign=\"top\" class=\"borderbottom1\"><p class=\"table\">Hydrolysed phosphate ions</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderright\"><p class=\"table\">&#62;7.2</p></td>
-<td valign=\"top\"><p class=\"table\">Ca and Mg phosphate complexes</p></td>
-</tr>
-</table>
-<p class=\"image\"><a id=\"page_148\"></a><a id=\"ch9fig1\"></a><img src=\"../images/f0148-01.jpg\" alt=\"Image\"></img></p>
-<p class=\"caption\"><strong>Figure 9.1.</strong> Continuous relationships between concentrations of total soil P (pooled methods) vs median robust % coefficients of variations (CVs), derived from 1997&#8211;2007 ASPAC Proficiency Testing Programs.</p>
-<p class=\"indent-para\">Chemists quickly established that TP concentrations rarely provided a reliable guide to whether or not plants would respond to applications of P. Measurement of TP, however, is highly relevant to mass-balance studies and the like.</p>
-<p class=\"indent-para\">Much of the TP is immobilised in forms not readily available to plants, such as organically bound P and insoluble mineral P. Whether natural to the soil or supplied from external sources, rocks and associated minerals are the primary source of this nutrient. Accordingly, methods to quantify TP derive from those developed for the analysis of silicate rocks (<a href=\"chapter09a.html#ch09ref47\">Metson 1961</a>). These need to function from close to zero concentrations to (less commonly) upwards of 1% P. For example, the average total P concentrations in basaltic rock and granites worldwide are around 0.14 and 0.07% P, respectively (<a href=\"chapter09a.html#ch09ref83\">Ure and Berrow 1982</a>).</p>
-<p class=\"indent-para\">ASPAC has data on TP covering the period 1997&#8211;2007 (e.g. <a href=\"chapter09a.html#ch09ref62\">Peverill and Johnstone 1997</a>; <a href=\"chapter09a.html#ch09ref70\">Rayment <em>et al.</em> 2007</a>). The relationship between TP concentrations on robust coefficients of determination (CVs) shown in <a href=\"#ch9fig1\">Figure 9.1</a> was derived from 72 samples, which ranged in concentration from 0.006&#8211;0.312% P, with a median of 0.039% P.</p>
-<h3 class=\"h3a\"><em>Extractable P</em></h3>
-<p class=\"para\">The lack of success of TP as a diagnostic test stimulated an ongoing quest to quantify and understand what affects and controls the supply of soil P, including extractions to assess readily available fractions. <a href=\"chapter09a.html#ch09ref26\">Dyer (1894)</a> and <a href=\"chapter09a.html#ch09ref71\">Russell and Prescott (1916&#8211;1917)</a> provided early insights, while more recent assessments with a focus on soil test methodology have been published (e.g. <a href=\"chapter09a.html#ch09ref75\">Sibbesen 1983</a>; <a href=\"chapter09a.html#ch09ref60\">O&#8217;Halloran 1993</a>; <a href=\"chapter09a.html#ch09ref40\">Kuo 1996</a>; <a href=\"chapter09a.html#ch09ref51\">Moody and Bolland 1999</a>).</p>
-<p class=\"indent-para\">The amount of P contained in the soil solution and the rate of P diffusion to the plant root surface affects the supply of soil P to plants (e.g. <a href=\"chapter09a.html#ch09ref49\">Moody 1985</a>). Additional factors are soil parent material, weathering processes, soil moisture status, vegetation, and historical land management practices. Not surprisingly, no single extracting reagent for &#8216;available&#8217; or &#8216;extractable&#8217; soil P has been formulated that can mimic the uptake of P by plant roots across the growing season (e.g. <a id=\"page_149\"></a><a href=\"chapter09a.html#ch09ref79\">Thomas and Peaslee 1973</a>; <a href=\"chapter09a.html#ch09ref51\">Moody and Bolland 1999</a>). Nevertheless, efforts to improve the effectiveness of extractable soil P tests are ongoing. One of these, beyond the scope of this chapter, is diffusive gradients in thin films technology (<a href=\"chapter09a.html#ch09ref91\">Zhang 2003</a>, <a href=\"chapter09a.html#ch09ref46\">Menzies <em>et al.</em> 2005</a>).</p>
-<p class=\"indent-para\">Many different extractants for soil P (and sometimes concurrently for other nutrients) have resulted: see Table 7 of <a href=\"chapter09a.html#ch09ref32\">Hedley <em>et al.</em> (1995)</a>. Criteria related to adoption include a good and robust correlation or association between analytical values and other attributes, such as plant yield or fertiliser requirement. In addition, the method also needs to be safe and relatively cheap to apply. A link between extractant chemistry and nutrient uptake by plant roots is an attractive additional criterion for adoption, provided the earlier-mentioned criteria are also met. In practice, the defined method should be followed closely, as changes to the specified extractant, the soil/solution ratio, analytical finish, and temperature of extraction can affect the results obtained. For example, JD Colwell (unpublished data) did indicate that the Colwell-P test performed at 20&#176;C could be expected to yield slightly lower results than obtained for the same soils at 25&#176;C. Specifically, soils testing 5 and 25 mg P/kg at 20&#176;C increased to 5.3 and 25.8 mg P/kg at 25&#176;C.</p>
-<p class=\"indent-para\">Across Australasia, several empirical extractants for soil P are used or are suitable for use by soil testing services. Those in wide use or justified from results of recent research include the bicarbonate extractions of <a href=\"chapter09a.html#ch09ref18\">Colwell (1963)</a> and <a href=\"chapter09a.html#ch09ref58\">Olsen <em>et al.</em> (1954)</a>, lactate-extractable P (<a href=\"chapter09a.html#ch09ref36a\">Holford <em>et al.</em> 1985</a>), fluoride-extractable P (Bray 1; <a href=\"chapter09a.html#ch09ref12\">Bray and Kurtz 1945</a>), dilute CaCl<sub>2</sub>- extractable P (<a href=\"chapter09a.html#ch09ref52\">Moody <em>et al.</em> 1983</a>; <a href=\"chapter09a.html#ch09ref23\">Dear <em>et al.</em> 1992</a>), and acid-extractable P (<a href=\"chapter09a.html#ch09ref39\">Kerr and von Stieglitz 1938</a>). Manual, and in most cases, automated colorimetric procedures for measuring the PO<sub>4</sub>-P present in the relevant soil extracts are included in this chapter. Details of the Mehlich 3-extractable P test (<a href=\"chapter09a.html#ch09ref45\">Mehlich 1984</a>), a popular, universal soil test (<a href=\"chapter09a.html#ch09ref08\">Benton Jones 1990</a>) used widely in North America, are included as Method 18F.</p>
-<p class=\"indent-para\">ASPAC, via its Australasian soil inter-laboratory proficiency programs (e.g. <a href=\"chapter09a.html#ch09ref62\">Peverill and Johnstone 1997</a>; <a href=\"chapter09a.html#ch09ref70\">Rayment <em>et al.</em> 2007</a>), has compiled method performance data on three extractable P tests (Colwell, Olsen, Bray 1) for over a decade. <a href=\"#ch9fig2\">Figure 9.2</a> shows the continuous relationships between median robust co-efficients of variations (robust % CVs) (after the removal of errant data) and corresponding extractable P concentrations for 72 samples for the period 1997&#8211;2007. Although considerable measurement uncertainty exists, the Colwell-P and Olsen-P tests were consistently better performed than was the Bray 1-P test.</p>
-<h3 class=\"h3a\"><em>P fixation/sorption</em></h3>
-<p class=\"para\">Soils have vastly different P sorption properties, sufficient to affect the rates of fertiliser needed to overcome P deficiency (<a href=\"chapter09a.html#ch09ref33\">Helyar and Spencer 1977</a>; <a href=\"chapter09a.html#ch09ref36\">Holford and Mattingly 1979</a>; <a href=\"chapter09a.html#ch09ref41\">Kuo <em>et al.</em> 1988</a>). Further, soils may be grouped on the basis of their ability to remove and/or retain P from aqueous solution. The Japanese have long used a P-sorption coefficient to identify volcanic ash soils (<a href=\"chapter09a.html#ch09ref02\">Anon 1973</a>), while the anion storage capacity test (previously termed phosphate retention test) developed in New Zealand (<a href=\"chapter09a.html#ch09ref73\">Saunders 1965</a>, <a href=\"chapter09a.html#ch09ref74\">1968</a>; <a href=\"chapter09a.html#ch09ref09\">Blakemore <em>et al.</em> 1987</a>) is included in soil taxonomic criteria for confirmation of the dominance of amorphous material (<a href=\"chapter09a.html#ch09ref80\">Thomas <em>et al.</em> 1979</a>).</p>
-<p class=\"indent-para\"><a href=\"chapter09a.html#ch09ref64\">Piper (1944)</a> saw worth in measuring the anion exchange capacity of soils, including &#8216;exchangeable P&#8217;. This was obtained by treating soil with NaOH solution, thus replacing adsorbed P by the hydroxyl ion. Nowadays, anion exchange capacity is viewed as a misleading term from a P-sorption perspective. It is more informative to compare soils at equal residual concentrations of P in solution (<a href=\"chapter09a.html#ch09ref06\">Beckwith 1965</a>).</p>
-<p class=\"indent-para\">P sorption isotherms relate mathematically the amount of P sorbed by soil to the concentration remaining in corresponding equilibrating solutions under a specified set of conditions. Soil/solution ratio, the vigour, the temperature, period of extraction and the chemistry of the supporting electrolyte are critical variables. While the EPC and the slope of the isotherm can be derived for each soil, typically four or more analyses must be performed. This provides data richness but is analytically costly. An alternative is to use an &#8216;index&#8217; or similar approach that significantly lessens the analytical demand to one or two measurements (<a href=\"chapter09a.html#ch09ref23\">Dear <em>et al.</em> 1992</a>).</p>
-<p class=\"image\"><a id=\"page_150\"></a><a id=\"ch9fig2\"></a><img src=\"../images/f0150-01.jpg\" alt=\"Image\"></img></p>
-<p class=\"caption\"><strong>Figure 9.2.</strong> Continuous relationships between extractable P concentrations vs median robust % CVs for 72 samples and three methods, derived from 1997&#8211;2007 ASPAC Proficiency Testing Programs.</p>
-<p class=\"indent-para\"><a href=\"chapter09a.html#ch09ref05\">Bache and Williams (1971)</a> developed a P sorption index based on one addition of 150 mg P/100 g soil with a 17 h period of equilibration. Their &#8216;index&#8217; related to the slopes of P sorption isotherms used to establish their test. Indeed, the slope is an isotherm&#8217;s most distinctive single-value feature. The slope of Q/I plots have also been used to estimate soil P buffering capacity. As soil P buffer capacity increases, the proportion of labile P taken up by plants, whether native or from fertiliser, tends to decrease. Labile soil P typically accounts for &#60;5% of TP, and is less tightly bound than stable P. Some labile P, as well as solution P, is measured with extractable soil P tests.</p>
-<p class=\"indent-para\">Other researchers support the &#8216;index&#8217; approach but with different equilibration conditions. For example, <a href=\"chapter09a.html#ch09ref35\">Holford and Cullis (1985)</a> demonstrated a concentration of 248 mg P/kg was well correlated with fertiliser effectiveness in wheat-growing soils of New South Wales. <a href=\"chapter09a.html#ch09ref50\">Moody <em>et al.</em> (1988)</a> suggested a concentration range for single-point sorption indices of 60&#8211;248 mg P/kg. The New Zealand anion storage capacity test uses a 1000 mg P/L equilibration solution with a contact time of 16 h at a 1:5 soil/solution ratio.</p>
-<p class=\"indent-para\">A PBI test has since been developed for use in Australia (<a href=\"chapter09a.html#ch09ref16\">Burkitt <em>et al.</em> 2002</a>) as a surrogate for characterising the P buffer capacity (P sorptivity or P &#8216;fixing&#8217; ability) of soils. This index originally included in its calculation Colwell-P (PBI<sub>&#43;ColP</sub>) or Olsen-P (PBI<sub>&#43;OlsenP</sub>), but recent research on a small data set (<a href=\"chapter09a.html#ch09ref17\">Burkitt <em>et al.</em> 2008</a>) suggests that an unadjusted PBI is better suited to commercial soil P testing, since it more accurately reflects changes in soil P sorption capacity following P fertilisation.</p>
-<h3 class=\"h3a\"><a id=\"page_151\"></a><em>Environmental P tests</em></h3>
-<p class=\"para\">Whether or not P moves off-site to waterways in quantities of environmental concern is influenced by:</p>
-<p class=\"hangindent-paras1\">&#8226;&#160;&#160;soil type and topography, including propensity to erode and whether the P remains water soluble or rapidly fixes in a form that resists relocation;</p>
-<p class=\"hangindent-paras\">&#8226;&#160;&#160;distance from the paddock to a sensitive waterway or groundwater;</p>
-<p class=\"hangindent-paras\">&#8226;&#160;&#160;direct transport via crop residues, farm animals, fire, and atmospheric cycling, often moderated by riparian vegetation and the like;</p>
-<p class=\"hangindent-paras\">&#8226;&#160;&#160;type of nutrient carrier &#8211; e.g. commercial fertiliser (formulation, particle size, element, whether coated or otherwise), irrigation water, and bio-wastes;</p>
-<p class=\"hangindent-paras\">&#8226;&#160;&#160;the presence/absence of soil and climatic conditions that prevent good plant growth, such as acid soil infertility, high salinity, a nutrient imbalance, adequate plant available water, etc.;</p>
-<p class=\"hangindent-paras\">&#8226;&#160;&#160;the rate, timing and placement of the fertiliser relative to soil fertility status, crop rooting depth, stage of growth, freedom from disease, etc.;</p>
-<p class=\"hangindent-paras\">&#8226;&#160;&#160;the area of land to which nutrients are applied, and</p>
-<p class=\"hangindent-paras2\">&#8226;&#160;&#160;whether the biochemistry of the waterway/water body encourages further releases of fixed P or alternatively assimilates the P in a benign manner.</p>
-<p class=\"indent-para\">Phosphorus is one of the main nutrients responsible for the eutrophication of waterways, causing the aquatic ecosystem&#8217;s primary productivity to increase in harmful ways. Effects include oxygen depletion and severe declines in water quality, fish, and other animal populations. Loss of P from land to water can occur via soil erosion, dissolved in runoff and via leaching. Soil P levels above those required for maximum economic production contribute to the environmental risk, which is exacerbated if portion of the soil P can dissolve in runoff water or in leachates.</p>
-<p class=\"indent-para\">Applications for soil P testing have now expanded in response to a growing need for P-based nutrient management plans. Specifically, soil tests to predict the risk of P transport in runoff have emerged (e.g. <a href=\"chapter09a.html#ch09ref42\">Maguire and Sims 2002</a>; <a href=\"chapter09a.html#ch09ref10\">Bloesch and Rayment 2006</a>; <a href=\"chapter09a.html#ch09ref89\">Withers <em>et al.</em> 2007</a>) and will increase in importance. Soil P tests may also be able to assess the likelihood that the P present in soils that reach and become bottom sediments in waterways have different degrees of redox sensitivity, sufficient to affect the release of soluble P to the water column (<a href=\"chapter09a.html#ch09ref10\">Bloesch and Rayment 2006</a>).</p>
-<p class=\"indent-para\">Two index or ratio tests to assess the risk of P transport in runoff are included. One is the Mehlich 3-P Saturation Ratio (M3PSR) (<a href=\"chapter09a.html#ch09ref42\">Maguire and Sims 2002</a>; <a href=\"chapter09a.html#ch09ref10\">Bloesch and Rayment 2006</a>). A second option is provided by the ratio of Colwell-P/PBI<sub>&#43;ColP</sub> (<a href=\"chapter09a.html#ch09ref53\">Moody <em>et al.</em> 2006</a>). Methods based on extraction with 0.005 M CaCl<sub>2</sub> (methods 9F1/9F2) also warrant consideration.</p>
-<h3 class=\"h3a\"><em>Soil preparation</em></h3>
-<p class=\"para\">Soil samples for P, irrespective of test, are best kept at &#8804;4&#176;C during transport to the laboratory, where they are usually dried, ground and/or sieved and stored before analysis. These processes enable soils to be analysed for a wide range of tests in addition to P.</p>
-<p class=\"indent-para\">Drying may stimulate increased fragility of the organic P fraction of soils, thus leading to possible small changes in extractable soil P fractions (<a href=\"chapter09a.html#ch09ref27\">Etchevers 1986</a>). This possibility, however, is usually ignored for routine soil testing, where drying temperatures of &#8804;40&#8211;45&#176;C for &#8804;24 h are commonly recommended. Fine grinding of &#60;2 mm samples to &#8804;0.5 mm helps <a id=\"page_152\"></a>lower sample heterogeneity and is often used in proficiency testing programs. For empirical tests, however, analysts should use the specified soil particle size.</p>
-<h3 class=\"h3a\"><em>P Methods&#8217; summary</em></h3>
-<p class=\"para\"><a href=\"#ch9tab2\">Table 9.2</a> has summary details on the methods included in this chapter for measuring TP and empirical soil P tests. More details on each are covered in method preambles. Examples of internal laboratory measurement uncertainty are summarised in <a href=\"backmatter02.html#backmatter02\">Appendix 2</a>.</p>
-
-<p class=\"caption1\"><a id=\"page_153\"></a><a id=\"ch9tab2\"></a><strong>Table 9.2.</strong> Summary deta&#213;s of method codes, method titles, technologies and notes on so&#213; P tests described in this chapter, excluding codes for sub-chapter preambles.</p>
-<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" class=\"border\">
-<tr>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\"><strong>Code</strong></p></td>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\"><strong>Technology</strong></p></td>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\"><strong>Test method</strong></p></td>
-<td valign=\"top\" class=\"borderbottom\"><p class=\"table\">Notes</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">9A1</p></td>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">X-ray fluorescence &#8211; dry powder.</p></td>
-<td valign=\"top\" class=\"borderright1\"><p class=\"table\">True total soil P.</p></td>
-<td valign=\"top\" class=\"borderbottom1\"><p class=\"table\">High reliability but requires XRF instrumentation. Method 17A1 provides a multi-element option.</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">9A2</p></td>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">Sodium carbonate fusion.</p></td>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">&#160;</p></td>
-<td valign=\"top\" class=\"borderbottom\"><p class=\"table\">High reliability but analytically tedious.</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">9A3a</p></td>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">Kjeldahl P &#8211; automated colour finish.</p></td>
-<td valign=\"top\" class=\"borderright1\"><p class=\"table\">Kjeldahl P (Kjeldahl digestion).</p></td>
-<td valign=\"top\" class=\"borderleftj\"><p class=\"table\">Not a true estimate of total soil P. Results little affected by analytical finish.</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">9A3b</p></td>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">Kjeldahl P &#8211; ICPAES finish.</p></td>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">&#160;</p></td>
-<td valign=\"top\" class=\"borderbottom1\"><p class=\"table\">&#160;</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">9B1</p></td>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">Empirical extraction &#8211; manual colour finish.</p></td>
-<td valign=\"top\" class=\"borderright1\"><p class=\"table\">Bicarbonate-extractable P (Colwell-P).</p></td>
-<td valign=\"top\" class=\"borderleftj\"><p class=\"table\">9B1 is reference method for Colwell-P. Method 9B has been best or equal best performed empirical P test in ASPAC proficiency programs for &#62;10 y.</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">9B2</p></td>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">Empirical extraction &#8211; automated colour finish.</p></td>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">&#160;</p></td>
-<td valign=\"top\" class=\"borderbottom1\"><p class=\"table\">&#160;</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">9C1</p></td>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">Empirical extraction &#8211; manual colour finish.</p></td>
-<td valign=\"top\" class=\"borderright1\"><p class=\"table\">Olsen-extractable P (Olsen-P).</p></td>
-<td valign=\"top\" class=\"borderleftj\"><p class=\"table\">The analytical finish of the three methods described should have little bearing on expected results.</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">9C2a</p></td>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">Empirical extraction &#8211; automated colour, continuous segmented flow.</p></td>
-<td valign=\"top\" class=\"borderright1\"><p class=\"table\">&#160;</p></td>
-<td valign=\"top\" class=\"borderleftj\"><p class=\"table\">Method 9C has been second-best to equal best performed empirical P test in ASPAC proficiency programs for &#62;10 y.</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">9C2b</p></td>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">Empirical extraction &#8211; automated colour, FIA.</p></td>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">&#160;</p></td>
-<td valign=\"top\" class=\"borderbottom1\"><p class=\"table\">&#160;</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">9D1</p></td>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">Empirical extraction &#8211; manual colour finish.</p></td>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">Lactate-extractable P (Lactate-P).</p></td>
-<td valign=\"top\" class=\"borderbottom\"><p class=\"table\">Little information on measurement performance due to limited adoption in Australasia.</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">9E1</p></td>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">Empirical extraction &#8211; manual colour finish.</p></td>
-<td valign=\"top\" class=\"borderright1\"><p class=\"table\">Fluoride-extractable P (Bray 1-P).</p></td>
-<td valign=\"top\" class=\"borderleftj\"><p class=\"table\">9E1 is reference method for Bray 1-P. Method 9E has consistently been the worst performed empirical P test in ASPAC proficiency programs for &#62;10 y, although there have been recent improvements.</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">9E2</p></td>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">Empirical extraction &#8211; automated colour finish.</p></td>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">&#160;</p></td>
-<td valign=\"top\" class=\"borderbottom1\"><p class=\"table\">&#160;</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright1\"><a id=\"page_154\"></a><p class=\"table\">9F1</p></td>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">Empirical extraction &#8211; manual colour finish.</p></td>
-<td valign=\"top\" class=\"borderright1\"><p class=\"table\">0.005 M calcium chloride-extractable P.</p></td>
-<td valign=\"top\" class=\"borderleftj\"><p class=\"table\">Analytical finish has little bearing on expected results. Little information on between-laboratory measurement performance.</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">9F2</p></td>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">Empirical extraction &#8211; automated colour finish.</p></td>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">&#160;</p></td>
-<td valign=\"top\" class=\"borderbottom1\"><p class=\"table\">&#160;</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">9G1</p></td>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">Empirical extraction &#8211; manual colour finish.</p></td>
-<td valign=\"top\" class=\"borderright1\"><p class=\"table\">Acid-extractable P (BSES-P).</p></td>
-<td valign=\"top\" class=\"borderleftj\"><p class=\"table\">Analytical finish likely to have a small bearing on expected results. Little information on between-laboratory measurement performance.</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">9G2</p></td>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">Empirical extraction &#8211; automated colour finish.</p></td>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">&#160;</p></td>
-<td valign=\"top\" class=\"borderbottom1\"><p class=\"table\">&#160;</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">9H1</p></td>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">Empirical equilibration &#8211; vanadate colour finish.</p></td>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">Anion storage capacity (previously P Retention).</p></td>
-<td valign=\"top\" class=\"borderbottom1\"><p class=\"table\">Robust, relatively insensitive analytical method for soils with similar anion retention properties.</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">9I1</p></td>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">Empirical equilibration &#8211; Murphy &#38; Riley colour finish.</p></td>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">Phosphate sorption index</p></td>
-<td valign=\"top\" class=\"borderbottom\"><p class=\"table\">Little used method nowadays.</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">9I2a</p></td>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">Empirical equilibration &#8211; Murphy &#38; Riley colour finish, &#43; Colwell-P.</p></td>
-<td valign=\"top\" class=\"borderright1\"><p class=\"table\">P buffer index &#8211; PBI<sub>&#43;ColP</sub>.</p></td>
-<td valign=\"top\" class=\"borderleftj\"><p class=\"table\">Method 9I2 results usually differ from corresponding results obtained by Method 9I3.</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">9I2b</p></td>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">Empirical equilibration &#8211; ICPAES, &#43; Colwell-P</p></td>
-<td valign=\"top\" class=\"borderright1\"><p class=\"table\">&#160;</p></td>
-<td valign=\"top\" class=\"borderleftj\"><p class=\"table\">The Murphy and Riley colour finish is preferred when low residual P concentrations are expected.</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">9I2c</p></td>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">Empirical equilibration &#8211; vanadate colour finish, &#43; Colwell-P.</p></td>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">&#160;</p></td>
-<td valign=\"top\" class=\"borderbottom1\"><p class=\"table\">&#160;</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">9I3a</p></td>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">Empirical equilibration &#8211; Murphy &#38; Riley colour finish, &#43; Olsen-P.</p></td>
-<td valign=\"top\" class=\"borderright\"><p class=\"table\">P buffer index &#8211; PBI<sub>&#43;OlsenP</sub>.</p></td>
-<td valign=\"top\"><p class=\"table\">As above.</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">9I3b</p></td>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">Empirical equilibration &#8211; ICPAES, &#43; Olsen-P</p></td>
-<td valign=\"top\" class=\"borderright\"><p class=\"table\">&#160;</p></td>
-<td valign=\"top\"><p class=\"table\">&#160;</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">9I3c</p></td>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">Empirical equilibration &#8211; vanadate colour finish, &#43; Olsen-P.</p></td>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">&#160;</p></td>
-<td valign=\"top\" class=\"borderbottom\"><p class=\"table\">&#160;</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright1\"><a id=\"page_155\"></a><p class=\"table\">9I4a</p></td>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">Empirical equilibration &#8211; Murphy &#38; Riley colour finish, no extractable P adjustment.</p></td>
-<td valign=\"top\" class=\"borderright1\"><p class=\"table\">P buffer index &#8211; PBI<sub>unadj</sub>.</p></td>
-<td valign=\"top\" class=\"borderleftj\"><p class=\"table\">The Murphy and Riley colour finish is preferred when low residual P concentrations are expected.</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">9I4b</p></td>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">Empirical equilibration &#8211; ICPAES, no extractable P adjustment.</p></td>
-<td valign=\"top\" class=\"borderright1\"><p class=\"table\">&#160;</p></td>
-<td valign=\"top\" class=\"borderleftj\"><p class=\"table\">&#160;</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">9I4c</p></td>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">Empirical equilibration &#8211; vanadate colour finish, no extractable P adjustment.</p></td>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">&#160;</p></td>
-<td valign=\"top\" class=\"borderbottom1\"><p class=\"table\">&#160;</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">9J1</p></td>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">Empirical equilibration with graded P concentrations &#8211; manual colour.</p></td>
-<td valign=\"top\" class=\"borderright\"><p class=\"table\">Phosphate sorption curve for EPC and PBC.</p></td>
-<td valign=\"top\"><p class=\"table\">Method mostly used for soil research purposes. Unsuited to routine soil testing operations.</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">9J2</p></td>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">Empirical equilibration with graded P concentrations &#8211; automated colour.</p></td>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">&#160;</p></td>
-<td valign=\"top\" class=\"borderbottom\"><p class=\"table\">&#160;</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">9K1a</p></td>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">Molar ratio calculation, with colorimetric P and ICPAES for Fe and Al.</p></td>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">Mehlich 3-P saturation ratio (M3PSR<sub>colourP</sub>)</p></td>
-<td valign=\"top\"><p class=\"table\">Expect P component analysed by Murphy and Riley to be slightly lower than corresponding result obtained by ICPAES (<a href=\"chapter09a.html#ch09ref63\">Pierzynski et al. 2005</a>). Little effect on interpretation is expected.</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">9K1b</p></td>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">Molar ratio calculation, with ICPAES estimate of P, Fe and Al.</p></td>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">Mehlich 3-P saturation ratio (M3PSR<sub>ICPAES</sub>).</p></td>
-<td valign=\"top\" class=\"borderbottom\"><p class=\"table\">&#160;</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderright\"><p class=\"table\">9K2</p></td>
-<td valign=\"top\" class=\"borderright\"><p class=\"table\">Calculation.</p></td>
-<td valign=\"top\" class=\"borderright\"><p class=\"table\">Colwell-P/PBI<sub>&#43;ColP</sub> ratio.</p></td>
-<td valign=\"top\"><p class=\"table\">Performance assessed using &#62;100 cropping soils from Queensland catchments that drain to the Great Barrier Reef World Heritage Area (<a href=\"chapter09a.html#ch09ref53\">Moody <em>et al.</em> 2006</a>).</p></td>
-</tr>
-</table>"""^^rdf:HTML ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:member <http://anzsoil.org/def/au/scma/9A> ;
-  skos:member <http://anzsoil.org/def/au/scma/9A1> ;
-  skos:member <http://anzsoil.org/def/au/scma/9A2> ;
-  skos:member <http://anzsoil.org/def/au/scma/9A3a> ;
-  skos:member <http://anzsoil.org/def/au/scma/9A3b> ;
   skos:member <http://anzsoil.org/def/au/scma/9B> ;
-  skos:member <http://anzsoil.org/def/au/scma/9B1> ;
-  skos:member <http://anzsoil.org/def/au/scma/9B2> ;
   skos:member <http://anzsoil.org/def/au/scma/9C> ;
-  skos:member <http://anzsoil.org/def/au/scma/9C1> ;
-  skos:member <http://anzsoil.org/def/au/scma/9C2> ;
-  skos:member <http://anzsoil.org/def/au/scma/9C2a> ;
-  skos:member <http://anzsoil.org/def/au/scma/9C2b> ;
   skos:member <http://anzsoil.org/def/au/scma/9D1> ;
   skos:member <http://anzsoil.org/def/au/scma/9E> ;
-  skos:member <http://anzsoil.org/def/au/scma/9E1> ;
-  skos:member <http://anzsoil.org/def/au/scma/9E2> ;
   skos:member <http://anzsoil.org/def/au/scma/9F1> ;
   skos:member <http://anzsoil.org/def/au/scma/9F2> ;
   skos:member <http://anzsoil.org/def/au/scma/9G1> ;
   skos:member <http://anzsoil.org/def/au/scma/9G2> ;
   skos:member <http://anzsoil.org/def/au/scma/9H1> ;
   skos:member <http://anzsoil.org/def/au/scma/9I> ;
-  skos:member <http://anzsoil.org/def/au/scma/9I1> ;
-  skos:member <http://anzsoil.org/def/au/scma/9I2a> ;
-  skos:member <http://anzsoil.org/def/au/scma/9I2b> ;
-  skos:member <http://anzsoil.org/def/au/scma/9I2c> ;
-  skos:member <http://anzsoil.org/def/au/scma/9I3a> ;
-  skos:member <http://anzsoil.org/def/au/scma/9I3b> ;
-  skos:member <http://anzsoil.org/def/au/scma/9I3c> ;
-  skos:member <http://anzsoil.org/def/au/scma/9I4a> ;
-  skos:member <http://anzsoil.org/def/au/scma/9I4b> ;
-  skos:member <http://anzsoil.org/def/au/scma/9I4c> ;
   skos:member <http://anzsoil.org/def/au/scma/9J> ;
-  skos:member <http://anzsoil.org/def/au/scma/9J1> ;
-  skos:member <http://anzsoil.org/def/au/scma/9J2> ;
   skos:member <http://anzsoil.org/def/au/scma/9K> ;
-  skos:member <http://anzsoil.org/def/au/scma/9K1a> ;
-  skos:member <http://anzsoil.org/def/au/scma/9K1b> ;
-  skos:member <http://anzsoil.org/def/au/scma/9K2> ;
   skos:notation "9" ;
   skos:prefLabel "Phosphorus" ;
 .
@@ -3619,10 +3312,7 @@
   dcterms:identifier "http://anzsoil.org/def/au/scma/9A"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   rdfs:label "Total P" ;
-  skos:definition """<h3 class=\"h3\"><a id=\"chapter09sec01\"></a>9A Total P</h3>
-<p class=\"para\">Three methods for TP, one based on X-ray fluorescence (XRF), the second based on fusion with sodium carbonate (Na<sub>2</sub>CO<sub>3</sub>), and a third obtained following Kjeldahl digestion, are described. In addition, <a href=\"chapter17.html#chapter17\">Chapter 17</a> includes methods that involve digestion with strong acids that, like Kjeldahl P, provide &#8216;pseudo-totals&#8217; lower than the true value. Proficiency testing services should take account of likely differences between methods before &#8216;pooling&#8217; results during the assessment of measurement performance for TP.</p>
-<p class=\"indent-para\">Digestion procedures involving use of hydrofluoric acid (HF) and perchloric acid (HClO<sub>4</sub>) have been avoided due to safety concerns in some laboratories. One such method uses boiling hydrochloric acid (HCl) following a pre-ignition treatment known to reduce the solubility of soil-titanium compounds to about 10&#8211;20% of those of &#8216;paired&#8217; non-ignited soils. That method (<a href=\"chapter09a.html#ch09ref07\">Beckwith and Little 1963</a>) uses 70% HClO<sub>4</sub> to expel excess HCl.</p>
-"""^^rdf:HTML ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9A.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:narrower <http://anzsoil.org/def/au/scma/9A1> ;
   skos:narrower <http://anzsoil.org/def/au/scma/9A2> ;
@@ -3640,66 +3330,7 @@
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   rdfs:label "Total P - X-ray fluorescence" ;
   skos:broader <http://anzsoil.org/def/au/scma/9A> ;
-  skos:definition """<h3 class=\"h3\"><a id=\"chapter09sec02\"></a>9A1 Total P &#8211; X-ray fluorescence</h3>
-<p class=\"para\">This method is based on techniques described by <a href=\"chapter09a.html#ch09ref56a\">Norrish and Hutton (1964)</a>, <a href=\"chapter09a.html#ch09ref56\">Norrish and Chappell (1967)</a> and <a href=\"chapter09a.html#ch09ref14\">Brown and Kanaris-Sotiriov (1969)</a>. Dry-powder pellets of finely divided (&#60;0.05 mm) soil are used. Quantitative analysis by XRF should have measurement accuracy as good as 10% (<a href=\"chapter09a.html#ch09ref84\">Vempati <em>et al.</em> 1996</a>), which is superior to the ASPAC &#8216;pooled&#8217; data (<a href=\"#ch9fig1\">Figure 9.1</a>) that have a median robust CV of 13%. Note that Method 17A1 provides an alternative multi-elemental XRF option that uses modern instrumentation. Both total P and total S could be included in the multi-element suite.</p>
-<h3 class=\"h3a\"><em>Reagents</em></h3>
-<p class=\"para\"><em>Boric Acid</em></p>
-<p class=\"para\">Technical grade boric acid (H<sub>3</sub>BO<sub>3</sub>).</p>
-<p class=\"para1\"><em>Silica</em></p>
-<p class=\"para\">This may be purchased. Alternatively, prepare as described by <a href=\"chapter09a.html#ch09ref34\">Hewitt (1966)</a>.</p>
-<p class=\"para1\"><em>Phosphorus Standard</em></p>
-<p class=\"para\">1 mL contains 10 mg of P.</p>
-<p class=\"indent-para\">Weigh 4.3936 g potassium dihydrogen phosphate (KH<sub>2</sub>PO<sub>4</sub>; previously dried at 130&#176;C for 2 h), dissolve, and dilute to 100 mL with deionised water in a volumetric flask. Add 2 drops of chloroform (CHCl<sub>3</sub>) to suppress biological activity. When stored in a sealed, chemically inert container at &#8776;4&#176;C, this solution should remain stable for at least 2&#8211;3 months.</p>
-<p class=\"para1\"><em>Preparation of Solid, Standard Pellets</em></p>
-<p class=\"para\">Add volumes of P Standard to weighed quantities of silica, as outlined in <a href=\"#ch9tab3\">Table 9.3</a>. Weigh the required silica into clean beakers. Distribute the P Standard dropwise over the surface of the silica so that all the solution is adsorbed on the silica without wetting any part of the beaker. Dry the impregnated silica (65&#176;C), grind to &#60;0.05 mm and press into a pellet as described later. These pellets have an extended life. When soils contain concentrations &#62;0.5% P, add appropriate quantities of powdered KH<sub>2</sub>PO<sub>4</sub> to adjusted weights of silica.</p>
-
-<h3 class=\"h3a\"><em>Procedure</em></h3>
-<p class=\"para\"><em>Preparation of Pellets</em></p>
-<p class=\"para\">Oven dry (65&#176;C) &#8776;10 g of air-dry soil (&#60;2 mm), add 0.5 g H<sub>3</sub>BO<sub>3</sub> to serve as a binder, place into a clean 100 g capacity ring and pluck head, and grind in a &#8216;shatterbox&#8217; for a minimum of 2 min, or until soil particle size is &#60;0.05 mm (see Note 1). Pellet about 2 g of soil plus H<sub>3</sub>BO<sub>3</sub> mix (&#60;0.05 mm) into a 45 mm dia disc with a H<sub>3</sub>BO<sub>3</sub> backing, using a hydraulic press of around 25 tonne total force.</p>
-<p class=\"para1\"><em>Analysis</em></p>
-<p class=\"para\">Follow manufacturer&#8217;s recommendations with respect to instrument set-up. This will typically be a sequential/simultaneous XRF spectrometer, probably with fixed channel monochromators optimised for P. When feasible, make the nett count (i.e. peak-background) equal to the concentration of the standard pellet (or related to it by some power of 10), so that elemental concentration may be recorded directly from the display.</p>
-<p class=\"indent-para\">Report total P (%). An oven-dry basis can be assumed.</p>
-<h3 class=\"h3a\"><em>Note</em></h3>
-<p class=\"hangindent-para\">1.&#160;&#160;Soil sample residues in the grinding head of the &#8216;shatterbox&#8217; can be a serious source of contamination, especially when components become worn. For routine applications, these residues can be overcome between samples by scrubbing and washing with water then drying. Alternatively, the residues can be minimised by grinding a small quantity of acid-washed silica sand between each unknown sample.</p>
-
-<p class=\"caption1\"><a id=\"page_156\"></a><a id=\"ch9tab3\"></a><strong>Table 9.3.</strong> Volumes of P standard and weights of s&#213;ica for preparat&#352;n of pellets of known P content.</p>
-<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" class=\"border\">
-<tr>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\"><strong>Wt. of s&#213;ica (g)</strong></p></td>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\"><strong>Vol. of P standard (mL)</strong></p></td>
-<td valign=\"top\" class=\"borderbottom\"><p class=\"table\"><strong>Equivalent so&#213; concentrat&#352;n (%P)</strong></p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">4.8902</p></td>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">2.50</p></td>
-<td valign=\"top\" class=\"borderbottom1\"><p class=\"table\">0.50</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">4.9451</p></td>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">1.25</p></td>
-<td valign=\"top\" class=\"borderbottom1\"><p class=\"table\">0.25</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">4.9780</p></td>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">0.50</p></td>
-<td valign=\"top\" class=\"borderbottom1\"><p class=\"table\">0.10</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">4.9890</p></td>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"table\">0.25</p></td>
-<td valign=\"top\" class=\"borderbottom\"><p class=\"table\">0.05</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">4.9945</p></td>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"table\">0.125</p></td>
-<td valign=\"top\" class=\"borderbottom1\"><p class=\"table\">0.025</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderright\"><p class=\"table\">4.9978</p></td>
-<td valign=\"top\" class=\"borderright\"><p class=\"table\">0.050</p></td>
-<td valign=\"top\"><p class=\"table\">0.01</p></td>
-</tr>
-</table>"""^^rdf:HTML ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9A1.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "9A1" ;
   skos:prefLabel "Total P - X-ray fluorescence" ;
@@ -3712,46 +3343,7 @@
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   rdfs:label "Total P - sodium carbonate fusion" ;
   skos:broader <http://anzsoil.org/def/au/scma/9A> ;
-  skos:definition """<h3 class=\"h3\"><a id=\"chapter09sec03\"></a>9A2 Total P &#8211; sodium carbonate fusion</h3>
-<p class=\"para\">The reliable sodium carbonate fusion procedure is similar to that described by <a href=\"chapter09a.html#ch09ref09\">Blakemore <em>et al.</em> (1987)</a>, with modifications to suit Australian soils. Results compare favourably with perchloric acid digestion (<a href=\"chapter09a.html#ch09ref59\">O&#8217;Connor and Syers 1975</a>). It is preferred over persulfate digestion, which can give low recoveries caused by the incomplete extraction of P occluded within oxides and hydrous oxides of Fe.</p>
-<h3 class=\"h3a\"><a id=\"page_157\"></a><em>Reagents</em></h3>
-<p class=\"para\"><em>Sodium Carbonate</em></p>
-<p class=\"para\">Anhydrous Na<sub>2</sub>CO<sub>3</sub>.</p>
-<p class=\"para1\"><em>4.5 M Sulfuric Acid</em></p>
-<p class=\"para1\"><em>2.25 M Sulfuric Acid</em></p>
-<p class=\"para1\"><em>0.5 M Sulfuric Acid</em></p>
-<p class=\"para1\"><em>Reagent A (Ammonium Molybdate &#8211; Sulfuric Acid &#8211; Sb Solution)</em></p>
-<p class=\"para\">Dissolve 12.0 g of ammonium molybdate ((NH<sub>4</sub>)<sub>6</sub>Mo<sub>7</sub>O<sub>24</sub>.4H<sub>2</sub>O) in 400 mL of warmed (not above 50&#176;C) distilled (preferred) or deionised water then cool. Add 140 mL sulfuric acid (H<sub>2</sub>SO<sub>4</sub>; 18 M) slowly and with stirring to another 400 mL distilled or deionised water and cool. To a further 100 mL of water dissolve 0.267 g potassium antimony tartrate (KSbO. C<sub>4</sub>H<sub>4</sub>O<sub>6</sub>). Combine by adding with stirring the ammonium molybdate solution to the diluted H<sub>2</sub>SO<sub>4</sub>. Recool, add the potassium antimony tartrate solution and make to 1.0 L with water. Store in borosilicate glass in a cool place to achieve a shelf life of several months. This solution contains 1.2% ammonium molybdate and 0.1 mg Sb/mL in &#8776;2.5 M H<sub>2</sub>SO<sub>4</sub>.</p>
-<p class=\"para1\"><em>Mixed Colour Reagent</em></p>
-<p class=\"para\">For each 100 mL required, dissolve 1.056 g <em>l</em>-ascorbic acid (C<sub>6</sub>H<sub>8</sub>O<sub>6</sub>) in 100 mL of Reagent A. Prepare only as required as the shelf life does not exceed 24 h.</p>
-<p class=\"para1\"><em>p-Nitrophenol Indicator</em></p>
-<p class=\"para\">Dissolve 0.5 g p-nitrophenol (NO<sub>2</sub>C<sub>6</sub>H<sub>4</sub>OH) in 25 mL deionised water.</p>
-<p class=\"para1\"><em>1&#43;1 Ammonium Hydroxide</em></p>
-<p class=\"para\">Dilute 50 mL ammonium hydroxide (NH<sub>4</sub>OH; sg. 0.90) to 100 mL with deionised water.</p>
-<p class=\"para1\"><em>Na<sub>2</sub>CO<sub>3</sub>-H<sub>2</sub>SO<sub>4</sub> Reagent Blank</em></p>
-<p class=\"para\">This solution is prepared concurrently with the samples. Fuse 6.0 g anhydrous Na<sub>2</sub>CO<sub>3</sub> as described in the procedure for soils. After cooling, dissolve the melt with 30 mL of 4.5 M H<sub>2</sub>SO<sub>4</sub> and make volume to 200 mL with deionised water.</p>
-<p class=\"para1\"><em>Phosphorus Primary Standard</em></p>
-<p class=\"para\">1 L contains 50.0 mg of P.</p>
-<p class=\"indent-para\">Dissolve 0.1098 g potassium dihydrogen phosphate (KH<sub>2</sub>PO<sub>4</sub>; previously dried at 130&#176;C for 2 h) in deionised water. After making volume to 500 mL with deionised water, add 2 drops of chloroform (CHCl<sub>3</sub>) to suppress biological activity. When stored in a sealed, chemically inert container at &#8776;4&#176;C, this solution should remain stable for at least 2&#8211;3 months.</p>
-<p class=\"para1\"><em>Phosphorus Secondary Standard</em></p>
-<p class=\"para\">1 L contains 1.0 mg of P.</p>
-<p class=\"indent-para\">Take 10 mL P Primary Standard and dilute to 500 mL in a volumetric flask with deionised water. Freshly prepare when P Working Standards are required.</p>
-<p class=\"para1\"><a id=\"page_158\"></a><em>Phosphorus Working Standards</em></p>
-<p class=\"para\">Pipette 0, 5.0, 10.0, 15.0, 20.0 and 25.0 mL aliquots of P Secondary Standard to separate 100 mL volumetric flasks. Add 10 mL of the Na<sub>2</sub>CO<sub>3</sub>-H<sub>2</sub>SO<sub>4</sub> reagent blank and dilute to &#8776;80 mL with deionised water. Solutions contain 0, 5.0, 10.0, 15.0, 20.0 and 25.0 &#956;g P, respectively. These P Working Standards are carried through the analysis procedure concurrently with the soil assays. Replace these working standards weekly.</p>
-<h3 class=\"h3a\"><em>Procedure</em></h3>
-<p class=\"para\"><em>Fusion with Sodium Carbonate</em></p>
-<p class=\"para\">Weigh 0.250 g of finely ground (&#60;0.1 mm) air-dry soil into a 60 mL platinum crucible or palau dish. Add approx. two-thirds of a weighed 3.0 g amount of anhydrous sodium carbonate (Na<sub>2</sub>CO<sub>3</sub>) and stir thoroughly with a platinum wire or glass rod. Cover the mix with the residual 1 g Na<sub>2</sub>CO<sub>3</sub>. Place the covered dish at a slight angle on a silica triangle over a Bunsen/Meeker gas burner. Heat gently for about 5 min until the sample is molten, carefully lifting cover to allow air to enter. It is important to ensure the burner&#8217;s flame does not completely envelop the dish in order to avoid reducing conditions during fusion. The hot crucible should be held with platinum-tipped tongs.</p>
-<p class=\"indent-para\">Increase heat gradually until full heat of the flame is being used. The bottom of the crucible/dish should be bright cherry-red. Maintain this heat for 25&#8211;30 min and periodically remove the lid to allow admission of air, and swirl the dish and contents. Any fusion mixture adhering to the underside of the lid should be fused by heating the lid in the flame.</p>
-<p class=\"indent-para\">Hold the crucible/dish with platinum-tipped tongs and swirl until melt has solidified around the sides. Cool and transfer contents of the crucible/dish plus lid to a 250 mL beaker. Wash any residue off the underside of the lid with about 2 mL of 4.5 M H<sub>2</sub>SO<sub>4</sub> from a graduated pipette, then set lid aside. Cover beaker with watch-glass and carefully add a further 13 mL of 4.5 M H<sub>2</sub>SO<sub>4</sub> into dish through the gap between beaker spout and a watch-glass cover. When effervescence has completely subsided, tip contents of the crucible/dish into the beaker and remove the crucible/dish after washing it thoroughly with hot deionised water.</p>
-<p class=\"indent-para\">Digest for 1 h on a boiling water bath and filter (Whatman No. 42) into a 100 mL volumetric flask. Wash beaker and filter paper with hot deionised water, cool, and make to volume. At this point, the P in solution can be measured as orthophosphate, as any polyphosphates that may form during fusion will be hydrolysed.</p>
-<h3 class=\"h3a\"><em>Analysis</em></h3>
-<p class=\"para\">Pipette a 10 mL aliquot of the prepared solution containing not more than 25 &#956;g P, into a 100 mL volumetric flask. Dilute with deionised water to about 80 mL and then adjust the solution to about pH 5 as follows: add 1 drop of <em>p</em>-nitrophenol indicator and then add 1 &#43; 1 NH<sub>4</sub>OH drop by drop until the solution just turns yellow (for a 10 mL aliquot this should take from 1.0 to 2.0 mL). Add 0.5 M H<sub>2</sub>SO<sub>4</sub> drop by drop until the solution just loses its yellow colour. Ignore any precipitates of Fe and Al hydroxides that may form, as these redissolve when acid molybdate is added during colour development. Add 8 mL Mixed Colour Reagent, make to volume with deionised water and mix well. The colour remains stable for about 24 h and maximum intensity is reached in &#8776;10 min. After 30 min, measure the absorbance at 882 nm.</p>
-<p class=\"indent-para\">The P Working Standard solutions are treated with p-nitrophenol, etc., in the same manner as the diluted soil assays. Prepare a calibration curve of absorbance against concentration of the standards and interpolate (or calculate) the P concentration for the assays in &#956;g P in 100 mL.</p>
-<h3 class=\"h3a\"><a id=\"page_159\"></a><em>Calculation</em></h3>
-<p class=\"para\">For 0.25 g air-dry sample in 100 mL, and 10 mL aliquot in 100 mL:</p>
-<p class=\"center-paras\">% P = [P in final 100 mL (&#956;g P) &#215; 0.004]</p>
-<p class=\"indent-para\">Report total P (%) on an oven-dry basis. Use the air-dry moisture to oven-dry moisture ratio to make the oven-dry conversion. Refer to Method 2A1 for guidance with regard to this soil moisture calculation.</p>
-"""^^rdf:HTML ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9A2.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "9A2" ;
   skos:prefLabel "Total P - sodium carbonate fusion" ;
@@ -3764,52 +3356,7 @@
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   rdfs:label "Kjeldahl P (KP) - automated colour, FIA/continuous segmented flow" ;
   skos:broader <http://anzsoil.org/def/au/scma/9A> ;
-  skos:definition """<h3 class=\"h3\"><a id=\"chapter09sec04\"></a>9A3a Kjeldahl P (KP) &#8211; automated colour, FIA/continuous segmented flow</h3>
-<p class=\"para\">Method 7A2a for total Kjeldahl N uses a semi-micro Kjeldahl front-end, wherein the Kjeldahl digest described in Method 7A1 is diluted to a known volume prior to subsequent instrumental analysis. This related method is based on use of 50 mL digestion tubes heated on a drilled aluminium (Al) block on a hot-plate. The Kjeldahl digestion uses 18 M H<sub>2</sub>SO<sub>4</sub> with sodium sulfate (Na<sub>2</sub>SO<sub>4</sub>) to raise the boiling point, and copper as a catalyst. All or almost all P in the sample is converted to orthophosphate.</p>
-<p class=\"indent-para\">Subsequently, orthophosphate in the digest is determined by a colorimetric method utilising flow injection analysis (FIA) or a continuous segmented flow alternative. The FIA technology is briefly described in Method 7A2b, while the colorimetric reaction involves use of ammonium molybdate and potassium antimony tartrate under acidic conditions. The molybdenum-blue complex, formed following reduction with ascorbic acid, absorbs at 882 nm. Soluble silicate can cause positive analytical interference, but a silicate concentration &#62;100 mg/L would be needed to produce an error of 0.015 mg P/L. Kjeldahl N and K in soil can also be determined using this method; see Note 1.</p>
-<p class=\"indent-para\">While FIA is described, continuous segmented flow analysis is an appropriate alternative. Irrespective of the analytical technology, it is acknowledged that the analyst must be guided by the operational instructions and directions given by the manufacturer. This could require changes to the specified reagents and to the flow diagram provided for this method.</p>
-<h3 class=\"h3a\"><em>Apparatus</em></h3>
-<p class=\"paraa\">As for Method 7A2b.</p>
-<h3 class=\"h3a\"><em>Reagents</em></h3>
-<p class=\"paraa\"><em>Digest Acid</em></p>
-<p class=\"paraa\">As for Method 7A1.</p>
-<p class=\"para1\"><em>Catalyst Mixture</em></p>
-<p class=\"para\">As for Method 7A1. Alternatively use Kjeldahl catalyst tablets (e.g. BDH Cat No. 33064) containing 1.0 g Na<sub>2</sub>SO<sub>4</sub> and 0.1 g anhydrous CuSO<sub>4</sub>.</p>
-<p class=\"para1\"><em>Stock Ammonium Molybdate Solution</em></p>
-<p class=\"para\">Weigh 40.0 g ammonium molybdate tetrahydrate [(NH<sub>4</sub>)<sub>6</sub>Mo<sub>7</sub>O<sub>24</sub>.4H<sub>2</sub>O] into a 1.0 L flask and make to volume with distilled (preferred) or deionised water. Stir magnetically overnight to dissolve and filter if necessary. Store at around 4&#176;C.</p>
-<p class=\"para1\"><em>Stock Potassium Antimony Tartrate Solution</em></p>
-<p class=\"para\">Weigh 2.9 g of anhydrous potassium antimony tartrate [K(SbO)C<sub>4</sub>H<sub>4</sub>O<sub>6</sub>] into a 1.0 L flask and make to volume with distilled or deionised water. Shake to dissolve and store at around 4&#176;C.</p>
-<p class=\"para1\"><a id=\"page_160\"></a><em>Molybdate Colour Reagent</em></p>
-<p class=\"para\">To a 1.0 L dark borosilicate flask containing 340 mL distilled or deionised water, carefully and slowly add 18 mL of 18 M H<sub>2</sub>SO<sub>4</sub>. Swirl to mix and allow the now hot mixture to cool to around room temperature. Add 107 mL of Stock Ammonium Molybdate Solution and 36 mL of Stock Potassium Antimony Tartrate Solution. Shake to mix and prepare fresh monthly. There may be a water-quality problem if this mixed solution should become cloudy, in which case, use only distilled water or deionised water known to be free of organic impurities. Store the Molybdate Colour Reagent at &#8776;4&#176;C but allow it to reach room temperature before use.</p>
-<p class=\"para1\"><em>Ascorbic Acid Solution</em></p>
-<p class=\"para\">Weigh 3.0 g <em>l</em>-ascorbic acid (C<sub>6</sub>H<sub>8</sub>O<sub>6</sub>) in distilled water and dissolve. Add 0.05 g of sodium dodecyl sulfate [CH<sub>3</sub>(CH<sub>2</sub>)<sub>11</sub>OSO<sub>3</sub>Na] and shake to dissolve, then make to 100 mL. Prepare freshly each day.</p>
-<p class=\"para1\"><em>Kjeldahl Reagent Blank</em></p>
-<p class=\"para\">Carefully add 60 mL 18 M H<sub>2</sub>SO<sub>4</sub> to 750 mL of deionised water while stirring in a 1.0 L borosilicate conical flask. Add 20 g sodium sulfate (Na<sub>2</sub>SO<sub>4</sub>) and 2.0 g anhydrous copper sulfate (CuSO<sub>4</sub>) and stir until dissolved. Cool and make to volume (1.0 L) with water.</p>
-<p class=\"para1\"><em>Kjeldahl N, P and K Primary Standard</em></p>
-<p class=\"para\">1 mL contains 0.5, 0.1 and 0.5 mg of NH<sub>4</sub>-N, PO<sub>4</sub>-P, and K (as KCl), respectively.</p>
-<p class=\"indent-para\">Prepare as per Method 7A2b. (See Note 1)</p>
-<p class=\"para1\"><em>Kjeldahl Combined N, P and K Working Standards (KCWS)</em></p>
-<p class=\"para\">Prepare as per Method 7A2b. These KCWS contain 1.0, 2.0, 5.0, 10.0, and 20.0 mg PO<sub>4</sub>-P/L. For a 1:100 soil/Kjeldahl digest ratio, these equate to 100&#8211;2000 mg P/kg.</p>
-<p class=\"image\"><a id=\"ch9fig3\"></a><img src=\"../images/f0160-01.jpg\" alt=\"Image\"></img></p>
-<p class=\"caption\"><strong>Figure 9.3.</strong> An automated FIA flow sheet for soil Kjeldahl P.</p>
-<h3 class=\"h3a\"><a id=\"page_161\"></a><em>Procedure</em></h3>
-<p class=\"para\">Weigh 0.50 g (0.1&#8211;0.2 g for peats or litters) of finely ground (&#60;0.5 mm) air-dry (&#8776;40&#176;C) sample into clean, dry 50 mL calibrated test tubes, and note the actual sample weight. Include Reagent Blanks and Control Samples (known KP content) at a frequency of two of the former to one of the latter for each batch of around 40&#8211;50 digest tubes. Proceed as described in Method 7A2b.</p>
-<p class=\"indent-para\">Set up the FIA equipment as shown in the flow diagram (<a href=\"#ch9fig3\">Figure 9.3</a>), noting instrument selections and settings should be in accord with manufacturer&#8217;s instructions. For example, switch on the computer, load the software, load the sampler, inject/pump water through all reagent lines and check for leaks and smooth flow. Switch to reagents and allow the system to equilibrate for a few minutes. Run Working Standards and sample digest solutions as necessary. Degas reagents if necessary.</p>
-<h3 class=\"h3a\"><em>Calculations</em></h3>
-<p class=\"image\"><img src=\"../images/f0161-01.jpg\" alt=\"Image\"></img></p>
-<p class=\"para2\"><em>where:</em></p>
-<p class=\"para2\">a = P in air-dry sample digest, expressed as mg/L</p>
-<p class=\"para2\">b = P in digest blank (mg/L)</p>
-<p class=\"para2\">V = final volume of sample digest (mL, usually 50 mL)</p>
-<p class=\"para2\">W = sample weight (g)</p>
-<p class=\"para2\">10<sup>&#8211;4</sup> = factor to convert mg/kg to g/100g (%)</p>
-<p class=\"para2\">MF = air-dry to oven-dry moisture factor</p>
-<p class=\"para2a\">For a 0.5 g air-dry sample and 50 mL digest volume:</p>
-<p class=\"center-paras\">KP (%P; oven dry) = [(<em>a &#8211; b</em>) &#215; 0.01 &#215; <em>MF</em>]</p>
-<p class=\"indent-para\">Report KP (% P) on an oven-dry basis.</p>
-<h3 class=\"h3a\"><em>Note</em></h3>
-<p class=\"hangindent-para\">1.&#160;&#160;While K is included in both the Primary Standard and in Working Standards, this does not infer that the resultant estimate of Kjeldahl K is a good approximation of total soil K. Indeed, recoveries can be as low as 5&#8211;10% of the total.</p>
-"""^^rdf:HTML ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9A3a.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "9A3a" ;
   skos:prefLabel "Kjeldahl P (KP) - automated colour, FIA/continuous segmented flow" ;
@@ -3822,38 +3369,7 @@
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   rdfs:label "Kjeldahl P (KP) - ICPAES" ;
   skos:broader <http://anzsoil.org/def/au/scma/9A> ;
-  skos:definition """<h3 class=\"h3\"><a id=\"chapter09sec05\"></a>9A3b Kjeldahl P (KP) &#8211; ICPAES</h3>
-<p class=\"para\">Prepare digest solutions and standard solutions as per Method 9A3a. Filter [Whatman No. 1 (or equivalent) filter paper, 11 cm] or centrifuge an aliquot of the final digest solution if necessary. Complete the analysis by ICPAES using the appropriate wavelength for P. Examples include 213.618 nm for radial mode ICPAES and 178.221 nm for axial mode ICPAES, although other wavelengths are available (e.g. <a href=\"chapter09a.html#ch09ref90\">Yang <em>et al.</em> 2002</a>).</p>
-<p class=\"indent-para\">Determine concentrations of KP in the soil digest solutions directly from standards (KCWS from 9A3a) run on commencement, during the &#8216;run&#8217;, and on completion. Dilute soil digest solutions of high concentrations with Reagent Blank, which also serves as the zero working standard.</p>
-<p class=\"indent-para\">Report KP (% P) on an oven-dry basis. Use the air-dry moisture to oven-dry moisture ratio to make the oven-dry conversion. Refer to Method 2A1 for guidance with regard to this soil moisture calculation.</p>
-<p class=\"caption1\"><a id=\"page_162\"></a><a id=\"ch9tab4\"></a><strong>Table 9.4.</strong> Ratings by <a href=\"chapter09a.html#ch09ref15\">Bruce and Rayment (1982)</a> for bicarbonate-extractable P and acid-extractable P (mg P/kg) in air-dry surface so&#213;s from north-east Australia.</p>
-<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" class=\"border\">
-<tr>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"tablea\"><strong>Rating</strong></p></td>
-<td valign=\"top\" class=\"borderbottom\"><p class=\"tablea\"><strong>Value/range</strong></p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"tablea\">Very low</p></td>
-<td valign=\"top\" class=\"borderbottom1\"><p class=\"tablea\">&#60;10</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"tablea\">Low</p></td>
-<td valign=\"top\" class=\"borderbottom\"><p class=\"tablea\">10&#8211;20</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright1\"><p class=\"tablea\">Medium</p></td>
-<td valign=\"top\" class=\"borderbottom1\"><p class=\"tablea\">&#62;20&#8211;40</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderbottomright\"><p class=\"tablea\">High</p></td>
-<td valign=\"top\" class=\"borderbottom\"><p class=\"tablea\">&#62;40&#8211;100</p></td>
-</tr>
-<tr>
-<td valign=\"top\" class=\"borderright1\"><p class=\"tablea\">Very high</p></td>
-<td valign=\"top\" class=\"borderleftj\"><p class=\"tablea\">&#62;100</p></td>
-</tr>
-</table>
-""" ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9A3b.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "9A3b" ;
   skos:prefLabel "Kjeldahl P (KP) - ICPAES" ;
@@ -3865,7 +3381,7 @@
   dcterms:identifier "http://anzsoil.org/def/au/scma/9B"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   rdfs:label "Bicarbonate-extractable P (Colwell-P)" ;
-  skos:definition "Bicarbonate-extractable P (Colwell-P)" ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9B.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:narrower <http://anzsoil.org/def/au/scma/9B1> ;
   skos:narrower <http://anzsoil.org/def/au/scma/9B2> ;
@@ -3881,7 +3397,7 @@
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   rdfs:label "Bicarbonate-extractable P (Colwell-P) - manual colour" ;
   skos:broader <http://anzsoil.org/def/au/scma/9B> ;
-  skos:definition "Bicarbonate-extractable P (Colwell-P) - manual colour" ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9B1.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "9B1" ;
   skos:prefLabel "Bicarbonate-extractable P (Colwell-P) - manual colour" ;
@@ -3894,7 +3410,7 @@
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   rdfs:label "Bicarbonate-extractable P (Colwell-P) - automated colour, continuous segmented flow/FIA" ;
   skos:broader <http://anzsoil.org/def/au/scma/9B> ;
-  skos:definition "Bicarbonate-extractable P (Colwell-P) - automated colour, continuous segmented flow/FIA" ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9B2.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "9B2" ;
   skos:prefLabel "Bicarbonate-extractable P (Colwell-P) - automated colour, continuous segmented flow/FIA" ;
@@ -3906,7 +3422,7 @@
   dcterms:identifier "http://anzsoil.org/def/au/scma/9C"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   rdfs:label "Olsen-extractable P (Olsen-P)" ;
-  skos:definition "Olsen-extractable P (Olsen-P)" ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9C.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:narrower <http://anzsoil.org/def/au/scma/9C1> ;
   skos:narrower <http://anzsoil.org/def/au/scma/9C2> ;
@@ -3922,7 +3438,7 @@
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   rdfs:label "Olsen-extractable P (Olsen-P) - manual colour" ;
   skos:broader <http://anzsoil.org/def/au/scma/9C> ;
-  skos:definition "Olsen-extractable P (Olsen-P) - manual colour" ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9C1.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "9C1" ;
   skos:prefLabel "Olsen-extractable P (Olsen-P) - manual colour" ;
@@ -3937,7 +3453,7 @@
   dcterms:source "URN:ISBN:978-0-909605-68-1" ;
   rdfs:label "Olsen-extractable phosphorus - automated colour|Olsen-extractable P (Olsen-P) - automated colour" ;
   skos:broader <http://anzsoil.org/def/au/scma/9C> ;
-  skos:definition "Olsen-extractable phosphorus - automated colour|Olsen-extractable P (Olsen-P) - automated colour" ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9C2.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:narrower <http://anzsoil.org/def/au/scma/9C2a> ;
   skos:narrower <http://anzsoil.org/def/au/scma/9C2b> ;
@@ -3953,7 +3469,7 @@
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   rdfs:label "Olsen-extractable P (Olsen-P) - automated colour, continuous segmented flow" ;
   skos:broader <http://anzsoil.org/def/au/scma/9C2> ;
-  skos:definition "Olsen-extractable P (Olsen-P) - automated colour, continuous segmented flow" ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9C2a.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "9C2a" ;
   skos:prefLabel "Olsen-extractable P (Olsen-P) - automated colour, continuous segmented flow" ;
@@ -3966,7 +3482,7 @@
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   rdfs:label "Olsen-extractable P (Olsen-P) - automated colour/FIA" ;
   skos:broader <http://anzsoil.org/def/au/scma/9C2> ;
-  skos:definition "Olsen-extractable P (Olsen-P) - automated colour/FIA" ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9C2b.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "9C2b" ;
   skos:prefLabel "Olsen-extractable P (Olsen-P) - automated colour/FIA" ;
@@ -3978,7 +3494,7 @@
   dcterms:identifier "http://anzsoil.org/def/au/scma/9D1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   rdfs:label "Lactate-extractable P (Lactate-P) - manual colour" ;
-  skos:definition "Lactate-extractable P (Lactate-P) - manual colour" ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9D1.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "9D1" ;
   skos:prefLabel "Lactate-extractable P (Lactate-P) - manual colour" ;
@@ -3991,7 +3507,7 @@
   dcterms:identifier "http://anzsoil.org/def/au/scma/9E"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   rdfs:label "Fluoride-extractable P (Bray-1 P)" ;
-  skos:definition "Fluoride-extractable P (Bray-1 P)" ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9E.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:narrower <http://anzsoil.org/def/au/scma/9E1> ;
   skos:narrower <http://anzsoil.org/def/au/scma/9E2> ;
@@ -4007,7 +3523,7 @@
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   rdfs:label "Fluoride-extractable P (Bray-1 P) - manual colour" ;
   skos:broader <http://anzsoil.org/def/au/scma/9E> ;
-  skos:definition "Fluoride-extractable P (Bray-1 P) - manual colour" ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9E1.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "9E1" ;
   skos:prefLabel "Fluoride-extractable P (Bray-1 P) - manual colour" ;
@@ -4020,7 +3536,7 @@
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   rdfs:label "Fluoride-extractable P (Bray-1 P) - continuous segmented flow/FIA automated colour" ;
   skos:broader <http://anzsoil.org/def/au/scma/9E> ;
-  skos:definition "Fluoride-extractable P (Bray-1 P) - continuous segmented flow/FIA automated colour" ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9E2.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "9E2" ;
   skos:prefLabel "Fluoride-extractable P (Bray-1 P) - continuous segmented flow/FIA automated colour" ;
@@ -4032,7 +3548,7 @@
   dcterms:identifier "http://anzsoil.org/def/au/scma/9F1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   rdfs:label "Calcium chloride-extractable P - manual colour" ;
-  skos:definition "Calcium chloride-extractable P - manual colour" ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9F1.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "9F1" ;
   skos:prefLabel "Calcium chloride-extractable P - manual colour" ;
@@ -4045,7 +3561,7 @@
   dcterms:identifier "http://anzsoil.org/def/au/scma/9F2"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   rdfs:label "Calcium chloride-extractable P - continuous segmented flow/FIA automated colour" ;
-  skos:definition "Calcium chloride-extractable P - continuous segmented flow/FIA automated colour" ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9F2.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "9F2" ;
   skos:prefLabel "Calcium chloride-extractable P - continuous segmented flow/FIA automated colour" ;
@@ -4058,7 +3574,7 @@
   dcterms:identifier "http://anzsoil.org/def/au/scma/9G1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   rdfs:label "Acid-extractable P (BSES-P) - manual colour" ;
-  skos:definition "Acid-extractable P (BSES-P) - manual colour" ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9G1.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "9G1" ;
   skos:prefLabel "Acid-extractable P (BSES-P) - manual colour" ;
@@ -4071,7 +3587,7 @@
   dcterms:identifier "http://anzsoil.org/def/au/scma/9G2"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   rdfs:label "Acid-extractable P (BSES-P) - continuous segmented flow/FIA automated colour" ;
-  skos:definition "Acid-extractable P (BSES-P) - continuous segmented flow/FIA automated colour" ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9G2.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "9G2" ;
   skos:prefLabel "Acid-extractable P (BSES-P) - continuous segmented flow/FIA automated colour" ;
@@ -4084,7 +3600,7 @@
   dcterms:identifier "http://anzsoil.org/def/au/scma/9H1"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   rdfs:label "Anion Storage Capacity (previously P Retention)" ;
-  skos:definition "Anion Storage Capacity (previously P Retention)" ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9H1.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "9H1" ;
   skos:prefLabel "Anion Storage Capacity (previously P Retention)" ;
@@ -4097,7 +3613,7 @@
   dcterms:identifier "http://anzsoil.org/def/au/scma/9I"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   rdfs:label "Phosphate Indices" ;
-  skos:definition "Phosphate Indices" ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9I.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:narrower <http://anzsoil.org/def/au/scma/9I1> ;
   skos:narrower <http://anzsoil.org/def/au/scma/9I2a> ;
@@ -4121,7 +3637,7 @@
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   rdfs:label "Phosphate Sorption Index" ;
   skos:broader <http://anzsoil.org/def/au/scma/9I> ;
-  skos:definition "Phosphate Sorption Index" ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9I1.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "9I1" ;
   skos:prefLabel "Phosphate Sorption Index" ;
@@ -4134,7 +3650,7 @@
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   rdfs:label "P buffer index - PBI (ColP) - Murphy and Riley|P buffer index - PBI (ColP)" ;
   skos:broader <http://anzsoil.org/def/au/scma/9I> ;
-  skos:definition "P buffer index - PBI (ColP) - Murphy and Riley|P buffer index - PBI (ColP)" ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9I2a.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "9I2a" ;
   skos:prefLabel "P buffer index - PBI (ColP) - Murphy and Riley|P buffer index - PBI (ColP)" ;
@@ -4147,7 +3663,7 @@
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   rdfs:label "P buffer index - PBI (ColP)|P buffer index - PBI (ColP) - ICPAES" ;
   skos:broader <http://anzsoil.org/def/au/scma/9I> ;
-  skos:definition "P buffer index - PBI (ColP)|P buffer index - PBI (ColP) - ICPAES" ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9I2b.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "9I2b" ;
   skos:prefLabel "P buffer index - PBI (ColP)|P buffer index - PBI (ColP) - ICPAES" ;
@@ -4160,7 +3676,7 @@
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   rdfs:label "P buffer index - PBI (ColP)|P buffer index - PBI (ColP) - Vanadate" ;
   skos:broader <http://anzsoil.org/def/au/scma/9I> ;
-  skos:definition "P buffer index - PBI (ColP)|P buffer index - PBI (ColP) - Vanadate" ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9I2c.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "9I2c" ;
   skos:prefLabel "P buffer index - PBI (ColP)|P buffer index - PBI (ColP) - Vanadate" ;
@@ -4173,7 +3689,7 @@
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   rdfs:label "P buffer index - PBI (OlsenP)|P buffer index - PBI (OlsenP) - Murphy and Riley" ;
   skos:broader <http://anzsoil.org/def/au/scma/9I> ;
-  skos:definition "P buffer index - PBI (OlsenP)|P buffer index - PBI (OlsenP) - Murphy and Riley" ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9I3a.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "9I3a" ;
   skos:prefLabel "P buffer index - PBI (OlsenP)|P buffer index - PBI (OlsenP) - Murphy and Riley" ;
@@ -4186,7 +3702,7 @@
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   rdfs:label "P buffer index - PBI (OlsenP)|P buffer index - PBI (OlsenP) - ICPAES" ;
   skos:broader <http://anzsoil.org/def/au/scma/9I> ;
-  skos:definition "P buffer index - PBI (OlsenP)|P buffer index - PBI (OlsenP) - ICPAES" ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9I3b.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "9I3b" ;
   skos:prefLabel "P buffer index - PBI (OlsenP)|P buffer index - PBI (OlsenP) - ICPAES" ;
@@ -4199,7 +3715,7 @@
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   rdfs:label "P buffer index - PBI (OlsenP)|P buffer index - PBI (OlsenP) - Vanadate" ;
   skos:broader <http://anzsoil.org/def/au/scma/9I> ;
-  skos:definition "P buffer index - PBI (OlsenP)|P buffer index - PBI (OlsenP) - Vanadate" ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9I3c.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "9I3c" ;
   skos:prefLabel "P buffer index - PBI (OlsenP)|P buffer index - PBI (OlsenP) - Vanadate" ;
@@ -4212,7 +3728,7 @@
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   rdfs:label "P buffer index - PBI (unadj) - Murphy and Riley|P buffer index - PBI (unadj)" ;
   skos:broader <http://anzsoil.org/def/au/scma/9I> ;
-  skos:definition "P buffer index - PBI (unadj) - Murphy and Riley|P buffer index - PBI (unadj)" ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9I4a.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "9I4a" ;
   skos:prefLabel "P buffer index - PBI (unadj) - Murphy and Riley|P buffer index - PBI (unadj)" ;
@@ -4225,7 +3741,7 @@
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   rdfs:label "P buffer index - PBI (unadj) - ICPAES|P buffer index - PBI (unadj)" ;
   skos:broader <http://anzsoil.org/def/au/scma/9I> ;
-  skos:definition "P buffer index - PBI (unadj) - ICPAES|P buffer index - PBI (unadj)" ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9I4b.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "9I4b" ;
   skos:prefLabel "P buffer index - PBI (unadj) - ICPAES|P buffer index - PBI (unadj)" ;
@@ -4238,7 +3754,7 @@
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   rdfs:label "P buffer index - PBI (unadj)|P buffer index - PBI (unadj) - Vanadate" ;
   skos:broader <http://anzsoil.org/def/au/scma/9I> ;
-  skos:definition "P buffer index - PBI (unadj)|P buffer index - PBI (unadj) - Vanadate" ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9I4c.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "9I4c" ;
   skos:prefLabel "P buffer index - PBI (unadj)|P buffer index - PBI (unadj) - Vanadate" ;
@@ -4250,7 +3766,7 @@
   dcterms:identifier "http://anzsoil.org/def/au/scma/9J"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   rdfs:label "Phosphate sorption curve" ;
-  skos:definition "Phosphate sorption curve" ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9J.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:narrower <http://anzsoil.org/def/au/scma/9J1> ;
   skos:narrower <http://anzsoil.org/def/au/scma/9J2> ;
@@ -4266,7 +3782,7 @@
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   rdfs:label "Phosphate sorption curve - manual colour" ;
   skos:broader <http://anzsoil.org/def/au/scma/9J> ;
-  skos:definition "Phosphate sorption curve - manual colour" ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9J1.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "9J1" ;
   skos:prefLabel "Phosphate sorption curve - manual colour" ;
@@ -4279,7 +3795,7 @@
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   rdfs:label "Phosphate sorption curve - continuous segmented flow/FIA automated colour" ;
   skos:broader <http://anzsoil.org/def/au/scma/9J> ;
-  skos:definition "Phosphate sorption curve - continuous segmented flow/FIA automated colour" ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9J2.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "9J2" ;
   skos:prefLabel "Phosphate sorption curve - continuous segmented flow/FIA automated colour" ;
@@ -4291,7 +3807,7 @@
   dcterms:identifier "http://anzsoil.org/def/au/scma/9K"^^xsd:anyURI ;
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   rdfs:label "Environmental soil P tests" ;
-  skos:definition "Environmental soil P tests" ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9K.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:narrower <http://anzsoil.org/def/au/scma/9K1a> ;
   skos:narrower <http://anzsoil.org/def/au/scma/9K1b> ;
@@ -4308,7 +3824,7 @@
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   rdfs:label "Mehlich 3-P saturation ratio (M3PSR colour) [colormetric estimate of P]" ;
   skos:broader <http://anzsoil.org/def/au/scma/9K> ;
-  skos:definition "Mehlich 3-P saturation ratio (M3PSR colour) [colormetric estimate of P]" ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9K1a.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "9K1a" ;
   skos:prefLabel "Mehlich 3-P saturation ratio (M3PSR colour) [colormetric estimate of P]" ;
@@ -4321,7 +3837,7 @@
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   rdfs:label "Mehlich 3-P saturation ratio (M3PSR ICPAES) [ICPAES estimate of P]" ;
   skos:broader <http://anzsoil.org/def/au/scma/9K> ;
-  skos:definition "Mehlich 3-P saturation ratio (M3PSR ICPAES) [ICPAES estimate of P]" ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9K1b.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "9K1b" ;
   skos:prefLabel "Mehlich 3-P saturation ratio (M3PSR ICPAES) [ICPAES estimate of P]" ;
@@ -4334,7 +3850,7 @@
   dcterms:source "URN:ISBN:978-0-643-10218-7" ;
   rdfs:label "Colwell-P/PBI (ColP) ratio" ;
   skos:broader <http://anzsoil.org/def/au/scma/9K> ;
-  skos:definition "Colwell-P/PBI (ColP) ratio" ;
+  skos:definition <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/9-P/9K2.html> ;
   skos:inScheme <http://anzsoil.org/def/au/scma> ;
   skos:notation "9K2" ;
   skos:prefLabel "Colwell-P/PBI (ColP) ratio" ;
