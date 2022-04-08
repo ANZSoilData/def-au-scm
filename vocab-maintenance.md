@@ -15,10 +15,13 @@ Check **In a local file on my computer** and select the xslx file.
 
 **Convert**
 
-Copy result into `scma.ttl` file. 
+Copy result into `xxxx.ttl` file. 
 
 **Edit for Loading in RVA**
-- In your editor of choice, in the .ttl file delete all skos:inScheme lines (e.g. skos:inScheme s:swcm-1992;) that are associated with skos:Collections
+
+In your editor of choice, in the .ttl file delete all `skos:inScheme` links (e.g. `skos:inScheme s:swcm-1992;`) that are associated with resources of `rdf:type skos:Collection`. 
+
+(This deals with the fact that RVA applies a more rigorous interpretation of the SKOS conformance than SKOS-Play!.)
 
 ## Loading in RVA
 
