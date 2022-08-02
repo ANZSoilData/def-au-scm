@@ -1,9 +1,10 @@
-# SCMA
+# SCM
 
-Machine-readable representation of the classifiers described in Soil Chemical Methods Australasia. (2011), by George E Rayment and David J Lyons. These comprise the laboratory and field chemical tests relevant to Australasia and beyond.
+Machine-readable representation of definitions of Soil Chemical Methods used in Australasia. These comprise the laboratory and field chemical tests relevant to Australasia and beyond.
 
-The experimental (sandbox) into which these files are lodaded for checking is http://registry.it.csiro.au/sandbox/soil/
-The permanent location is http://anzsoil.org/def/au/
+The initial content is based on the publications _Australian Laboratory Handbook of Soil and Water Chemical Methods_  (1992), Rayment, G.E and Higginson, F.R. and the revision _Soil Chemical Methods Australasia_ (2011), George E Rayment and David J Lyons. Note that these books ues a consistent set of codes (identifiers) for the chemical methods.
+
+The list of methods is available at https://vocabs.ardc.edu.au/viewById/634
  
 Context: 
 [Megan Wong](https://orcid.org/0000-0002-2991-2308)
