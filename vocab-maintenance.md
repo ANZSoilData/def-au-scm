@@ -25,7 +25,10 @@ In your editor of choice, in the .ttl file delete all `skos:inScheme` links (e.g
 
 ## Loading in RVA
 
-Login to https://vocabs.ardc.edu.au and go to 'My Vocabs'. 
+In demo mode: If you want to do a test, load the vocabulary in development mode. To to this, log on to https://demo.vocabs.ardc.edu.au
+
+alternativly log in in production mode - Login to https://vocabs.ardc.edu.au and go to 'My Vocabs'.
+
 
 + Add a new Vocabulary
 
