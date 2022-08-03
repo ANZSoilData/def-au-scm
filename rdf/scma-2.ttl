@@ -23,7 +23,7 @@ s:swcm-1992 a skos:ConceptScheme;
   dct:contributor <https://orcid.org/0000-0002-2991-2308>, <https://orcid.org/0000-0002-3884-3420>;
   dct:created "2022-03-04"^^xsd:date;
   dct:creator "Higginson, F.R. (Francis Ross)"@en, "Rayment, G.E."@en;
-  dct:description "<p>This Concept Scheme is a machine-readable representation of the classifiers described in <a href='https://catalogue.nla.gov.au/Record/685915'>Australian Laboratory Handbook of Soil and Water Chemical Methods</a> (Rayment and Higginson 1992).</p>"^^rdf:HTML;
+  dct:description "This Concept Scheme is a machine-readable representation of the classifiers described in Australian Laboratory Handbook of Soil and Water Chemical Methods (Rayment and Higginson 1992)."@en;
   dct:identifier "http://anzsoil.org/def/au/scma/swcm-1992"^^xsd:anyURI;
   dct:isPartOf "Australian soil and land survey handbooks ; v. 3."@en;
   dct:isReplacedBy s:scma-2011;
@@ -2014,8 +2014,8 @@ s:scma-2011 a skos:ConceptScheme;
     <mailto:bruce.shelley@agriculture.vic.gov.au>;
   dct:created "2021-01-01"^^xsd:date;
   dct:creator "David J Lyons"@en, "George E Rayment"@en, <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/00frontmatter/02About%20the%20authors.html>;
-  dct:description """<p>This the Concept Scheme of <a href='https://catalogue.nla.gov.au/Record/4854518'>Soil Chemical Methods Australasia</a> (2011), George E Rayment and David J Lyons. These comprise the laboratory and field chemical tests relevant to Australasia and beyond. </p>
-</p><a href=\"https://raw.githack.com/ANZSoilData/def-au-scma/master/html/00frontmatter/01Preface%20and%20acknowledgements.html\">Preface and Acknowledgements</a></p>"""^^rdf:HTML;
+  dct:description """This the Concept Scheme of Soil Chemical Methods Australasia (2011), George E Rayment and David J Lyons. These comprise the laboratory and field chemical tests relevant to Australasia and beyond. 
+<https://raw.githack.com/ANZSoilData/def-au-scma/master/html/00frontmatter/01Preface%20and%20acknowledgements.html"""@en;
   dct:identifier "http://anzsoil.org/def/au/scma/scma-2011"^^xsd:anyURI;
   dct:isFormatOf <https://catalogue.nla.gov.au/Record/4854518>;
   dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
