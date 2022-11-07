@@ -42,8 +42,11 @@ Add Access Point
 - TTL
 - Select scma.ttl
 - Add
-- Display Collections (**not ConceptScheme**)
+- Display Collections and Concept Schemes
 - Import, make available
+
+![image](https://user-images.githubusercontent.com/49380601/200399010-76e2e38b-4fdf-4df2-b858-c04ecf4138a8.png)
+
 
 Add this version
 
