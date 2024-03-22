@@ -28,6 +28,7 @@
 @prefix sosa: <http://www.w3.org/ns/sosa/> .
 @prefix unit: <http://qudt.org/vocab/unit/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ssn: <http://www.w3.org/ns/ssn/> .
 
 <file:///C:/Users/cox075/dev/ENV/anzsoil/def-au-scma/rdf/scm.ttl>
   a owl:Ontology ;
@@ -337,7 +338,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/10A1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/10-S/10A1.html> ;
   skos:definition "Procedure for measuring Total Sulfur - X-ray fluorscence"@en ;
   skos:inScheme s:scma-2011 ;
@@ -364,7 +365,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/10A2"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/10-S/10A2.html> ;
   skos:defintion "Procedure for measuring Total Sulfur - high-temperature combustion"@en ;
   skos:inScheme s:scma-2011 ;
@@ -598,7 +599,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/11A1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/11-gypsum/11A1.html> ;
   skos:defnition "Total Gypsum procedure"@en ;
   skos:inScheme s:scma-2011 ;
@@ -625,7 +626,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/11A2"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/11-gypsum/11A2.html> ;
   skos:definition "Procedure for measuring Total Gypsum by MIR "@en ;
   skos:inScheme s:scma-2011 ;
@@ -860,7 +861,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/13A1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/13-extractable-Fe-Al-Si/13A1.html> ;
   skos:definition "Oxalate extractable Fe, Al, Si procedure"@en ;
   skos:inScheme s:scma-2011 ;
@@ -887,7 +888,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/13B1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/13-extractable-Fe-Al-Si/13B1.html> ;
   skos:definition "Pyrophosphate extractable Fe, Al procedure"@en ;
   skos:inScheme s:scma-2011 ;
@@ -914,7 +915,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/13C1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/13-extractable-Fe-Al-Si/13C1.html> ;
   skos:definition "Citrate/ dithionite extractable Fe, Al procedure"@en ;
   skos:inScheme s:scma-2011 ;
@@ -1063,7 +1064,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/14A1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:UNITLESS ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/14-saturation-extracts/14A1.html> ;
   skos:inScheme s:scma-2011 ;
   skos:inScheme s:swcm-1992 ;
@@ -1079,8 +1080,6 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
-  sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
 <http://anzsoil.org/def/au/scm/14A2>
@@ -1167,7 +1166,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/14B1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:DeciS-PER-M ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/14-saturation-extracts/14B1.html> ;
   skos:definition "Procedure for measuring Electrical Conductivity - SE (Saturated Soil Extract)"@en ;
   skos:inScheme s:scma-2011 ;
@@ -1184,8 +1183,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
-  sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
+  sosa:observedProperty qk:Conductivity ;
   ansis:analyte obo:CHEBI_23367 ;
 .
 <http://anzsoil.org/def/au/scm/14C1>
@@ -1194,7 +1192,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/14C1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:UNITLESS ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/14-saturation-extracts/14C1.html> ;
   skos:definition "Procedure for measing pH - SE (Saturated Soil Extract)"@en ;
   skos:inScheme s:scma-2011 ;
@@ -1211,8 +1209,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
-  sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
+  sosa:observedProperty qk:DimensionlessRatio ;
   ansis:analyte obo:CHEBI_23367 ;
 .
 <http://anzsoil.org/def/au/scm/14D1>
@@ -1221,7 +1218,8 @@
   dct:identifier "http://anzsoil.org/def/au/scm/14D1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:MilliGM-PER-L ;
+  qudt:applicableUnit unit:CentiMOL-PER-L ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/14-saturation-extracts/14D1.html> ;
   skos:definition "Procedure for measuring bicarbonate and carbonate - SE (Saturated Soil Extract) - potentiometric titration"@en ;
   skos:inScheme s:scma-2011 ;
@@ -1239,6 +1237,7 @@
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
   sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitVolume ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -1248,7 +1247,8 @@
   dct:identifier "http://anzsoil.org/def/au/scm/14D2"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:MilliGM-PER-L ;
+  qudt:applicableUnit unit:CentiMOL-PER-L ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/14-saturation-extracts/14D2.html> ;
   skos:defininition "Procedure for measuring bicarbonate and carbonate - SE (Saturated Soil Extract) - indicator"@en ;
   skos:inScheme s:scma-2011 ;
@@ -1266,6 +1266,7 @@
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
   sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitVolume ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -1275,7 +1276,8 @@
   dct:identifier "http://anzsoil.org/def/au/scm/14E1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:MilliGM-PER-L ;
+  qudt:applicableUnit unit:CentiMOL-PER-L ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/14-saturation-extracts/14E1.html> ;
   skos:definition "Procedure for measuing chloride - SE (Saturated Soil Extract) - potentiometric titration"@en ;
   skos:inScheme s:scma-2011 ;
@@ -1304,7 +1306,8 @@
   dct:isReplacedBy <http://anzsoil.org/def/au/scm/14E2a> ;
   dct:isReplacedBy <http://anzsoil.org/def/au/scm/14E2b> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:MilliGM-PER-L ;
+  qudt:applicableUnit unit:CentiMOL-PER-L ;
   skos:inScheme s:swcm-1992 ;
   skos:narrower <http://anzsoil.org/def/au/scm/14E2a> ;
   skos:narrower <http://anzsoil.org/def/au/scm/14E2b> ;
@@ -1312,6 +1315,7 @@
   skos:prefLabel "Chloride (saturation extract) - ion chromotography|Chloride of SE - IC"@en ;
   skos:topConceptOf s:swcm-1992 ;
   sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitVolume ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -1321,7 +1325,8 @@
   dct:identifier "http://anzsoil.org/def/au/scm/14E2a"^^xsd:anyURI ;
   dct:replaces <http://anzsoil.org/def/au/scm/14E2> ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:MilliGM-PER-L ;
+  qudt:applicableUnit unit:CentiMOL-PER-L ;
   skos:broader <http://anzsoil.org/def/au/scm/14E2> ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/14-saturation-extracts/14E2a.html> ;
   skos:definition "Procedure for measuring chloride - SE (Saturated Soil Extract) - IC (chemical suppression)"@en ;
@@ -1337,6 +1342,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/94atomicweights04.html> ;
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitVolume ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -1346,7 +1352,8 @@
   dct:identifier "http://anzsoil.org/def/au/scm/14E2b"^^xsd:anyURI ;
   dct:replaces <http://anzsoil.org/def/au/scm/14E2> ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:MilliGM-PER-L ;
+  qudt:applicableUnit unit:CentiMOL-PER-L ;
   skos:broader <http://anzsoil.org/def/au/scm/14E2> ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/14-saturation-extracts/14E2b.html> ;
   skos:defintion "Procedure for measuring chloride - SE (Saturated Soil Extract) - IC (single column with electronic suppression)"@en ;
@@ -1362,6 +1369,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/94atomicweights04.html> ;
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitVolume ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -1371,7 +1379,8 @@
   dct:identifier "http://anzsoil.org/def/au/scm/14E3"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:MilliGM-PER-L ;
+  qudt:applicableUnit unit:CentiMOL-PER-L ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/14-saturation-extracts/14E3.html> ;
   skos:definition "Procedure for measuring chloride - SE (Saturated Soil Extract) - ICPAES"@en ;
   skos:inScheme s:scma-2011 ;
@@ -1389,6 +1398,7 @@
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
   sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitVolume ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -1398,7 +1408,8 @@
   dct:identifier "http://anzsoil.org/def/au/scm/14F1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:MilliGM-PER-L ;
+  qudt:applicableUnit unit:CentiMOL-PER-L ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/14-saturation-extracts/14F1.html> ;
   skos:definition "Procedure for measuring sulfate - SE (Saturated Soil Extract) - ICPAES (plus P and soluble cations)"@en ;
   skos:inScheme s:scma-2011 ;
@@ -1416,6 +1427,7 @@
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
   sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitVolume ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -1425,7 +1437,8 @@
   dct:identifier "http://anzsoil.org/def/au/scm/14F2"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:MilliGM-PER-L ;
+  qudt:applicableUnit unit:CentiMOL-PER-L ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/14-saturation-extracts/14F2.html> ;
   skos:definition "Procedure for measuring sulfate - SE (Saturated Soil Extract) - turbidimetric"@en ;
   skos:inScheme s:scma-2011 ;
@@ -1443,6 +1456,7 @@
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
   sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitVolume ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -1452,7 +1466,8 @@
   dct:identifier "http://anzsoil.org/def/au/scm/14F3"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:MilliGM-PER-L ;
+  qudt:applicableUnit unit:CentiMOL-PER-L ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/14-saturation-extracts/14F3.html> ;
   skos:definition "Procedure for measuring sulfate - SE (Saturated Soil Extract) - gravimetric"@en ;
   skos:inScheme s:scma-2011 ;
@@ -1470,6 +1485,7 @@
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
   sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitVolume ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -1479,7 +1495,8 @@
   dct:identifier "http://anzsoil.org/def/au/scm/14F4"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:MilliGM-PER-L ;
+  qudt:applicableUnit unit:CentiMOL-PER-L ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/14-saturation-extracts/14F4.html> ;
   skos:inScheme s:scma-2011 ;
   skos:inScheme s:swcm-1992 ;
@@ -1496,6 +1513,7 @@
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
   sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitVolume ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -1507,7 +1525,8 @@
   dct:isReplacedBy <http://anzsoil.org/def/au/scm/14F5a> ;
   dct:isReplacedBy <http://anzsoil.org/def/au/scm/14F5b> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:MilliGM-PER-L ;
+  qudt:applicableUnit unit:CentiMOL-PER-L ;
   skos:inScheme s:swcm-1992 ;
   skos:narrower <http://anzsoil.org/def/au/scm/14F5a> ;
   skos:narrower <http://anzsoil.org/def/au/scm/14F5b> ;
@@ -1515,6 +1534,7 @@
   skos:prefLabel "Sulfate-S (saturation extract) - ion chromotography|Sulfate-S of SE - IC"@en ;
   skos:topConceptOf s:swcm-1992 ;
   sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitVolume ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -1524,7 +1544,8 @@
   dct:identifier "http://anzsoil.org/def/au/scm/14F5a"^^xsd:anyURI ;
   dct:replaces <http://anzsoil.org/def/au/scm/14F5> ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:MilliGM-PER-L ;
+  qudt:applicableUnit unit:CentiMOL-PER-L ;
   skos:broader <http://anzsoil.org/def/au/scm/14F5> ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/14-saturation-extracts/14F5a.html> ;
   skos:definition "Procedure for measuring sulfate - SE (Saturated Soil Extract) - IC (chemical suppression)"@en ;
@@ -1540,6 +1561,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/94atomicweights04.html> ;
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitVolume ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -1549,7 +1571,8 @@
   dct:identifier "http://anzsoil.org/def/au/scm/14F5b"^^xsd:anyURI ;
   dct:replaces <http://anzsoil.org/def/au/scm/14F5> ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:MilliGM-PER-L ;
+  qudt:applicableUnit unit:CentiMOL-PER-L ;
   skos:broader <http://anzsoil.org/def/au/scm/14F5> ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/14-saturation-extracts/14F5b.html> ;
   skos:definition "Procedure for measuring sulfate - SE (Saturated Soil Extract) - IC (single column with electronic suppression)"@en ;
@@ -1565,6 +1588,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/94atomicweights04.html> ;
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitVolume ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -1574,7 +1598,8 @@
   dct:identifier "http://anzsoil.org/def/au/scm/14G1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:MilliGM-PER-L ;
+  qudt:applicableUnit unit:CentiMOL-PER-L ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/14-saturation-extracts/14G1.html> ;
   skos:definition "Procedure for measuring fluoride - SE (Saturated Soil Extract) - specific ion electrode"@en ;
   skos:inScheme s:scma-2011 ;
@@ -1592,6 +1617,7 @@
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
   sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitVolume ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -1603,7 +1629,8 @@
   dct:isReplacedBy <http://anzsoil.org/def/au/scm/14G2a> ;
   dct:isReplacedBy <http://anzsoil.org/def/au/scm/14G2b> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:MilliGM-PER-L ;
+  qudt:applicableUnit unit:CentiMOL-PER-L ;
   skos:inScheme s:swcm-1992 ;
   skos:narrower <http://anzsoil.org/def/au/scm/14G2a> ;
   skos:narrower <http://anzsoil.org/def/au/scm/14G2b> ;
@@ -1611,6 +1638,7 @@
   skos:prefLabel "Fluoride (saturation extract) - ion chromotography|Fluoride of SE - IC"@en ;
   skos:topConceptOf s:swcm-1992 ;
   sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitVolume ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -1620,7 +1648,8 @@
   dct:identifier "http://anzsoil.org/def/au/scm/14G2a"^^xsd:anyURI ;
   dct:replaces <http://anzsoil.org/def/au/scm/14G2> ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:MilliGM-PER-L ;
+  qudt:applicableUnit unit:CentiMOL-PER-L ;
   skos:broader <http://anzsoil.org/def/au/scm/14G2> ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/14-saturation-extracts/14G2a.html> ;
   skos:defintion "Procedure for measuring fluoride - SE (Saturated Soil Extract) - IC (chemical suppression)"@en ;
@@ -1636,6 +1665,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/94atomicweights04.html> ;
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitVolume ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -1645,7 +1675,8 @@
   dct:identifier "http://anzsoil.org/def/au/scm/14G2b"^^xsd:anyURI ;
   dct:replaces <http://anzsoil.org/def/au/scm/14G2> ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:MilliGM-PER-L ;
+  qudt:applicableUnit unit:CentiMOL-PER-L ;
   skos:broader <http://anzsoil.org/def/au/scm/14G2> ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/14-saturation-extracts/14G2b.html> ;
   skos:definition "Procedure for measuring fluoride - SE (Saturated Soil Extract) - IC (chemical suppression)"@en ;
@@ -1661,6 +1692,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/94atomicweights04.html> ;
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitVolume ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -1670,7 +1702,8 @@
   dct:identifier "http://anzsoil.org/def/au/scm/14H1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:MilliGM-PER-L ;
+  qudt:applicableUnit unit:CentiMOL-PER-L ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/14-saturation-extracts/14H1.html> ;
   skos:defintion "Procedure for measuring soluble bases - SE (Saturated Soil Extract) - Ca, Mg, K, Na"@en ;
   skos:inScheme s:scma-2011 ;
@@ -1688,6 +1721,7 @@
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
   sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitVolume ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -1743,7 +1777,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/15A1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:CentiMOL-PER-KiloGM ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/15-ion-exchange-properties/15A1.html> ;
   skos:defintion "Procedure for measurement of exchangeable bases - Ca, Mg, K, Na - 1M ammonium chloride at pH 7, no pretreatment"@en ;
   skos:inScheme s:scma-2011 ;
@@ -1760,7 +1794,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitMass ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -1770,7 +1804,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/15A2"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:CentiMOL-PER-KiloGM ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/15-ion-exchange-properties/15A2.html> ;
   skos:defintion "Procedure for measurement of exchangeable bases - 1M ammonium chloride at pH 7, with pretreatment"@en ;
   skos:inScheme s:scma-2011 ;
@@ -1787,7 +1821,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitMass ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -1797,7 +1831,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/15A3"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:CentiMOL-PER-KiloGM ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/15-ion-exchange-properties/15A3.html> ;
   skos:definition "Procedure for measurement of exchangeable bases - 1M ammonium chloride at pH 7, adjusted for soluble Na"@en ;
   skos:inScheme s:scma-2011 ;
@@ -1814,7 +1848,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitMass ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -1824,7 +1858,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/15B1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:CentiMOL-PER-KiloGM ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/15-ion-exchange-properties/15B1.html> ;
   skos:definition "Procedure for measurement of exchangeable bases + CEC - 1M ammonium chloride at pH 7, no pretreatment"@en ;
   skos:inScheme s:scma-2011 ;
@@ -1841,7 +1875,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitMass ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -1851,7 +1885,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/15B2"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:CentiMOL-PER-KiloGM ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/15-ion-exchange-properties/15B2.html> ;
   skos:definition "Procedure for measurement of exchangeable bases + CEC - 1M ammonium chloride at pH 7, with pretreatment"@en ;
   skos:inScheme s:scma-2011 ;
@@ -1868,7 +1902,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitMass ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -1878,7 +1912,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/15B3"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:CentiMOL-PER-KiloGM ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/15-ion-exchange-properties/15B3.html> ;
   skos:definition "Procedure for the measurement of exchangeable bases + CEC - 1M ammonium chloride at pH 7, adjusted for soluble Na"@en ;
   skos:inScheme s:scma-2011 ;
@@ -1895,7 +1929,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitMass ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -1905,7 +1939,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/15C1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:CentiMOL-PER-KiloGM ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/15-ion-exchange-properties/15C1.html> ;
   skos:definition "Procedure for measurement of exchangeable bases + CEC - alcoholic 1M ammonium chloride at pH 8.5, with pretreatment"@en ;
   skos:inScheme s:scma-2011 ;
@@ -1922,7 +1956,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitMass ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -1932,7 +1966,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/15C2"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:CentiMOL-PER-KiloGM ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/15-ion-exchange-properties/15C2.html> ;
   skos:definition "Procedure for measurement of exchangeable divalent cations + CEC - MIR"@en ;
   skos:inScheme s:scma-2011 ;
@@ -1949,7 +1983,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitMass ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -1959,7 +1993,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/15D1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:CentiMOL-PER-KiloGM ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/15-ion-exchange-properties/15D1.html> ;
   skos:definition "Procedure for measurement of exchangeable bases + CEC - 1M ammonium chloride at pH 7, with pretreatment, manual leach"@en ;
   skos:inScheme s:scma-2011 ;
@@ -1976,7 +2010,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitMass ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -1986,7 +2020,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/15D2"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:CentiMOL-PER-KiloGM ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/15-ion-exchange-properties/15D2.html> ;
   skos:definition "Procedure for measurement of exchangeable bases + CEC - 1M ammonium chloride at pH 7, with pretreatment, automated leach"@en ;
   skos:inScheme s:scma-2011 ;
@@ -2003,7 +2037,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitMass ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -2013,7 +2047,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/15D3"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:CentiMOL-PER-KiloGM ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/15-ion-exchange-properties/15D3.html> ;
   skos:definition "Procedure for measurement of exchangeable bases - 1M ammonium chloride at pH 7, rapid method, no pretreatment"@en ;
   skos:inScheme s:scma-2011 ;
@@ -2030,7 +2064,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitMass ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -2040,7 +2074,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/15E1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:CentiMOL-PER-KiloGM ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/15-ion-exchange-properties/15E1.html> ;
   skos:definition "Procedure for measurement of exchangeable bases + CEC + AEC by compulsive exchange, no pretreatment"@en ;
   skos:inScheme s:scma-2011 ;
@@ -2057,7 +2091,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitMass ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -2067,7 +2101,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/15E2"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:CentiMOL-PER-KiloGM ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/15-ion-exchange-properties/15E2.html> ;
   skos:definition "Procedure for measurement of exchangeable bases + CEC + AEC by compulsive exchange, with pretreatment"@en ;
   skos:inScheme s:scma-2011 ;
@@ -2084,7 +2118,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitMass ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -2094,7 +2128,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/15E3"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:CentiMOL-PER-KiloGM ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/15-ion-exchange-properties/15E3.html> ;
   skos:definition "Procedure for measuremnet of exchangeable bases + CEC + AEC by compulsive exchange, adjusted for soluble Na"@en ;
   skos:inScheme s:scma-2011 ;
@@ -2111,7 +2145,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitMass ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -2121,7 +2155,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/15F1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:CentiMOL-PER-KiloGM ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/15-ion-exchange-properties/15F1.html> ;
   skos:definition "Procedure for measurement of exchangeable bases by 0.01M Silver-thiourea (AgTU) - no pretreatment"@en ;
   skos:inScheme s:scma-2011 ;
@@ -2138,7 +2172,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitMass ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -2148,7 +2182,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/15F2"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:CentiMOL-PER-KiloGM ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/15-ion-exchange-properties/15F2.html> ;
   skos:definition "Procedure for measurement of exchangeable aluminium by 0.01M Silver-thiourea (AgTU) "@en ;
   skos:inScheme s:scma-2011 ;
@@ -2165,7 +2199,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitMass ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -2175,7 +2209,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/15F3"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:CentiMOL-PER-KiloGM ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/15-ion-exchange-properties/15F3.html> ;
   skos:definition "Procedure for measurement of CEC by 0.01M Silver-thiourea (AgTU) "@en ;
   skos:inScheme s:scma-2011 ;
@@ -2192,7 +2226,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitMass ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -2202,7 +2236,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/15G1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:CentiMOL-PER-KiloGM ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/15-ion-exchange-properties/15G1.html> ;
   skos:definition "Procedure for measurement of exchangeable acidity (H + Al) by 1M Potassium chloride"@en ;
   skos:inScheme s:scma-2011 ;
@@ -2219,7 +2253,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitMass ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -2229,7 +2263,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/15H1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:CentiMOL-PER-KiloGM ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/15-ion-exchange-properties/15H1.html> ;
   skos:definition "Procedure for measurement of exchangeable acidity by triethanolamine (TEA)"@en ;
   skos:inScheme s:scma-2011 ;
@@ -2246,7 +2280,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitMass ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -2256,7 +2290,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/15I1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:CentiMOL-PER-KiloGM ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/15-ion-exchange-properties/15I1.html> ;
   skos:definition "Procedure for measurement of CEC - distillation of NH4"@en ;
   skos:inScheme s:scma-2011 ;
@@ -2273,7 +2307,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitMass ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -2283,7 +2317,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/15I2"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:CentiMOL-PER-KiloGM ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/15-ion-exchange-properties/15I2.html> ;
   skos:definition "Procedure for measuring CEC- automated NH4"@en ;
   skos:inScheme s:scma-2011 ;
@@ -2300,7 +2334,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitMass ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -2310,7 +2344,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/15I3"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:CentiMOL-PER-KiloGM ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/15-ion-exchange-properties/15I3.html> ;
   skos:definition "Procedure for the measurement of CEC- automated NH4 and Cl"@en ;
   skos:inScheme s:scma-2011 ;
@@ -2327,7 +2361,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitMass ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -2337,7 +2371,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/15I4"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:CentiMOL-PER-KiloGM ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/15-ion-exchange-properties/15I4.html> ;
   skos:definition "Procedure for measurement of CEC- titration of NH4 and Cl"@en ;
   skos:inScheme s:scma-2011 ;
@@ -2354,7 +2388,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitMass ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -2364,7 +2398,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/15J1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:CentiMOL-PER-KiloGM ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/15-ion-exchange-properties/15J1.html> ;
   skos:definition "Procedure for calculating ECEC - calculation"@en ;
   skos:inScheme s:scma-2011 ;
@@ -2381,7 +2415,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitMass ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -2391,7 +2425,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/15K1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:CentiMOL-PER-KiloGM ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/15-ion-exchange-properties/15K1.html> ;
   skos:definition "Procedure for measuring CEC - pH 8.2"@en ;
   skos:inScheme s:scma-2011 ;
@@ -2408,8 +2442,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
-  sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitMass ;
   ansis:analyte obo:CHEBI_23367 ;
 .
 <http://anzsoil.org/def/au/scm/15L1>
@@ -2418,7 +2451,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/15L1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/15-ion-exchange-properties/15L1.html> ;
   skos:definition "Procedure for measuring base saturation percentage (BSP)"@en ;
   skos:inScheme s:scma-2011 ;
@@ -2435,8 +2468,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
-  sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
+  sosa:observedProperty qk:AmountOfSubstanceFraction ;
   ansis:analyte obo:CHEBI_23367 ;
 .
 <http://anzsoil.org/def/au/scm/15M1>
@@ -2445,7 +2477,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/15M1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:UNITLESS ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/15-ion-exchange-properties/15M1.html> ;
   skos:definition "Procedure for measuring basic cation saturation ratios"@en ;
   skos:inScheme s:scma-2011 ;
@@ -2462,8 +2494,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
-  sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
+  sosa:observedProperty qk:AmountOfSubstanceFraction ;
   ansis:analyte obo:CHEBI_23367 ;
 .
 <http://anzsoil.org/def/au/scm/15N1>
@@ -2472,7 +2503,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/15N1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/15-ion-exchange-properties/15N1.html> ;
   skos:definition "Procedure for measuring exchangeable Na percentage (ESP)"@en ;
   skos:inScheme s:scma-2011 ;
@@ -2499,7 +2530,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/15O1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/15-ion-exchange-properties/15O1.html> ;
   skos:definition "Procedure for measuring percentage Al saturation"@en ;
   skos:inScheme s:scma-2011 ;
@@ -2547,7 +2578,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/16A1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:KiloGM-PER-HA ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/16-lime-requirement/16A.html> ;
   skos:definition "Lime rate- calculation from exchangeable Al"@en ;
   skos:inScheme s:scma-2011 ;
@@ -2564,8 +2595,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
-  sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
+  sosa:observedProperty qk:MassRatio ;
   ansis:analyte obo:CHEBI_23367 ;
 .
 <http://anzsoil.org/def/au/scm/16B1>
@@ -2574,7 +2604,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/16B1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:KiloGM-PER-HA ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/16-lime-requirement/16B1.html> ;
   skos:definition "Lime rate- calculation from Cregan"@en ;
   skos:inScheme s:scma-2011 ;
@@ -2591,8 +2621,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
-  sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
+  sosa:observedProperty qk:MassRatio ;
   ansis:analyte obo:CHEBI_23367 ;
 .
 <http://anzsoil.org/def/au/scm/16C1>
@@ -2601,7 +2630,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/16C1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:TONNE-PER-HA ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/16-lime-requirement/16C1.html> ;
   skos:definition "Procedure for calculating lime requirement - Mehlich single buffer"@en ;
   skos:inScheme s:scma-2011 ;
@@ -2618,8 +2647,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
-  sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
+  sosa:observedProperty qk:MassRatio ;
   ansis:analyte obo:CHEBI_23367 ;
 .
 <http://anzsoil.org/def/au/scm/16D1>
@@ -2628,7 +2656,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/16D1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:TONNE-PER-HA ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/16-lime-requirement/16D1.html> ;
   skos:definition "Procedure for measuring lime requirement - Dunn titration curves"@en ;
   skos:inScheme s:scma-2011 ;
@@ -2645,7 +2673,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:MassRatio ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -2678,6 +2706,7 @@
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
   qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/17-total-miscellaneous-elements/17A1.html> ;
   skos:definition "Procedure for measurement of total element - X-ray fluorescence"@en ;
   skos:inScheme s:scma-2011 ;
@@ -2704,7 +2733,8 @@
   dct:identifier "http://anzsoil.org/def/au/scm/17A2"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+   qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/17-total-miscellaneous-elements/17A2.html> ;
   skos:definition "Procedure for measurement of total element - Microwave digestion, AAS"@en ;
   skos:inScheme s:scma-2011 ;
@@ -2732,6 +2762,7 @@
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
   qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/17-total-miscellaneous-elements/17B1.html> ;
   skos:definition "Procedure for measurement of Pseudo-Total element - reverse aqua regia block digestion, AAS"@en ;
   skos:inScheme s:scma-2011 ;
@@ -2759,6 +2790,7 @@
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
   qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/17-total-miscellaneous-elements/17B2.html> ;
   skos:definition "Procedure for measuring Pseudo-Total element - reverse aqua microwave digestion, AAS"@en ;
   skos:inScheme s:scma-2011 ;
@@ -2786,6 +2818,7 @@
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
   qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/17-total-miscellaneous-elements/17C1.html> ;
   skos:procedure "Procedure for measuring Pseudo-Total element - conventional aqua regia block digestion, AAS"@en ;
   skos:inScheme s:scma-2011 ;
@@ -2839,6 +2872,7 @@
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
   qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:CentiMOL-PER-KiloGM ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/18-miscellaneous-extractable-elements/18A1.html> ;
   skos:definition "Procedure for measuring bicarbonate extractable K"@en ;
   skos:inScheme s:scma-2011 ;
@@ -2856,6 +2890,7 @@
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
   sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitMass ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -2866,6 +2901,7 @@
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
   qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:CentiMOL-PER-KiloGM ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/18-miscellaneous-extractable-elements/18B1.html> ;
   skos:definition "Procedure for measuring hydrochloric acid extractable K"@en ;
   skos:inScheme s:scma-2011 ;
@@ -2883,6 +2919,7 @@
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
   sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitMass ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -2893,6 +2930,7 @@
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
   qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:CentiMOL-PER-KiloGM ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/18-miscellaneous-extractable-elements/18C1.html> ;
   skos:definition "Procedure for measurement of 1M Nitric Acid, boiling, extractable K"@en ;
   skos:inScheme s:scma-2011 ;
@@ -2910,6 +2948,7 @@
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
   sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitMass ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -3103,7 +3142,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/19A1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/19-alkaline-earth-carbonates/19A1.html> ;
   skos:definition "Procedure for measuring carbonates- by rapid titration"@en ;
   skos:inScheme s:scma-2011 ;
@@ -3130,7 +3169,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/19B"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/19-alkaline-earth-carbonates/19B.html> ;
   skos:inScheme s:scma-2011 ;
   skos:inScheme s:swcm-1992 ;
@@ -3158,7 +3197,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/19B1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   skos:broader <http://anzsoil.org/def/au/scm/19B> ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/19-alkaline-earth-carbonates/19B1.html> ;
   skos:definition "Procedure for measuring carbonates - by pressure change, manometric"@en ;
@@ -3184,7 +3223,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/19B2"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   skos:broader <http://anzsoil.org/def/au/scm/19B> ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/19-alkaline-earth-carbonates/19B2.html> ;
   skos:definition "Procedure for measuring carbonates - by pressure change, transducer"@en ;
@@ -3210,7 +3249,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/19C1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/19-alkaline-earth-carbonates/19C1.html> ;
   skos:definition "Procedure for measuring soil carbonates - field test with dilute HCL"@en ;
   skos:inScheme s:scma-2011 ;
@@ -3237,7 +3276,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/19D1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/19-alkaline-earth-carbonates/19D1.html> ;
   skos:definition "Procedure for measuring soil carbonates - field test with dilute HCL and effervescence class assessment"@en ;
   skos:inScheme s:scma-2011 ;
@@ -3264,15 +3303,11 @@
   dct:identifier "http://anzsoil.org/def/au/scm/1A1"^^xsd:anyURI ;
   dct:isReplacedBy owl:Nothing ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
   skos:inScheme s:swcm-1992 ;
   skos:notation "1A1" ;
   skos:note "Retired in Soil Chemical Methods Australasia, Rayment G.E. and Lyons D.J. ISBN 9780643101364, URN:ISBN:978-0-643-10218-8"@en ;
   skos:prefLabel "Field sampling - soil and land use surveys"@en ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
-  sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
-  ansis:analyte obo:CHEBI_23367 ;
 .
 <http://anzsoil.org/def/au/scm/1A2>
   a skos:Concept ;
@@ -3280,15 +3315,11 @@
   dct:identifier "http://anzsoil.org/def/au/scm/1A2"^^xsd:anyURI ;
   dct:isReplacedBy owl:Nothing ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
   skos:inScheme s:swcm-1992 ;
   skos:notation "1A2" ;
   skos:note "Retired in Soil Chemical Methods Australasia, Rayment G.E. and Lyons D.J. ISBN 9780643101364, URN:ISBN:978-0-643-10218-9"@en ;
   skos:prefLabel "Field sampling - diagnostic"@en ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
-  sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
-  ansis:analyte obo:CHEBI_23367 ;
 .
 <http://anzsoil.org/def/au/scm/1B1>
   a skos:Concept ;
@@ -3296,15 +3327,11 @@
   dct:identifier "http://anzsoil.org/def/au/scm/1B1"^^xsd:anyURI ;
   dct:isReplacedBy owl:Nothing ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
   skos:inScheme s:swcm-1992 ;
   skos:notation "1B1" ;
   skos:note "Retired in Soil Chemical Methods Australasia, Rayment G.E. and Lyons D.J. ISBN 9780643101364, URN:ISBN:978-0-643-10218-10"@en ;
   skos:prefLabel "Laboratory preparation"@en ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
-  sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
-  ansis:analyte obo:CHEBI_23367 ;
 .
 <http://anzsoil.org/def/au/scm/20>
   a skos:Collection ;
@@ -3341,7 +3368,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/20A1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:MOL-PER-TONNE ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/20-acid-sulfate-soils/20A1.html> ;
   skos:definition "Procedure for measuring chromium reducible S (Scr)"@en ;
   skos:inScheme s:scma-2011 ;
@@ -3358,8 +3385,6 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
-  sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
 <http://anzsoil.org/def/au/scm/20B1>
@@ -3368,7 +3393,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/20B1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:MOL-PER-TONNE ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/20-acid-sulfate-soils/20B1.html> ;
   skos:definition "Procedure for measuring Suspension Peroxide Oxidation Combined Acidity and Sulfur (SPOCAS) acid trail- titratable actual acidity (TAA)"@en ;
   skos:inScheme s:scma-2011 ;
@@ -3385,8 +3410,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
-  sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitMass ;
   ansis:analyte obo:CHEBI_23367 ;
 .
 <http://anzsoil.org/def/au/scm/20C1>
@@ -3395,7 +3419,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/20C1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:MOL-PER-TONNE ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/20-acid-sulfate-soils/20C1.html> ;
   skos:definition "Procedure for measuring Suspension Peroxide Oxidation Combined Acidity and Sulfur (SPOCAS) acid trail- titratable potential acidity (TPA) and Net Acid Neutralising Capacity (a-ANCe)"@en ;
   skos:inScheme s:scma-2011 ;
@@ -3412,8 +3436,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
-  sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitMass ;
   ansis:analyte obo:CHEBI_23367 ;
 .
 <http://anzsoil.org/def/au/scm/20D1>
@@ -3422,7 +3445,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/20D1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/20-acid-sulfate-soils/20D1.html> ;
   skos:definition "Procedure for measuring 1M KCL extractable S, Ca, Mg"@en ;
   skos:inScheme s:scma-2011 ;
@@ -3449,7 +3472,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/20E1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/20-acid-sulfate-soils/20E1.html> ;
   skos:definition "Procedure for measuring 1M KCL extractable S, Ca, Mg after peroxide oxidation"@en ;
   skos:inScheme s:scma-2011 ;
@@ -3476,7 +3499,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/20F1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/20-acid-sulfate-soils/20F1.html> ;
   skos:definition "Procedure for measuring sulfur - 4M HCL extraction, ICPAES"@en ;
   skos:inScheme s:scma-2011 ;
@@ -3503,7 +3526,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/20F2"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/20-acid-sulfate-soils/20F2.html> ;
   skos:definition "Procedure for measuring sulfur - 4M HCL extraction, Ion chromotography"@en ;
   skos:inScheme s:scma-2011 ;
@@ -3530,7 +3553,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/20G1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/20-acid-sulfate-soils/20G1.html> ;
   skos:definition "Sulfur - Peroxide residual acid soluble (S RAS)"@en ;
   skos:inScheme s:scma-2011 ;
@@ -3557,7 +3580,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/20H1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/20-acid-sulfate-soils/20H1.html> ;
   skos:definition "Procedure for measuring acid neutralising capacity (ANC) - acid reacted and back titration (ANCbt)"@en ;
   skos:inScheme s:scma-2011 ;
@@ -3584,7 +3607,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/20I1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:MOL-PER-M3 ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/20-acid-sulfate-soils/20I1.html> ;
   skos:definition "Procedure for measuring acid netralising capacity (ANC) - from Suspension Peroxide Oxidation Combined Acidity and Sulfur (SPOCAS)"@en ;
   skos:inScheme s:scma-2011 ;
@@ -3601,7 +3624,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitVolume ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -3611,7 +3634,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/20J1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:MOL-PER-M3 ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/20-acid-sulfate-soils/20J1.html> ;
   skos:definition "Procedure for Field Approximation of Acid Sulfate Soils (ASS) hazard"@en ;
   skos:inScheme s:scma-2011 ;
@@ -3628,7 +3651,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstancePerUnitVolume ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -3638,7 +3661,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/20K1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:KiloGM-PER-M3 ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/20-acid-sulfate-soils/20K1.html> ;
   skos:definition "Procedure for Field Approximation of Acid Sulfate Soils (ASS) presence and lime requirement"@en ;
   skos:inScheme s:scma-2011 ;
@@ -3655,7 +3678,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:MassDensity ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -3801,7 +3824,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/3B1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:DeciS-PER-M ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/03/03B1.html> ;
   skos:definition "Procedure for the estimation of soluble salt concentration, reported value is based on a calculation."@en ;
   skos:inScheme s:scma-2011 ;
@@ -4221,6 +4244,73 @@
   skos:topConceptOf s:swcm-1992 ;
   sosa:observedProperty qk:Dimensionless ;
   ansis:analyte obo:CHEBI_23367 ;
+  rdfs:subClassOf [
+      a owl:Restriction ;
+      owl:onProperty owl:hasOutput ;
+      owl:allValuesFrom s:reactivity-class ;
+    ] ;
+.
+s:reactivity-class
+  a owl:Class ;
+  a skos:Collection ;
+  dct:identifier "http://anzsoil.org/def/au/scm/reactivity-class"^^xsd:anyURI ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "Laboratory assessed ‘reactivity class’ (adapted from Isbell 1998)"@en ;
+  skos:member s:reactivity-class-0 ;
+  skos:member s:reactivity-class-1 ;
+  skos:member s:reactivity-class-2 ;
+  skos:member s:reactivity-class-3 ;
+  skos:member s:reactivity-class-4 ;
+  skos:member s:reactivity-class-5 ;
+  skos:prefLabel "Laboratory assessed ‘reactivity class’ - enumeration"@en ;
+.
+s:reactivity-class-0
+  a ssn:Output ;
+  a skos:Concept ;
+  dct:identifier "http://anzsoil.org/def/au/scm/reactivity-class-0"^^xsd:anyURI ;
+  skos:definition "No pH change within 2 min."@en ;
+  skos:notation "0" ;
+  skos:prefLabel "Non-reactive"@en ;
+.
+s:reactivity-class-1
+  a ssn:Output ;
+  a skos:Concept ;
+  dct:identifier "http://anzsoil.org/def/au/scm/reactivity-class-1"^^xsd:anyURI ;
+  skos:definition "Minor pH increase after 2 min."@en ;
+  skos:notation "1" ;
+  skos:prefLabel "Very weak"@en ;
+.
+s:reactivity-class-2
+  a ssn:Output ;
+  a skos:Concept ;
+  dct:identifier "http://anzsoil.org/def/au/scm/reactivity-class-2"^^xsd:anyURI ;
+  skos:definition "Minor pH increase after 1 min."@en ;
+  skos:notation "2" ;
+  skos:prefLabel "Weak"@en ;
+.
+s:reactivity-class-3
+  a ssn:Output ;
+  a skos:Concept ;
+  dct:identifier "http://anzsoil.org/def/au/scm/reactivity-class-3"^^xsd:anyURI ;
+  skos:definition "Measurable pH increase by 1 min."@en ;
+  skos:notation "3" ;
+  skos:prefLabel "Moderate"@en ;
+.
+s:reactivity-class-4
+  a ssn:Output ;
+  a skos:Concept ;
+  dct:identifier "http://anzsoil.org/def/au/scm/reactivity-class-4"^^xsd:anyURI ;
+  skos:definition "Measurable pH increase after 10–20 s."@en ;
+  skos:notation "4" ;
+  skos:prefLabel "Strong"@en ;
+.
+s:reactivity-class-5
+  a ssn:Output ;
+  a skos:Concept ;
+  dct:identifier "http://anzsoil.org/def/au/scm/reactivity-class-5"^^xsd:anyURI ;
+  skos:definition "Measurable pH increase within 10 s."@en ;
+  skos:notation "5" ;
+  skos:prefLabel "Very strong"@en ;
 .
 <http://anzsoil.org/def/au/scm/4E1>
   a skos:Concept ;
@@ -4483,7 +4573,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/6A1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/06-C/06A1.html> ;
   skos:definition "Procedure to measure Organic Carbon using Walkley and Black (W&B) procedure. Report as OCW&B (%C) on oven dry basis - refer to method 2A1"@en ;
   skos:inScheme s:scma-2011 ;
@@ -4511,7 +4601,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/6B1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/06-C/06B1.html> ;
   skos:definition "Procedure to measure Total Organic Carbon using Heanes wet oxidation. "@en;
   skos:inScheme s:scma-2011 ;
@@ -4538,7 +4628,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/6B2"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/06-C/06B2.html> ;
   skos:definition "Dumas high temperature combustion procedure used for Total Carbon"@en ;
   skos:inScheme s:scma-2011 ;
@@ -4567,7 +4657,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/6B2a"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   skos:broader <http://anzsoil.org/def/au/scm/6B2> ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/06-C/06B2a.html> ;
   skos:definition "Dumas high temperature combustion method used for Total Carbon, volumetric, with no pre treatment. Report Total Carbon (%) in oven dry basis refer to method 2A1"@en ;
@@ -4594,7 +4684,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/6B2b"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   skos:broader <http://anzsoil.org/def/au/scm/6B2> ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/06-C/06B2b.html> ;
   skos:definition "Dumas high temperature combustion procedure used for Total Carbon, infrared/ thermal conductivity detection, with no pre treatment. Report Total Carbon (%) in oven dry basis - refer to method 2A1"@en ;
@@ -4621,7 +4711,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/6B3"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/06-C/06B3.html> ;
   skos:definition "Dumas high temperature combustion procedure used for Total Carbon, infrared/ thermal conductivity detection, with prior removal of charcoal and chemical removal of carbonates. Report Total Carbon (%) in oven dry basis - refer to method 2A1"@en ;
   skos:inScheme s:scma-2011 ;
@@ -4649,7 +4739,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/6B4"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/06-C/06B4.html> ;
   skos:inScheme s:scma-2011 ;
   skos:inScheme s:swcm-1992 ;
@@ -4677,7 +4767,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/6B4a"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   skos:broader <http://anzsoil.org/def/au/scm/6B4> ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/06-C/06B4a.html> ;
   skos:inScheme s:scma-2011 ;
@@ -4703,7 +4793,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/6B4b"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   skos:broader <http://anzsoil.org/def/au/scm/6B4> ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/06-C/06B4b.html> ;
   skos:definition "MIR - Mid Infra-Red Reflectance Sprectrometry estimation of Total Organic Carbon (related to one of the alternate 6B analytical methods)"@en ;
@@ -4729,7 +4819,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/6C1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/06-C/06C1.html> ;
   skos:definition "Procedure for measuring Particulate Organic C with Manual aquieous dispersion with sieving for determining individual pieces of plant debris between 2mm and 53micron "@en ;
   skos:inScheme s:scma-2011 ;
@@ -4756,7 +4846,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/6D1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/06-C/06D1.html> ;
   skos:definition "Procedure for measuring pyrophosphate extractable organic complexes which are bound to iron and aluminium (refer 13B1 and a 6B organic carbon measurement)"@en ;
   skos:inScheme s:scma-2011 ;
@@ -4784,7 +4874,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/6E1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/06-C/06E1.html> ;
   skos:definition "Procedure to measure labile or active soil organic matter carbon using a potassium permanganate extraction and spectrophotometric analysis"@en ;
   skos:inScheme s:scma-2011 ;
@@ -4811,7 +4901,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/6F1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/06-C/06F1.html> ;
   skos:definition "Procedure that measures charcoal residues, by 6B Dumas after digestion of organic carbon using peroxide and dilute nitric acid"@en ;
   skos:inScheme s:scma-2011 ;
@@ -4838,7 +4928,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/6G1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/06-C/06G1.html> ;
   skos:definition "Loss on Ignition high temperature gravimetric method for approximation of organic matter or organic carbon"@en ;
   skos:inScheme s:scma-2011 ;
@@ -4865,7 +4955,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/7A1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/07-N/07A1.html> ;
   skos:definition "Kjeldahl sulfuric acid / catalyst digestion to steam distill ammonia for titrimetric determination "@en ;
   skos:inScheme s:scma-2011 ;
@@ -4894,7 +4984,7 @@
   dct:isReplacedBy <http://anzsoil.org/def/au/scm/7A2a> ;
   dct:isReplacedBy <http://anzsoil.org/def/au/scm/7A2b> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   skos:inScheme s:swcm-1992 ;
   skos:narrower <http://anzsoil.org/def/au/scm/7A2a> ;
   skos:narrower <http://anzsoil.org/def/au/scm/7A2b> ;
@@ -4912,7 +5002,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/7A2a"^^xsd:anyURI ;
   dct:replaces <http://anzsoil.org/def/au/scm/7A2> ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   skos:broader <http://anzsoil.org/def/au/scm/7A2> ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/07-N/07A2a.html> ;
   skos:definition "Automated colour method for Total soil-N of Continuous Flow Injection of the Semi-micro kjeldahl digests"@en ;
@@ -4937,7 +5027,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/7A2b"^^xsd:anyURI ;
   dct:replaces <http://anzsoil.org/def/au/scm/7A2> ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   skos:broader <http://anzsoil.org/def/au/scm/7A2> ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/07-N/07A2b.html> ;
   skos:inScheme s:scma-2011 ;
@@ -4961,7 +5051,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/7A3"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/07-N/07A3.html> ;
   skos:definition "Procedure that is salicylate modication of kjeldahl digestion to ensure recovery of nitrate/ nitrite with steam distillation."@en ;
   skos:inScheme s:scma-2011 ;
@@ -4988,7 +5078,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/7A4"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/07-N/07A4.html> ;
   skos:definition "Automated colour procedure of Continuous or Segmented Flow Injection of the salicylate modified kjeldahl digests"@en ;
   skos:inScheme s:scma-2011 ;
@@ -5015,7 +5105,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/7A5"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/07-N/07A5.html> ;
   skos:definition "Dumas high temperature combustion with thermal conductivity measurement of nitrogen gas"@en ;
   skos:inScheme s:scma-2011 ;
@@ -5070,7 +5160,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/7A6a"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   skos:broader <http://anzsoil.org/def/au/scm/7A6> ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/07-N/07A6a.html> ;
   skos:definition "NIR - Near Infra-Red Reflectance Sprectrometry estimation of Total Nitrogen (related to one of the alternate 7A analytical methods)"@n ;
@@ -5096,7 +5186,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/7A6b"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   skos:broader <http://anzsoil.org/def/au/scm/7A6> ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/07-N/07A6b.html> ;
   skos:definition "MIR - Mid Infra-Red Reflectance Sprectrometry estimation of Total Nitrogen (related to one of the alternate 7A analytical methods)"@en ;
@@ -5271,7 +5361,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:MassRatio ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -5579,7 +5669,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:MassRatio ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -5719,7 +5809,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/8A1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:UNITLESS ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/08-CN-ratio/08A1.html> ;
   skos:definition "Calculation of Total Organic Carbon/ Total Nitrogen Ratio - Calculation Only"@en ;
   skos:inScheme s:scma-2011 ;
@@ -5736,8 +5826,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
-  sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
+  sosa:observedProperty qk:AmountOfSubstanceFraction ;
   ansis:analyte obo:CHEBI_23367 ;
 .
 <http://anzsoil.org/def/au/scm/8B1>
@@ -5746,7 +5835,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/8B1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:UNITLESS ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/08-CN-ratio/08B1.html> ;
   skos:definition "Calculation of Organic Carbon by Walkley & Black / Total Nitrogen Ratio - Calculation Only"@en ;
   skos:inScheme s:scma-2011 ;
@@ -5763,8 +5852,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
-  sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
+  sosa:observedProperty qk:AmountOfSubstanceFraction ;
   ansis:analyte obo:CHEBI_23367 ;
 .
 <http://anzsoil.org/def/au/scm/9A>
@@ -5773,7 +5861,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/9A"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/09-P/09A.html> ;
   skos:inScheme s:scma-2011 ;
   skos:inScheme s:swcm-1992 ;
@@ -5803,7 +5891,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/9A1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   skos:broader <http://anzsoil.org/def/au/scm/9A> ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/09-P/09A1.html> ;
   skos:definition "Procedure for measuring Total Phosphorus - X-ray Fluorescence"@en ;
@@ -5829,7 +5917,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/9A2"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   skos:broader <http://anzsoil.org/def/au/scm/9A> ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/09-P/09A2.html> ;
   skos:definition "Procedure for measuring Total Phosphorus - Sodium carbonate fusion"@en ;
@@ -5845,7 +5933,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/93acids03.html> ;
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/94atomicweights04.html> ;
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
-  sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:MassRatio ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -5855,7 +5943,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/9A3a"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   skos:broader <http://anzsoil.org/def/au/scm/9A> ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/09-P/09A3a.html> ;
   skos:definition "Procedure for measuring Kjeldahl Phosphorus - Automated colour - FIA, SFA"@en ;
@@ -5871,7 +5959,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/93acids03.html> ;
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/94atomicweights04.html> ;
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
-  sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:DimensionlessRatio ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -5881,7 +5969,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/9A3b"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   skos:broader <http://anzsoil.org/def/au/scm/9A> ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/09-P/09A3b.html> ;
   skos:definition "Procedure for measuring Kjeldahl Phosphorus - ICPAES"@en ;
@@ -5907,7 +5995,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/9B"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/09-P/09B.html> ;
   skos:inScheme s:scma-2011 ;
   skos:inScheme s:swcm-1992 ;
@@ -6217,7 +6305,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/9F1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:MicroGM-PER-KiloGM ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/09-P/09F1.html> ;
   skos:definition "Calcium chloride extractable Phosphorus procedure - Manual colour"@en ;
   skos:inScheme s:scma-2011 ;
@@ -6244,7 +6332,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/9F2"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:MicroGM-PER-KiloGM ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/09-P/09F2.html> ;
   skos:definition "Calcium chloride extractable Phosphorus procedure  - SFA, FIA"@en ;
   skos:inScheme s:scma-2011 ;
@@ -6325,7 +6413,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/9H1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:PERCENT ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/09-P/09H1.html> ;
   skos:defintion "Procedure to measure Anion storage capacity (previously P retention)"@en ;
   skos:inScheme s:scma-2011 ;
@@ -6342,8 +6430,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   skos:topConceptOf s:scma-2011 ;
   skos:topConceptOf s:swcm-1992 ;
-  sosa:observedProperty qk:MassConcentration ;
-  sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
+  sosa:observedProperty qk:AmountOfSubstanceFraction ;
   ansis:analyte obo:CHEBI_23367 ;
 .
 <http://anzsoil.org/def/au/scm/9I>
@@ -6388,7 +6475,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/9I1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:UNITLESS ;
   skos:broader <http://anzsoil.org/def/au/scm/9I> ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/09-P/09I1.html> ;
   skos:definition "Procedure to measure Phosphate Sorption Index"@en ;
@@ -6404,8 +6491,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/93acids03.html> ;
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/94atomicweights04.html> ;
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
-  sosa:observedProperty qk:MassConcentration ;
-  sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
+  sosa:observedProperty qk:AmountOfSubstanceFraction ;
   ansis:analyte obo:CHEBI_23367 ;
 .
 <http://anzsoil.org/def/au/scm/9I2a>
@@ -6414,7 +6500,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/9I2a"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:UNITLESS ;
   skos:broader <http://anzsoil.org/def/au/scm/9I> ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/09-P/09I2a.html> ;
   skos:defintion "Procedure to measure P Buffer Index - PBI + Colwell P - Murphy and Riley"@en ;
@@ -6430,8 +6516,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/93acids03.html> ;
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/94atomicweights04.html> ;
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
-  sosa:observedProperty qk:MassConcentration ;
-  sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
+  sosa:observedProperty qk:AmountOfSubstanceFraction ;
   ansis:analyte obo:CHEBI_23367 ;
 .
 <http://anzsoil.org/def/au/scm/9I2b>
@@ -6440,7 +6525,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/9I2b"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:UNITLESS ;
   skos:broader <http://anzsoil.org/def/au/scm/9I> ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/09-P/09I2b.html> ;
   skos:definition "Procedure to measure P Buffer Index - PBI + Colwell P - ICPAES"@en ;
@@ -6456,8 +6541,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/93acids03.html> ;
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/94atomicweights04.html> ;
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
-  sosa:observedProperty qk:MassConcentration ;
-  sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
+  sosa:observedProperty qk:AmountOfSubstanceFraction ;
   ansis:analyte obo:CHEBI_23367 ;
 .
 <http://anzsoil.org/def/au/scm/9I2c>
@@ -6466,7 +6550,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/9I2c"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:UNITLESS ;
   skos:broader <http://anzsoil.org/def/au/scm/9I> ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/09-P/09I2c.html> ;
   skos:definition "Procedure to measure P Buffer Index - PBI + Colwell P - Vanadate"@en ;
@@ -6482,8 +6566,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/93acids03.html> ;
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/94atomicweights04.html> ;
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
-  sosa:observedProperty qk:MassConcentration ;
-  sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
+  sosa:observedProperty qk:AmountOfSubstanceFraction ;
   ansis:analyte obo:CHEBI_23367 ;
 .
 <http://anzsoil.org/def/au/scm/9I3a>
@@ -6492,7 +6575,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/9I3a"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:UNITLESS ;
   skos:broader <http://anzsoil.org/def/au/scm/9I> ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/09-P/09I3a.html> ;
   skos:defintiono "Procedure to measure P Buffer Index - PBI + Olsen P - Murphy and Riley"@en ;
@@ -6508,8 +6591,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/93acids03.html> ;
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/94atomicweights04.html> ;
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
-  sosa:observedProperty qk:MassConcentration ;
-  sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
+  sosa:observedProperty qk:AmountOfSubstanceFraction ;
   ansis:analyte obo:CHEBI_23367 ;
 .
 <http://anzsoil.org/def/au/scm/9I3b>
@@ -6518,7 +6600,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/9I3b"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:UNITLESS ;
   skos:broader <http://anzsoil.org/def/au/scm/9I> ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/09-P/09I3b.html> ;
   skos:definition "Procedure for measuring P Buffer Index - PBI + Olsen P - ICPAES"@en ;
@@ -6534,8 +6616,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/93acids03.html> ;
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/94atomicweights04.html> ;
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
-  sosa:observedProperty qk:MassConcentration ;
-  sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
+  sosa:observedProperty qk:AmountOfSubstanceFraction ;
   ansis:analyte obo:CHEBI_23367 ;
 .
 <http://anzsoil.org/def/au/scm/9I3c>
@@ -6544,7 +6625,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/9I3c"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:UNITLESS ;
   skos:broader <http://anzsoil.org/def/au/scm/9I> ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/09-P/09I3c.html> ;
   skos:defnition "Procedure for measuring P Buffer Index - PBI + Olsen P - Vanadate"@en ;
@@ -6560,8 +6641,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/93acids03.html> ;
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/94atomicweights04.html> ;
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
-  sosa:observedProperty qk:MassConcentration ;
-  sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
+  sosa:observedProperty qk:AmountOfSubstanceFraction ;
   ansis:analyte obo:CHEBI_23367 ;
 .
 <http://anzsoil.org/def/au/scm/9I4a>
@@ -6570,7 +6650,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/9I4a"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:UNITLESS ;
   skos:broader <http://anzsoil.org/def/au/scm/9I> ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/09-P/09I4a.html> ;
   skos:defintion "Procedure for measuring P Buffer Index - PBI (unadjusted) - Murphy and Riley"@en ;
@@ -6586,8 +6666,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/93acids03.html> ;
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/94atomicweights04.html> ;
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
-  sosa:observedProperty qk:MassConcentration ;
-  sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
+  sosa:observedProperty qk:AmountOfSubstanceFraction ;
   ansis:analyte obo:CHEBI_23367 ;
 .
 <http://anzsoil.org/def/au/scm/9I4b>
@@ -6596,7 +6675,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/9I4b"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:UNITLESS ;
   skos:broader <http://anzsoil.org/def/au/scm/9I> ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/09-P/09I4b.html> ;
   skos:defintion "Procedure for measuring P Buffer Index - PBI (unadjusted) - ICPAES"@en ;
@@ -6612,8 +6691,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/93acids03.html> ;
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/94atomicweights04.html> ;
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
-  sosa:observedProperty qk:MassConcentration ;
-  sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
+  sosa:observedProperty qk:AmountOfSubstanceFraction ;
   ansis:analyte obo:CHEBI_23367 ;
 .
 <http://anzsoil.org/def/au/scm/9I4c>
@@ -6622,7 +6700,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/9I4c"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:UNITLESS ;
   skos:broader <http://anzsoil.org/def/au/scm/9I> ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/09-P/09I4c.html> ;
   skos:defintion "Procedure for measuring P Buffer Index - PBI (unadjusted) - Vanadate"@en ;
@@ -6638,8 +6716,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/93acids03.html> ;
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/94atomicweights04.html> ;
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
-  sosa:observedProperty qk:MassConcentration ;
-  sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
+  sosa:observedProperty qk:AmountOfSubstanceFraction ;
   ansis:analyte obo:CHEBI_23367 ;
 .
 <http://anzsoil.org/def/au/scm/9J>
@@ -6676,7 +6753,8 @@
   dct:identifier "http://anzsoil.org/def/au/scm/9J1"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:MicroGM-PER-L ;
+  qudt:applicableUnit unit:UNITLESS ;
   skos:broader <http://anzsoil.org/def/au/scm/9J> ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/09-P/09J1.html> ;
   skos:defintion "Phosphate Sorption Curve procedure - Manual colour"@en ;
@@ -6693,6 +6771,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/94atomicweights04.html> ;
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstanceFraction ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -6702,7 +6781,8 @@
   dct:identifier "http://anzsoil.org/def/au/scm/9J2"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:MicroGM-PER-L ;
+  qudt:applicableUnit unit:UNITLESS ;
   skos:broader <http://anzsoil.org/def/au/scm/9J> ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/09-P/09J2.html> ;
   skos:definition "Phosphate Sorption Curve procedure - SFA, FIA"@en ;
@@ -6719,6 +6799,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/94atomicweights04.html> ;
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
   sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstanceFraction ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -6757,7 +6838,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/9K1a"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:UNITLESS ;
   skos:broader <http://anzsoil.org/def/au/scm/9K> ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/09-P/09K1a.html> ;
   skos:definition "Mehlich 3 Phosphorus procedure - P saturation ratio - colorimetric"@en ;
@@ -6773,8 +6854,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/93acids03.html> ;
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/94atomicweights04.html> ;
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
-  sosa:observedProperty qk:MassConcentration ;
-  sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
+  sosa:observedProperty qk:AmountOfSubstanceFraction ;
   ansis:analyte obo:CHEBI_23367 ;
 .
 <http://anzsoil.org/def/au/scm/9K1b>
@@ -6783,7 +6863,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/9K1b"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:UNITLESS ;
   skos:broader <http://anzsoil.org/def/au/scm/9K> ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/09-P/09K1b.html> ;
   skos:defintion "Mehlich 3 Phosphorus procedure - P saturation ratio - ICPAES"@en ;
@@ -6799,7 +6879,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/93acids03.html> ;
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/94atomicweights04.html> ;
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
-  sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstanceFraction ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
@@ -6809,7 +6889,7 @@
   dct:identifier "http://anzsoil.org/def/au/scm/9K2"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
-  qudt:applicableUnit unit:MilliGM-PER-KiloGM ;
+  qudt:applicableUnit unit:UNITLESS ;
   skos:broader <http://anzsoil.org/def/au/scm/9K> ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/09-P/09K2.html> ;
   skos:defintion "Colwell P / (PBI + Colwell P) Ratio calculation - calculation only"@en ;
@@ -6825,7 +6905,7 @@
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/93acids03.html> ;
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/94atomicweights04.html> ;
   skos:related <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/90backmatter/95Unitsr05.html> ;
-  sosa:observedProperty qk:MassConcentration ;
+  sosa:observedProperty qk:AmountOfSubstanceFraction ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
 .
