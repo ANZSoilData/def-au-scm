@@ -3301,6 +3301,64 @@
   sosa:observedProperty qk:MassConcentration ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
+    rdfs:subClassOf [
+      a owl:Restriction ;
+      sosa:onResult sosa:hasResult ;
+      owl:allValuesFrom s:effervescence-class ;
+    ] ;
+.
+s:effervescence-class
+  a owl:Class ;
+  a skos:Collection ;
+  dct:identifier "http://anzsoil.org/def/au/scm/effervescence-class"^^xsd:anyURI ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition " Effervescence classes used to describe the entire soil matrix using 1.0 M HCl. Ratings and approximate CaCO3 equivalents (%) are adapted from Kalra and Maynard (1991)."@en ;
+  skos:member s:effervescence-class-nil ;
+  skos:member s:effervescence-class-low ;
+  skos:member s:effervescence-class-medium ;
+  skos:member s:effervescence-class-high ;
+  skos:member s:effervescence-class-very-high ;
+  skos:prefLabel "Effervescence classes - enumeration"@en ;
+.
+s:effervescence-class-nil
+  a sosa:Result ;
+  a skos:Concept ;
+  dct:identifier "http://anzsoil.org/def/au/scm/effervescence-class-nil"^^xsd:anyURI ;
+  skos:definition "Effervescence class - Non-effervescent. Appearance - No bubbles detected. Rating - Nil. Approx. CaCO3 Equivalent - 0%"@en ;
+  skos:notation "Nil" ;
+  skos:prefLabel "Non-effervescent"@en ;
+.
+s:effervescence-class-low ;
+  a sosa:Result ;
+  a skos:Concept ;
+  dct:identifier "http://anzsoil.org/def/au/scm/effervescence-class-low"^^xsd:anyURI ;
+  skos:definition "Effervescence class - 	Very slightly effervescent. Appearance - Few bubbles seen. Rating - Low. Approx. CaCO3 Equivalent - 1-5%"@en ;
+  skos:notation "Low" ;
+  skos:prefLabel "Non-reactive"@en ;
+.
+s:effervescence-class-medium ;
+  a sosa:Result ;
+  a skos:Concept ;
+  dct:identifier "http://anzsoil.org/def/au/scm/effervescence-class-medium"^^xsd:anyURI ;
+  skos:definition "Effervescence class - 	Slightly effervescent. Appearance - Bubbles readily seen. Rating - Medium. Approx. CaCO3 Equivalent - 6-10%"@en ;
+  skos:notation "Medium" ;
+  skos:prefLabel "Non-reactive"@en ;
+.
+s:effervescence-class-high ;
+  a sosa:Result ;
+  a skos:Concept ;
+  dct:identifier "http://anzsoil.org/def/au/scm/effervescence-class-high"^^xsd:anyURI ;
+  skos:definition "Effervescence class - 	Strongly effervescent. Appearance - Bubbles form low foam. Rating - High. Approx. CaCO3 Equivalent - 10-15%"@en ;
+  skos:notation "High" ;
+  skos:prefLabel "Non-reactive"@en ;
+.
+s:effervescence-class-very-high ;
+  a sosa:Result ;
+  a skos:Concept ;
+  dct:identifier "http://anzsoil.org/def/au/scm/effervescence-class-very-high"^^xsd:anyURI ;
+  skos:definition "Effervescence class - 	Violently effervescent. Appearance - Thick foam forms quickly. Rating - Very High. Approx. CaCO3 Equivalent - >15%"@en ;
+  skos:notation "Very High" ;
+  skos:prefLabel "Non-reactive"@en ;
 .
 <http://anzsoil.org/def/au/scm/19D1>
   a skos:Concept ;
@@ -3328,6 +3386,11 @@
   sosa:observedProperty qk:MassConcentration ;
   sosa:observedProperty <https://vocab.nerc.ac.uk/collection/S06/current/S0600045/> ;
   ansis:analyte obo:CHEBI_23367 ;
+      rdfs:subClassOf [
+      a owl:Restriction ;
+      sosa:onResult sosa:hasResult ;
+      owl:allValuesFrom s:reactivity-class ;
+    ] ;
 .
 <http://anzsoil.org/def/au/scm/1A1>
   a skos:Concept ;
@@ -4278,7 +4341,7 @@
   ansis:analyte obo:CHEBI_23367 ;
   rdfs:subClassOf [
       a owl:Restriction ;
-      owl:onProperty owl:hasOutput ;
+      sosa:onResult sosa:hasResult ;
       owl:allValuesFrom s:reactivity-class ;
     ] ;
 .
@@ -4297,7 +4360,7 @@ s:reactivity-class
   skos:prefLabel "Laboratory assessed ‘reactivity class’ - enumeration"@en ;
 .
 s:reactivity-class-0
-  a ssn:Output ;
+  a sosa:Result ;
   a skos:Concept ;
   dct:identifier "http://anzsoil.org/def/au/scm/reactivity-class-0"^^xsd:anyURI ;
   skos:definition "No pH change within 2 min."@en ;
@@ -4305,7 +4368,7 @@ s:reactivity-class-0
   skos:prefLabel "Non-reactive"@en ;
 .
 s:reactivity-class-1
-  a ssn:Output ;
+  a sosa:Result ;
   a skos:Concept ;
   dct:identifier "http://anzsoil.org/def/au/scm/reactivity-class-1"^^xsd:anyURI ;
   skos:definition "Minor pH increase after 2 min."@en ;
@@ -4313,7 +4376,7 @@ s:reactivity-class-1
   skos:prefLabel "Very weak"@en ;
 .
 s:reactivity-class-2
-  a ssn:Output ;
+  a sosa:Result ;
   a skos:Concept ;
   dct:identifier "http://anzsoil.org/def/au/scm/reactivity-class-2"^^xsd:anyURI ;
   skos:definition "Minor pH increase after 1 min."@en ;
@@ -4321,7 +4384,7 @@ s:reactivity-class-2
   skos:prefLabel "Weak"@en ;
 .
 s:reactivity-class-3
-  a ssn:Output ;
+  a sosa:Result ;
   a skos:Concept ;
   dct:identifier "http://anzsoil.org/def/au/scm/reactivity-class-3"^^xsd:anyURI ;
   skos:definition "Measurable pH increase by 1 min."@en ;
@@ -4329,7 +4392,7 @@ s:reactivity-class-3
   skos:prefLabel "Moderate"@en ;
 .
 s:reactivity-class-4
-  a ssn:Output ;
+  a sosa:Result ;
   a skos:Concept ;
   dct:identifier "http://anzsoil.org/def/au/scm/reactivity-class-4"^^xsd:anyURI ;
   skos:definition "Measurable pH increase after 10–20 s."@en ;
@@ -4337,7 +4400,7 @@ s:reactivity-class-4
   skos:prefLabel "Strong"@en ;
 .
 s:reactivity-class-5
-  a ssn:Output ;
+  a sosa:Result ;
   a skos:Concept ;
   dct:identifier "http://anzsoil.org/def/au/scm/reactivity-class-5"^^xsd:anyURI ;
   skos:definition "Measurable pH increase within 10 s."@en ;
