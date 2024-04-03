@@ -7014,7 +7014,7 @@ s:scma-2011
 </p><a href=\"https://raw.githack.com/ANZSoilData/def-au-scma/master/html/00frontmatter/01Preface%20and%20acknowledgements.html\">Preface and Acknowledgements</a></p>"""^^rdf:HTML ;
   dct:identifier "http://anzsoil.org/def/au/scm/scma-2011"^^xsd:anyURI ;
   dct:isFormatOf <https://catalogue.nla.gov.au/Record/4854518> ;
-  dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/> ;
   dct:modified "2022-12-05"^^xsd:date ;
   dct:publisher <https://ror.org/051hpv692> ;
   dct:replaces s:swcm-1992 ;
