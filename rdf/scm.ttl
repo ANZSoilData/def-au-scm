@@ -151,8 +151,6 @@
 .
 <http://anzsoil.org/def/au/scm/06>
   a skos:Collection ;
-  a owl:Class ;
-  rdfs:subClassOf skos:Concept ;
   dct:identifier "http://anzsoil.org/def/au/scm/06"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
@@ -164,8 +162,6 @@
   skos:member <http://anzsoil.org/def/au/scm/6B2b> ;
   skos:member <http://anzsoil.org/def/au/scm/6B3> ;
   skos:member <http://anzsoil.org/def/au/scm/6B4> ;
-  skos:member <http://anzsoil.org/def/au/scm/6B4a> ;
-  skos:member <http://anzsoil.org/def/au/scm/6B4b> ;
   skos:member <http://anzsoil.org/def/au/scm/6C1> ;
   skos:member <http://anzsoil.org/def/au/scm/6D1> ;
   skos:member <http://anzsoil.org/def/au/scm/6E1> ;
@@ -3305,61 +3301,8 @@
       a owl:Restriction ;
       sosa:onResult sosa:hasResult ;
       owl:allValuesFrom s:effervescence-class ;
-    ] ;
-.
-s:effervescence-class
-  a owl:Class ;
-  a skos:Collection ;
-  dct:identifier "http://anzsoil.org/def/au/scm/effervescence-class"^^xsd:anyURI ;
-  rdfs:subClassOf skos:Concept ;
-  skos:definition " Effervescence classes used to describe the entire soil matrix using 1.0 M HCl. Ratings and approximate CaCO3 equivalents (%) are adapted from Kalra and Maynard (1991)."@en ;
-  skos:member s:effervescence-class-nil ;
-  skos:member s:effervescence-class-low ;
-  skos:member s:effervescence-class-medium ;
-  skos:member s:effervescence-class-high ;
-  skos:member s:effervescence-class-very-high ;
-  skos:prefLabel "Effervescence classes - enumeration"@en ;
-.
-s:effervescence-class-nil
-  a sosa:Result ;
-  a skos:Concept ;
-  dct:identifier "http://anzsoil.org/def/au/scm/effervescence-class-nil"^^xsd:anyURI ;
-  skos:definition "Effervescence class - Non-effervescent. Appearance - No bubbles detected. Rating - Nil. Approx. CaCO3 Equivalent - 0%"@en ;
-  skos:notation "Nil" ;
-  skos:prefLabel "Non-effervescent"@en ;
-.
-s:effervescence-class-low ;
-  a sosa:Result ;
-  a skos:Concept ;
-  dct:identifier "http://anzsoil.org/def/au/scm/effervescence-class-low"^^xsd:anyURI ;
-  skos:definition "Effervescence class - 	Very slightly effervescent. Appearance - Few bubbles seen. Rating - Low. Approx. CaCO3 Equivalent - 1-5%"@en ;
-  skos:notation "Low" ;
-  skos:prefLabel "Non-reactive"@en ;
-.
-s:effervescence-class-medium ;
-  a sosa:Result ;
-  a skos:Concept ;
-  dct:identifier "http://anzsoil.org/def/au/scm/effervescence-class-medium"^^xsd:anyURI ;
-  skos:definition "Effervescence class - 	Slightly effervescent. Appearance - Bubbles readily seen. Rating - Medium. Approx. CaCO3 Equivalent - 6-10%"@en ;
-  skos:notation "Medium" ;
-  skos:prefLabel "Non-reactive"@en ;
-.
-s:effervescence-class-high ;
-  a sosa:Result ;
-  a skos:Concept ;
-  dct:identifier "http://anzsoil.org/def/au/scm/effervescence-class-high"^^xsd:anyURI ;
-  skos:definition "Effervescence class - 	Strongly effervescent. Appearance - Bubbles form low foam. Rating - High. Approx. CaCO3 Equivalent - 10-15%"@en ;
-  skos:notation "High" ;
-  skos:prefLabel "Non-reactive"@en ;
-.
-s:effervescence-class-very-high ;
-  a sosa:Result ;
-  a skos:Concept ;
-  dct:identifier "http://anzsoil.org/def/au/scm/effervescence-class-very-high"^^xsd:anyURI ;
-  skos:definition "Effervescence class - 	Violently effervescent. Appearance - Thick foam forms quickly. Rating - Very High. Approx. CaCO3 Equivalent - >15%"@en ;
-  skos:notation "Very High" ;
-  skos:prefLabel "Non-reactive"@en ;
-.
+    ] .
+
 <http://anzsoil.org/def/au/scm/19D1>
   a skos:Concept ;
   a sosa:Procedure ;
@@ -3389,8 +3332,57 @@ s:effervescence-class-very-high ;
       rdfs:subClassOf [
       a owl:Restriction ;
       sosa:onResult sosa:hasResult ;
-      owl:allValuesFrom s:reactivity-class ;
-    ] ;
+      owl:allValuesFrom s:Effervescence-class ;
+    ] .
+
+s:Effervescence-class
+  a owl:Class ;
+  a skos:OrderedCollection ;
+  dct:identifier "http://anzsoil.org/def/au/scm/effervescence-class"^^xsd:anyURI ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition " Effervescence classes used to describe the entire soil matrix using 1.0 M HCl. Ratings and approximate CaCO3 equivalents (%) are adapted from Kalra and Maynard (1991)."@en ;
+  skos:memberList (s:effervescence-class-nil s:effervescence-class-low s:effervescence-class-medium s:effervescence-class-high s:effervescence-class-very-high) ;
+  skos:prefLabel "Effervescence classes - enumeration"@en ;
+.
+s:effervescence-class-nil
+  a sosa:Result ;
+  a skos:Concept ;
+  dct:identifier "http://anzsoil.org/def/au/scm/effervescence-class-nil"^^xsd:anyURI ;
+  skos:definition "Effervescence class - Non-effervescent. Appearance - No bubbles detected. Rating - Nil. Approx. CaCO3 Equivalent - 0%"@en ;
+  skos:notation "Nil" ;
+  skos:prefLabel "Non-effervescent"@en ;
+.
+s:effervescence-class-low
+  a sosa:Result ;
+  a skos:Concept ;
+  dct:identifier "http://anzsoil.org/def/au/scm/effervescence-class-low"^^xsd:anyURI ;
+  skos:definition "Effervescence class - 	Very slightly effervescent. Appearance - Few bubbles seen. Rating - Low. Approx. CaCO3 Equivalent - 1-5%"@en ;
+  skos:notation "Low" ;
+  skos:prefLabel "Non-reactive"@en ;
+.
+s:effervescence-class-medium
+  a sosa:Result ;
+  a skos:Concept ;
+  dct:identifier "http://anzsoil.org/def/au/scm/effervescence-class-medium"^^xsd:anyURI ;
+  skos:definition "Effervescence class - 	Slightly effervescent. Appearance - Bubbles readily seen. Rating - Medium. Approx. CaCO3 Equivalent - 6-10%"@en ;
+  skos:notation "Medium" ;
+  skos:prefLabel "Non-reactive"@en ;
+.
+s:effervescence-class-high
+  a sosa:Result ;
+  a skos:Concept ;
+  dct:identifier "http://anzsoil.org/def/au/scm/effervescence-class-high"^^xsd:anyURI ;
+  skos:definition "Effervescence class - 	Strongly effervescent. Appearance - Bubbles form low foam. Rating - High. Approx. CaCO3 Equivalent - 10-15%"@en ;
+  skos:notation "High" ;
+  skos:prefLabel "Non-reactive"@en ;
+.
+s:effervescence-class-very-high
+  a sosa:Result ;
+  a skos:Concept ;
+  dct:identifier "http://anzsoil.org/def/au/scm/effervescence-class-very-high"^^xsd:anyURI ;
+  skos:definition "Effervescence class - 	Violently effervescent. Appearance - Thick foam forms quickly. Rating - Very High. Approx. CaCO3 Equivalent - >15%"@en ;
+  skos:notation "Very High" ;
+  skos:prefLabel "Non-reactive"@en ;
 .
 <http://anzsoil.org/def/au/scm/1A1>
   a skos:Concept ;
@@ -4345,12 +4337,13 @@ s:effervescence-class-very-high ;
       owl:allValuesFrom s:reactivity-class ;
     ] ;
 .
-s:reactivity-class
+s:Reactivity-class
   a owl:Class ;
-  a skos:Collection ;
+  a skos:OrderedCollection ;
   dct:identifier "http://anzsoil.org/def/au/scm/reactivity-class"^^xsd:anyURI ;
   rdfs:subClassOf skos:Concept ;
   skos:definition "Laboratory assessed ‘reactivity class’ (adapted from Isbell 1998)"@en ;
+  skos:memberList (s:reactivity-class-0 s:reactivity-class-1 s:reactivity-class-2 s:reactivity-class-3 s:reactivity-class-4 s:reactivity-class-5) ;
   skos:member s:reactivity-class-0 ;
   skos:member s:reactivity-class-1 ;
   skos:member s:reactivity-class-2 ;
@@ -4829,18 +4822,14 @@ s:reactivity-class-5
   ansis:analyte obo:CHEBI_23367 ;
 .
 <http://anzsoil.org/def/au/scm/6B4>
-  a owl:Class ;
   a skos:Collection ;
-  rdfs:subClassOf skos:Concept ;
   dct:identifier "http://anzsoil.org/def/au/scm/6B4"^^xsd:anyURI ;
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
   dct:description "A collection of procedures for measuring total organic C - infrared diffuse reflectance spectroscopy"@en ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/06-C/06B4.html> ;
-  skos:inScheme s:scma-2011 ;
-  skos:inScheme s:swcm-1992 ;
   skos:member <http://anzsoil.org/def/au/scm/6B4a> ;
-  skos:member <http://anzsoil.org/def/au/scm/6B4b> ;
+  skos:member <http://anzsoil.org/def/au/scm/6B4a> ;
   skos:notation "6B4" ;
   skos:note <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/00frontmatter/00WARNING.html> ;
   skos:note <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/00frontmatter/03Abbreviations%20and%20acronyms.html> ;
@@ -4859,7 +4848,6 @@ s:reactivity-class-5
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
   qudt:applicableUnit unit:PERCENT ;
-  skos:broader <http://anzsoil.org/def/au/scm/6B4> ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/06-C/06B4a.html> ;
   skos:inScheme s:scma-2011 ;
   skos:definition "NIR - Near Infra-Red Reflectance Sprectrometry estimation of Total Organic Carbon (related to one of the alternate 6B analytical methods)"@en ;
@@ -4885,7 +4873,6 @@ s:reactivity-class-5
   dct:source <https://catalogue.nla.gov.au/Record/4854518> ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
   qudt:applicableUnit unit:PERCENT ;
-  skos:broader <http://anzsoil.org/def/au/scm/6B4> ;
   dct:description <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/06-C/06B4b.html> ;
   skos:definition "MIR - Mid Infra-Red Reflectance Sprectrometry estimation of Total Organic Carbon (related to one of the alternate 6B analytical methods)"@en ;
   skos:inScheme s:scma-2011 ;
@@ -7006,6 +6993,7 @@ s:scma-2011
   dct:contributor <https://orcid.org/0000-0002-2991-2308> ;
   dct:contributor <https://orcid.org/0000-0002-3884-3420> ;
   dct:contributor <mailto:bruce.shelley@agriculture.vic.gov.au> ;
+  dct:contributor "Australasian Soil and Plant Analysis Council (ASPAC)"@en ;
   dct:created "2021-01-01"^^xsd:date ;
   dct:creator <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/00frontmatter/02About%20the%20authors.html> ;
   dct:creator "David J Lyons"@en ;
@@ -7021,6 +7009,7 @@ s:scma-2011
   dct:rights <https://raw.githack.com/ANZSoilData/def-au-scma/master/html/copyright.html> ;
   dct:rightsHolder <https://ror.org/051hpv692> ;
   dct:source "Soil Chemical Methods Australasia (2011), George E Rayment and David J Lyons"@en ;
+  dct:source <https://github.com/ANZSoilData/def-au-scm>
   dct:title "Soil chemical methods - Australasia"@en ;
   skos:editorialNote "The data was converted from a HTML representation to this 'linked-data' format by Megan Wong and Simon J D Cox."@en ;
   skos:hasTopConcept <http://anzsoil.org/def/au/scm/10A1> ;
@@ -7149,7 +7138,6 @@ s:scma-2011
   skos:hasTopConcept <http://anzsoil.org/def/au/scm/6B1> ;
   skos:hasTopConcept <http://anzsoil.org/def/au/scm/6B2> ;
   skos:hasTopConcept <http://anzsoil.org/def/au/scm/6B3> ;
-  skos:hasTopConcept <http://anzsoil.org/def/au/scm/6B4> ;
   skos:hasTopConcept <http://anzsoil.org/def/au/scm/6C1> ;
   skos:hasTopConcept <http://anzsoil.org/def/au/scm/6D1> ;
   skos:hasTopConcept <http://anzsoil.org/def/au/scm/6E1> ;
@@ -7188,6 +7176,7 @@ s:swcm-1992
   a skos:ConceptScheme ;
   dct:contributor <https://orcid.org/0000-0002-2991-2308> ;
   dct:contributor <https://orcid.org/0000-0002-3884-3420> ;
+  dct:contributor "Australasian Soil and Plant Analysis Council (ASPAC)"@en ;
   dct:created "2022-03-04"^^xsd:date ;
   dct:creator "Higginson, F.R. (Francis Ross)"@en ;
   dct:creator "Rayment, G.E."@en ;
@@ -7201,6 +7190,7 @@ s:swcm-1992
   dct:publisher "Melbourne : Inkata Press"@en ;
   dct:rightsHolder "Inkata Press, 1992"@en ;
   dct:source "Australian Laboratory Handbook of Soil and Water Chemical Methods (Rayment and Higginson 1992)"@en ;
+  dct:source <https://github.com/ANZSoilData/def-au-scm>
   dct:title "Australian laboratory handbook of soil and water chemical methods"@en ;
   skos:editorialNote "The data was converted from a HTML representation to this 'linked-data' format by Megan Wong and Simon J D Cox."@en ;
   skos:hasTopConcept <http://anzsoil.org/def/au/scm/10A1> ;
@@ -7336,7 +7326,6 @@ s:swcm-1992
   skos:hasTopConcept <http://anzsoil.org/def/au/scm/6B1> ;
   skos:hasTopConcept <http://anzsoil.org/def/au/scm/6B2> ;
   skos:hasTopConcept <http://anzsoil.org/def/au/scm/6B3> ;
-  skos:hasTopConcept <http://anzsoil.org/def/au/scm/6B4> ;
   skos:hasTopConcept <http://anzsoil.org/def/au/scm/6C1> ;
   skos:hasTopConcept <http://anzsoil.org/def/au/scm/6D1> ;
   skos:hasTopConcept <http://anzsoil.org/def/au/scm/6E1> ;
