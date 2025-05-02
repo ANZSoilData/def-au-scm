@@ -30,9 +30,9 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix ssn: <http://www.w3.org/ns/ssn/> .
 
-<file:///C:/Users/cox075/dev/ENV/anzsoil/def-au-scma/rdf/scm.ttl>
+<http://anzsoil.org/def/au/scm>
   a owl:Ontology ;
-  dct:modified "2022-12-05"^^xsd:date ;
+  dct:modified "2025-05-02"^^xsd:date ;
   owl:imports dc: ;
   owl:imports <http://qudt.org/2.1/schema/qudt> ;
   owl:imports <https://anzsoil.org/def/au/domain> ;
