@@ -19,7 +19,7 @@ Select owner
 
 Enter metadata. 
 
-Add a version - give the version a name like 'FedUni Version' 
+Add a version - give the version a short name 
 
 Add Access Point
 - TTL
