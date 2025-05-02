@@ -1,28 +1,3 @@
-cff-version: 1.2.0
-message: "If you use this data, please cite it as below."
-authors:
-  - family-names: Wong
-    given-names: Megan
-    orcid: https://orcid.org/0000-0002-2991-2308
-  - family-names: Cox
-    given-names: Simon
-    orcid: https://orcid.org/0000-0002-3884-3420
-title: "Soil Chemical Methods of Australasia"
-version: 1.0.0
-doi: 10.5281/zenodo.15321083
-url: https://anzsoil.org/def/au/def-au-scm
-date-released: 2025-05-02
-license: CC0
-license-url: https://creativecommons.org/choose/zero/
-abstract: >
-  This vocabulary contains of two Concept Schemes of soil chemical testing methods and:
-- result codes (enumerations)
-- units of measure
-- stated relationships between methods
-Every effort has been made to stay true to the content of publications on which the Concepts Schemes are based (the  Australian Laboratory Handbook of Soil and Water Chemical Methods (1992), Rayment, G.E and Higginson, F.R. and Soil Chemical Methods Australasia (2011), George E Rayment and David J Lyons).
-The data was converted from a HTML representation (Australian Laboratory Handbook of Soil and Water Chemical Methods, 1992) and hard-copy (Soil Chemical Methods Australasia, 2011) to RDF format. The work was funded through the National Soil Stratergy (Australian Government Department of Agriculture, Fisheries and Forestry) Australian National Soil Information System (ANSIS) Project.
-
-
 cff-version: 1.1.0
 message: "If you use this software, please cite it as below."
 authors:
@@ -36,3 +11,13 @@ orcid: https://orcid.org/0000-0000-0000-0000
 title:ANZSoilData/def-au-scm: Soil Chemical Methods of Australasia
 version: v1.0.0
 date-released: 2025-05-02
+license: CC0
+license-url: https://creativecommons.org/choose/zero/
+abstract: >
+  This vocabulary contains of two Concept Schemes of soil chemical testing methods and:
+- result codes (enumerations)
+- units of measure
+- stated relationships between methods
+Every effort has been made to stay true to the content of publications on which the Concepts Schemes are based (the  Australian Laboratory Handbook of Soil and Water Chemical Methods (1992), Rayment, G.E and Higginson, F.R. and Soil Chemical Methods Australasia (2011), George E Rayment and David J Lyons).
+The data was converted from a HTML representation (Australian Laboratory Handbook of Soil and Water Chemical Methods, 1992) and hard-copy (Soil Chemical Methods Australasia, 2011) to RDF format. The work was funded through the National Soil Stratergy (Australian Government Department of Agriculture, Fisheries and Forestry) Australian National Soil Information System (ANSIS) Project.
+
