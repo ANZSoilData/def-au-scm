@@ -1,4 +1,4 @@
-# baseURI: file:///C:/Users/cox075/dev/ENV/anzsoil/def-au-scma/rdf/scm.ttl
+# baseURI: http://anzsoil.org/def/au/scm
 # imports: http://purl.org/dc/elements/1.1/
 # imports: http://qudt.org/2.1/schema/qudt
 # imports: https://anzsoil.org/def/au/domain
