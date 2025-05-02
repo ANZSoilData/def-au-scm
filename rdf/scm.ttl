@@ -7166,7 +7166,7 @@ s:scma-2011
   skos:hasTopConcept <http://anzsoil.org/def/au/scm/9I> ;
   skos:hasTopConcept <http://anzsoil.org/def/au/scm/9J> ;
   skos:hasTopConcept <http://anzsoil.org/def/au/scm/9K> ;
-  sdo:codeRepository <https://github.com/ANZSoilData/def-au-scma> ;
+  sdo:codeRepository <https://github.com/ANZSoilData/def-au-scm> ;
   sdo:funder <https://ror.org/030c92375> ;
   sdo:funder <https://www.clw.csiro.au/aclep/> ;
   sdo:funder "Queensland Department of Environment and Resource Management"@en ;
@@ -7356,5 +7356,5 @@ s:swcm-1992
   skos:hasTopConcept <http://anzsoil.org/def/au/scm/9I> ;
   skos:hasTopConcept <http://anzsoil.org/def/au/scm/9J> ;
   skos:hasTopConcept <http://anzsoil.org/def/au/scm/9K> ;
-  sdo:codeRepository <https://github.com/ANZSoilData/def-au-scma> ;
+  sdo:codeRepository <https://github.com/ANZSoilData/def-au-scm> ;
 .
