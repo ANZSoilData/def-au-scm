@@ -1,12 +1,12 @@
 cff-version: 1.2.0
 message: "If you use this dataset, please cite it as below."
 authors:
-  - family-names: Cox
-    given-names: Simon
-    orcid: https://orcid.org/0000-0002-3884-3420
   - family-names: Wong
     given-names: Megan
     orcid: https://orcid.org/0000-0002-2991-2308
+  - family-names: Cox
+    given-names: Simon
+    orcid: https://orcid.org/0000-0002-3884-3420
 title: "ANZSoilData/def-au-scm: Soil Chemical Methods of Australasia"
 version: 1.0.0
 doi: 10.5281/zenodo.15321082
