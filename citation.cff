@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+message: "If you use this dataset, please cite it as below."
 authors:
   - family-names: Cox
     given-names: Simon
@@ -7,10 +7,10 @@ authors:
   - family-names: Wong
     given-names: Megan
     orcid: https://orcid.org/0000-0002-2991-2308
-doi: https://doi.org/10.5281/zenodo.15321082
-title:ANZSoilData/def-au-scm: Soil Chemical Methods of Australasia
-version: v1.0.0
-url: https://anzsoil.org/def/au/def-au-scm
+title: "ANZSoilData/def-au-scm: Soil Chemical Methods of Australasia"
+version: 1.0.0
+doi: 10.5281/zenodo.15321082
 date-released: 2025-05-02
+url: "https://anzsoil.org/def/au/def-au-scm"
 license: CC0
 license-url: https://creativecommons.org/choose/zero/
