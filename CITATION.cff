@@ -7,6 +7,12 @@ authors:
   - family-names: Cox
     given-names: Simon
     orcid: https://orcid.org/0000-0002-3884-3420
+  - family-names: Lancaster
+    given-names: Graham
+    orcid: https://orcid.org/0000-0001-7102-9669
+  - family-names: Peisley
+    given-names: Nell
+    orcid: https://orcid.org/0000-0001-7102-9669
 title: "ANZSoilData/def-au-scm: Soil Chemical Methods of Australasia"
 version: 1.0.0
 doi: 10.5281/zenodo.15321083
